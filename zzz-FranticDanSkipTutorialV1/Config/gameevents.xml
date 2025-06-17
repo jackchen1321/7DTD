@@ -1,0 +1,21 @@
+<FranticDan>
+
+<insertafter xpath="/gameevents/action_sequence[@name='challenge_group_reward_basics']/action[@class='AddQuest']">
+		<action class="Delay">
+			<property name="time" value="1" />
+			<property name="phase" value="2" />
+		</action>
+
+		<action class="SetItemSlots">
+				<property name="items_location" value="Equipment" />
+				<property name="items" value="armorPrimitiveHelmet,armorPrimitiveOutfit,armorPrimitiveGloves,armorPrimitiveBoots" />
+				<property name="item_counts" value="1-1,1-1,1-1,1-1" />
+		</action>
+		
+		<action class="AddItems">
+			<property name="added_items" value="meleeToolRepairT0StoneAxe,meleeToolShovelT0StoneShovel,meleeWpnClubT0WoodenClub,gunBowT0PrimitiveBow,ammoArrowStone" />
+			<property name="added_item_counts" value="1-1,1-1,1-1,1-1,1" />
+		</action>
+</insertafter>
+
+</FranticDan>

@@ -1,0 +1,191 @@
+<configs>
+
+<!-- LOOT BAG LifeSpan -->
+<set xpath="/entity_classes/entity_class[@name='EntityLootContainerRegular']/property[@name='TimeStayAfterDeath']/@value">3600</set>
+<set xpath="/entity_classes/entity_class[@name='EntityLootContainerStrong']/property[@name='TimeStayAfterDeath']/@value">3600</set>
+<set xpath="/entity_classes/entity_class[@name='EntityLootContainerBoss']/property[@name='TimeStayAfterDeath']/@value">3600</set>
+
+<!-- ARLENE -->
+<set xpath="/entity_classes/entity_class[@name='zombieArleneFeral']/property[@name='LootDropProb']/@value">.06</set>
+<append xpath="/entity_classes/entity_class[@name='zombieArleneRadiated']">
+	<property name="LootDropProb" value=".09"/>
+</append>
+
+<!-- MARLENE -->
+<set xpath="/entity_classes/entity_class[@name='zombieMarleneFeral']/property[@name='LootDropProb']/@value">.06</set>
+<append xpath="/entity_classes/entity_class[@name='zombieMarleneRadiated']">
+	<property name="LootDropProb" value=".09"/>
+</append>
+
+<!-- PARTY GIRL -->
+<set xpath="/entity_classes/entity_class[@name='zombiePartyGirlFeral']/property[@name='LootDropProb']/@value">.06</set>
+<append xpath="/entity_classes/entity_class[@name='zombiePartyGirlRadiated']">
+	<property name="LootDropProb" value=".09"/>
+</append>
+
+<!-- NURSE -->
+<set xpath="/entity_classes/entity_class[@name='zombieNurseFeral']/property[@name='LootDropProb']/@value">.06</set>
+<append xpath="/entity_classes/entity_class[@name='zombieNurseRadiated']">
+	<property name="LootDropProb" value=".09"/>
+</append>
+
+<!-- JOE -->
+<set xpath="/entity_classes/entity_class[@name='zombieJoeFeral']/property[@name='LootDropProb']/@value">.06</set>
+<append xpath="/entity_classes/entity_class[@name='zombieJoeRadiated']">
+	<property name="LootDropProb" value=".09"/>
+</append>
+
+<!-- STEVE -->
+<set xpath="/entity_classes/entity_class[@name='zombieSteveFeral']/property[@name='LootDropProb']/@value">.06</set>
+<append xpath="/entity_classes/entity_class[@name='zombieSteveRadiated']">
+	<property name="LootDropProb" value=".09"/>
+</append>
+
+<!-- Tom Clark -->
+<set xpath="/entity_classes/entity_class[@name='zombieTomClarkFeral']/property[@name='LootDropProb']/@value">.06</set>
+<append xpath="/entity_classes/entity_class[@name='zombieTomClarkRadiated']">
+	<property name="LootDropProb" value=".09"/>
+</append>
+
+<!-- BUSINESS MAN -->
+<set xpath="/entity_classes/entity_class[@name='zombieBusinessManFeral']/property[@name='LootDropProb']/@value">.06</set>
+<append xpath="/entity_classes/entity_class[@name='zombieBusinessManRadiated']">
+	<property name="LootDropProb" value=".09"/>
+</append>
+
+<!-- BURNT -->
+<set xpath="/entity_classes/entity_class[@name='zombieBurntFeral']/property[@name='LootDropProb']/@value">.06</set>
+<append xpath="/entity_classes/entity_class[@name='zombieBurntRadiated']">
+	<property name="LootDropProb" value=".09"/>
+</append>
+
+<!-- SPIDER -->
+<set xpath="/entity_classes/entity_class[@name='zombieSpiderFeral']/property[@name='LootDropProb']/@value">.06</set>
+<append xpath="/entity_classes/entity_class[@name='zombieSpiderRadiated']">
+	<property name="LootDropProb" value=".09"/>
+</append>
+	
+<!-- BOE -->
+<set xpath="/entity_classes/entity_class[@name='zombieBoeFeral']/property[@name='LootDropProb']/@value">.06</set>
+<append xpath="/entity_classes/entity_class[@name='zombieBoeRadiated']">
+	<property name="LootDropProb" value=".09"/>
+</append>
+
+<!-- HAZMAT -->
+<set xpath="/entity_classes/entity_class[@name='zombieMaleHazmatFeral']/property[@name='LootDropProb']/@value">.06</set>
+<append xpath="/entity_classes/entity_class[@name='zombieMaleHazmatRadiated']">
+	<property name="LootDropProb" value=".09"/>
+</append>
+
+<!-- JANITOR -->
+<set xpath="/entity_classes/entity_class[@name='zombieJanitorFeral']/property[@name='LootDropProb']/@value">.06</set>
+<append xpath="/entity_classes/entity_class[@name='zombieJanitorRadiated']">
+	<property name="LootDropProb" value=".09"/>
+</append>
+
+<!-- Inmate -->
+<set xpath="/entity_classes/entity_class[@name='zombieInmateFeral']/property[@name='LootDropProb']/@value">.06</set>
+<append xpath="/entity_classes/entity_class[@name='zombieInmateRadiated']">
+	<property name="LootDropProb" value=".09"/>
+</append>
+	
+<!-- MOE -->
+<set xpath="/entity_classes/entity_class[@name='zombieMoeFeral']/property[@name='LootDropProb']/@value">.06</set>
+<append xpath="/entity_classes/entity_class[@name='zombieMoeRadiated']">
+	<property name="LootDropProb" value=".09"/>
+</append>
+
+<!-- LAB -->
+<set xpath="/entity_classes/entity_class[@name='zombieLabFeral']/property[@name='LootDropProb']/@value">.06</set>
+<append xpath="/entity_classes/entity_class[@name='zombieLabRadiated']">
+	<property name="LootDropProb" value=".09"/>
+</append>
+
+<!-- DARLENE -->
+<set xpath="/entity_classes/entity_class[@name='zombieDarleneFeral']/property[@name='LootDropProb']/@value">.06</set>
+<append xpath="/entity_classes/entity_class[@name='zombieDarleneRadiated']">
+	<property name="LootDropProb" value=".09"/>
+</append>
+	
+<!-- YO -->
+<set xpath="/entity_classes/entity_class[@name='zombieYoFeral']/property[@name='LootDropProb']/@value">.06</set>
+<append xpath="/entity_classes/entity_class[@name='zombieYoRadiated']">
+	<property name="LootDropProb" value=".09"/>
+</append>
+	
+<!-- UTILITY WORKER -->
+<set xpath="/entity_classes/entity_class[@name='zombieUtilityWorkerFeral']/property[@name='LootDropProb']/@value">.06</set>
+<append xpath="/entity_classes/entity_class[@name='zombieUtilityWorkerRadiated']">
+	<property name="LootDropProb" value=".09"/>
+</append>
+
+<!-- BIKER -->
+<set xpath="/entity_classes/entity_class[@name='zombieBikerFeral']/property[@name='LootDropProb']/@value">.06</set>
+<append xpath="/entity_classes/entity_class[@name='zombieBikerRadiated']">
+	<property name="LootDropProb" value=".09"/>
+</append>
+	
+<!-- LUMBERJACK -->
+<set xpath="/entity_classes/entity_class[@name='zombieLumberjackFeral']/property[@name='LootDropProb']/@value">.06</set>
+<append xpath="/entity_classes/entity_class[@name='zombieLumberjackRadiated']">
+	<property name="LootDropProb" value=".09"/>
+</append>
+	
+<!-- FEMALE FAT -->
+<set xpath="/entity_classes/entity_class[@name='zombieFemaleFatFeral']/property[@name='LootDropProb']/@value">.06</set>
+<append xpath="/entity_classes/entity_class[@name='zombieFemaleFatRadiated']">
+	<property name="LootDropProb" value=".09"/>
+</append>
+
+<!-- FAT HAWAIIAN -->
+<set xpath="/entity_classes/entity_class[@name='zombieFatHawaiianFeral']/property[@name='LootDropProb']/@value">.06</set>
+<append xpath="/entity_classes/entity_class[@name='zombieFatHawaiianRadiated']">
+	<property name="LootDropProb" value=".09"/>
+</append>
+
+<!-- Bowler -->
+<set xpath="/entity_classes/entity_class[@name='zombieBowlerFeral']/property[@name='LootDropProb']/@value">.06</set>
+<append xpath="/entity_classes/entity_class[@name='zombieBowlerRadiated']">
+	<property name="LootDropProb" value=".09"/>
+</append>
+
+<!-- FAT COP -->
+<set xpath="/entity_classes/entity_class[@name='zombieFatCopFeral']/property[@name='LootDropProb']/@value">.06</set>
+<append xpath="/entity_classes/entity_class[@name='zombieFatCopRadiated']">
+	<property name="LootDropProb" value=".09"/>
+</append>
+
+<!-- SKATEBOARDER -->
+<set xpath="/entity_classes/entity_class[@name='zombieSkateboarderFeral']/property[@name='LootDropProb']/@value">.06</set>
+<append xpath="/entity_classes/entity_class[@name='zombieSkateboarderRadiated']">
+	<property name="LootDropProb" value=".09"/>
+</append>
+
+<!-- SOLDIER -->
+<set xpath="/entity_classes/entity_class[@name='zombieSoldierFeral']/property[@name='LootDropProb']/@value">.06</set>
+<append xpath="/entity_classes/entity_class[@name='zombieSoldierRadiated']">
+	<property name="LootDropProb" value=".09"/>
+</append>
+
+<!-- WIGHT -->
+<set xpath="/entity_classes/entity_class[@name='zombieWightFeral']/property[@name='LootDropProb']/@value">.06</set>
+<append xpath="/entity_classes/entity_class[@name='zombieWightRadiated']">
+	<property name="LootDropProb" value=".09"/>
+</append>
+	
+<!-- SCREAMER -->
+<set xpath="/entity_classes/entity_class[@name='zombieScreamerFeral']/property[@name='LootDropProb']/@value">.06</set>
+<append xpath="/entity_classes/entity_class[@name='zombieScreamerRadiated']">
+	<property name="LootDropProb" value=".09"/>
+</append>
+
+<!-- MUTATED -->
+<set xpath="/entity_classes/entity_class[@name='zombieMutatedFeral']/property[@name='LootDropProb']/@value">.06</set>
+<append xpath="/entity_classes/entity_class[@name='zombieMutatedRadiated']">
+	<property name="LootDropProb" value=".09"/>
+</append>
+
+<!-- STEVE CRAWLER -->
+<set xpath="/entity_classes/entity_class[@name='zombieSteveCrawlerFeral']/property[@name='LootDropProb']/@value">.06</set>
+
+</configs>

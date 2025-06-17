@@ -1,0 +1,16 @@
+<configs>
+
+<remove xpath="/challenges/challenge[@name='gatherResources']"></remove>
+<remove xpath="/challenges/challenge[@name='craftStoneAxe']"></remove>
+<remove xpath="/challenges/challenge[@name='gatherResourcesStoneAxe']"></remove>
+<remove xpath="/challenges/challenge[@name='craftClothes']"></remove>
+<remove xpath="/challenges/challenge[@name='wearClothes']"></remove>
+<remove xpath="/challenges/challenge[@name='craftWoodClub']"></remove>
+<remove xpath="/challenges/challenge[@name='craftBow']"></remove>
+<remove xpath="/challenges/challenge[@name='craftArrows']"></remove>
+
+<set xpath="/challenges/challenge[@name='groupCompleteChallenge']//@redeem_always">true</set>
+
+</configs>
+
+

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>    
+	<Name value="Speed_Scrap" />
+	<DisplayName value="Speed Scrap" />
+	<Description value="Speeds up scrapping to make cleaning up your backpack or storage easier"/>
+	<Author value="Draxado" />
+	<Version value="1.0.0" />    
+</xml>

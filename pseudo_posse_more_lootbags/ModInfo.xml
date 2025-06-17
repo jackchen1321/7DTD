@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xml>
+	<Name value="pseudo_posse_more_lootbags"/>
+	<DisplayName value="pseudo_posse_more_lootbags" />
+	<Version value="1.0.0" />
+    <Description value="Increases probability of more loot bags"/>
+    <Author value="PseudoPosse"/>
+</xml>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configs>
+
+<remove xpath="/items/item[@name='toolCookingPot']/effect_group/passive_effect[@name='CraftingTime']" />
+
+</configs>

@@ -1,0 +1,22 @@
+<MoreFats>
+<set xpath="/entity_classes/entity_class/drop[@event='Harvest' and @name='resourceAnimalFat' and @tag='butcherHarvest' and @count='20']/@count">60</set>
+<set xpath="/entity_classes/entity_class/drop[@event='Harvest' and @name='resourceAnimalFat' and @tag='butcherHarvest' and @count='19']/@count">57</set>
+<set xpath="/entity_classes/entity_class/drop[@event='Harvest' and @name='resourceAnimalFat' and @tag='butcherHarvest' and @count='18']/@count">54</set>
+<set xpath="/entity_classes/entity_class/drop[@event='Harvest' and @name='resourceAnimalFat' and @tag='butcherHarvest' and @count='17']/@count">51</set>
+<set xpath="/entity_classes/entity_class/drop[@event='Harvest' and @name='resourceAnimalFat' and @tag='butcherHarvest' and @count='16']/@count">48</set>
+<set xpath="/entity_classes/entity_class/drop[@event='Harvest' and @name='resourceAnimalFat' and @tag='butcherHarvest' and @count='15']/@count">45</set>
+<set xpath="/entity_classes/entity_class/drop[@event='Harvest' and @name='resourceAnimalFat' and @tag='butcherHarvest' and @count='14']/@count">42</set>
+<set xpath="/entity_classes/entity_class/drop[@event='Harvest' and @name='resourceAnimalFat' and @tag='butcherHarvest' and @count='13']/@count">39</set>
+<set xpath="/entity_classes/entity_class/drop[@event='Harvest' and @name='resourceAnimalFat' and @tag='butcherHarvest' and @count='12']/@count">36</set>
+<set xpath="/entity_classes/entity_class/drop[@event='Harvest' and @name='resourceAnimalFat' and @tag='butcherHarvest' and @count='11']/@count">33</set>
+<set xpath="/entity_classes/entity_class/drop[@event='Harvest' and @name='resourceAnimalFat' and @tag='butcherHarvest' and @count='10']/@count">30</set>
+<set xpath="/entity_classes/entity_class/drop[@event='Harvest' and @name='resourceAnimalFat' and @tag='butcherHarvest' and @count='9']/@count">27</set>
+<set xpath="/entity_classes/entity_class/drop[@event='Harvest' and @name='resourceAnimalFat' and @tag='butcherHarvest' and @count='8']/@count">24</set>
+<set xpath="/entity_classes/entity_class/drop[@event='Harvest' and @name='resourceAnimalFat' and @tag='butcherHarvest' and @count='7']/@count">21</set>
+<set xpath="/entity_classes/entity_class/drop[@event='Harvest' and @name='resourceAnimalFat' and @tag='butcherHarvest' and @count='6']/@count">18</set>
+<set xpath="/entity_classes/entity_class/drop[@event='Harvest' and @name='resourceAnimalFat' and @tag='butcherHarvest' and @count='5']/@count">15</set>
+<set xpath="/entity_classes/entity_class/drop[@event='Harvest' and @name='resourceAnimalFat' and @tag='butcherHarvest' and @count='4']/@count">12</set>
+<set xpath="/entity_classes/entity_class/drop[@event='Harvest' and @name='resourceAnimalFat' and @tag='butcherHarvest' and @count='3']/@count">9</set>
+<set xpath="/entity_classes/entity_class/drop[@event='Harvest' and @name='resourceAnimalFat' and @tag='butcherHarvest' and @count='2']/@count">6</set>
+<set xpath="/entity_classes/entity_class/drop[@event='Harvest' and @name='resourceAnimalFat' and @tag='butcherHarvest' and @count='1']/@count">3</set>
+</MoreFats>

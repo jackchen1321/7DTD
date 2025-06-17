@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="V1_OakravenAmmoPress" />
+	<DisplayName value="V1 Oakraven Ammo Press" />
+	<Description value="Adds an ammo press for efficient ammo production." />
+	<Author value="oakraven, with support from arramus" />
+	<Version value="1.3.0.1" />
+	<Website value="https://discord.gg/PFMY8rqQVs" />
+</xml>
+

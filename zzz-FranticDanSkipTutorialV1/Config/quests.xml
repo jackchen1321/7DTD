@@ -1,0 +1,31 @@
+<FranticDan>
+
+<insertafter xpath="/quests/quest[@id='quest_whiteRiverCitizen1']/property[@name='shareable']">
+	<property name="reward_choices_count" value="5" />
+</insertafter>
+
+<insertafter xpath="/quests/quest[@id='quest_whiteRiverCitizen1']/objective[@type='InteractWithNPC']">
+	<action type="SetCVar">
+      <property name="cvar" value="IntroComplete" />
+      <property name="value" value="1" />
+      <property name="on_complete" value="true" />
+    </action>
+</insertafter>
+
+<remove xpath="//quest/reward[@id='meleeToolShovelT0StoneShovel']"></remove>
+
+<insertafter xpath="/quests/quest[@id='quest_whiteRiverCitizen1']/action[@type='TrackChallenge']">
+	<reward type="Item" id="questRewardPipePistolBundle" ischosen="true" value="1" />
+    <reward type="Item" id="questRewardPipeShotgunBundle" ischosen="true" value="1" />
+    <reward type="Item" id="questRewardPipeRifleBundle" ischosen="true" value="1" />
+    <reward type="Item" id="questRewardPipeMachineGunBundle" ischosen="true" value="1" />
+    <reward type="Item" id="questRewardPipeBatonBundle" ischosen="true" value="1" />
+</insertafter>
+
+<remove xpath="//quests/quest_list[@id='trader_rekt_quests']/quest[@id='intro_buried_supplies']"></remove>
+<remove xpath="//quests/quest_list[@id='trader_jen_quests']/quest[@id='intro_buried_supplies']"></remove>
+<remove xpath="//quests/quest_list[@id='trader_bob_quests']/quest[@id='intro_buried_supplies']"></remove>
+<remove xpath="//quests/quest_list[@id='trader_hugh_quests']/quest[@id='intro_buried_supplies']"></remove>
+<remove xpath="//quests/quest_list[@id='trader_joel_quests']/quest[@id='intro_buried_supplies']"></remove>
+
+</FranticDan>

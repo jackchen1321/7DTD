@@ -1,0 +1,18 @@
+<configs>
+	<set xpath="/items/item[@name='resourceRockSmall']/property[@name='CraftingIngredientTime']/@value">0.02</set>
+	<set xpath="/items/item[@name='resourceYuccaFibers']/property[@name='CraftingIngredientTime']/@value">0.02</set>
+	<set xpath="/items/item[@name='resourceWood']/property[@name='CraftingIngredientTime']/@value">0.02</set>
+	<set xpath="/items/item[@name='resourceBrokenGlass']/property[@name='CraftingIngredientTime']/@value">0.02</set>
+	<set xpath="/items/item[@name='resourceScrapIron']/property[@name='CraftingIngredientTime']/@value">0.02</set>
+	<set xpath="/items/item[@name='resourceScrapPolymers']/property[@name='CraftingIngredientTime']/@value">0.02</set>
+	<set xpath="/items/item[@name='resourceBone']/property[@name='CraftingIngredientTime']/@value">0.02</set>
+	<set xpath="/items/item[@name='resourceLeather']/property[@name='CraftingIngredientTime']/@value">0.02</set>
+	<set xpath="/items/item[@name='resourceScrapBrass']/property[@name='CraftingIngredientTime']/@value">0.02</set>
+	<set xpath="/items/item[@name='resourceScrapLead']/property[@name='CraftingIngredientTime']/@value">0.02</set>
+	<set xpath="/items/item[@name='resourceClayLump']/property[@name='CraftingIngredientTime']/@value">0.02</set>
+	<set xpath="/items/item[@name='resourceCloth']/property[@name='CraftingIngredientTime']/@value">0.02</set>
+	<set xpath="/items/item[@name='resourcePaper']/property[@name='CraftingIngredientTime']/@value">0.02</set>
+	<set xpath="/items/item[@name='resourceElectricParts']/property[@name='CraftingIngredientTime']/@value">0.02</set>
+	<set xpath="/items/item[@name='resourceMechanicalParts']/property[@name='CraftingIngredientTime']/@value">0.02</set>
+	<set xpath="/items/item[@name='resourcePaint']/property[@name='CraftingIngredientTime']/@value">0.02</set>
+</configs>

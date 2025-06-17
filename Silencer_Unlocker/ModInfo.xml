@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="SilencerUnlocker" />
+	<DisplayName value="Silencer Unlocker" />
+	<Description value="With this mod, you can skip searching and craft it directly at the workbench." />
+	<Author value="Anthony Maltha" />
+	<Version value="5.1.8" />
+	<Website value="" />
+	<SkipWithAntiCheat value="true" />
+</xml>

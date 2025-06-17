@@ -1,0 +1,5 @@
+<configs>
+  <set xpath="recipes/recipe[@name='modGunSoundSuppressorSilencer' and @tags='learnable,workbenchCrafting']/@tags">
+    workbenchCrafting
+  </set>
+</configs>
