@@ -1,0 +1,21 @@
+<FNS_Vitamin_and_Painkiller_Recipe>
+
+	<append xpath="/recipes">
+	
+		<recipe name="drugVitamins" count="2" craft_area="chemistryStation" tags="chemStationCrafting">
+			<ingredient name="foodCornMeal" count="1"/>
+			<ingredient name="resourceBone" count="2"/>
+			<ingredient name="resourceCropGoldenrodPlant" count="5"/>
+			<ingredient name="resourceCropChrysanthemumPlant" count="5"/>
+		</recipe>
+
+		<recipe name="drugPainkillers" count="5" craft_area="chemistryStation" tags="chemStationCrafting">
+			<ingredient name="resourceTestosteroneExtract" count="1"/>
+			<ingredient name="resourceCropAloeLeaf" count="1"/>
+			<ingredient name="resourceBone" count="5"/>
+			<ingredient name="foodCornMeal" count="1"/>
+		</recipe>
+
+	</append>
+
+</FNS_Vitamin_and_Painkiller_Recipe>

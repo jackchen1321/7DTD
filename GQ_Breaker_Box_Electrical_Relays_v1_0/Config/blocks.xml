@@ -1,0 +1,129 @@
+<Config>
+    <append xpath="/blocks">
+
+<!-- [GQ] Electric Wire Relay (Closed) -->
+<block name="GQelectricwirerelay_closed">
+	<property name="CustomIcon" value="breakerBoxClosed"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="Powered"/>
+	<property name="RequiredPower" value="1"/>
+	<property name="UnlockedBy" value="craftingElectrician"/>
+	<property name="DisplayType" value="blockElectrical"/>
+	<property name="Material" value="Mmetal_weak"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Industrial/singleHomeFuseBox_04Prefab"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="WaterFlow" value="permitted"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="EconomicValue" value="28"/>
+	<property name="TraderStageTemplate" value="electricTier1"/><!-- electricwirerelay -->
+	<property name="TakeDelay" value="5"/>
+	<property class="RepairItems">
+	<property name="resourceForgedIron" value="1"/>
+	</property>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceElectricParts" count="1" tag="salvageHarvest"/>
+	<drop event="Destroy" name="resourceScrapIron" count="1,5"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="SortOrder1" value="B155"/>
+	<property name="SortOrder2" value="0006"/>
+	<property name="Group" value="Science,TCScience"/>
+	<property name="Tags" value="electricianSkill"/>
+	<property name="FilterTags" value="MC_playerBlocks,SC_electrical"/>
+</block>
+
+<!-- [GQ] Electric Wire Relay (Open) -->
+<block name="GQelectricwirerelay_open">
+	<property name="Extends" value="GQelectricwirerelay_closed"/>
+	<property name="CustomIcon" value="breakerBoxOpen"/>
+	<property name="Model" value="Entities/Industrial/singleHomeFuseBox_03Prefab"/>
+	<property name="SortOrder2" value="0002"/>
+</block>
+
+<!-- [GQ] Electric Wire Wall Relay (Closed) -->
+<block name="GQelectricwirerelaywall_closed">
+	<property name="Extends" value="GQelectricwirerelay_closed"/>
+	<property name="CustomIcon" value="breakerBoxWallClosed"/>
+	<property name="Model" value="Entities/Industrial/singleHomeFuseBox_06Prefab"/>
+	<property name="SortOrder2" value="0003"/>
+</block>
+
+<!-- [GQ] Electric Wire Wall Relay (Open) -->
+<block name="GQelectricwirerelaywall_open">
+	<property name="Extends" value="GQelectricwirerelay_closed"/>
+	<property name="CustomIcon" value="breakerBoxWallOpen"/>
+	<property name="Model" value="Entities/Industrial/singleHomeFuseBox_05Prefab"/>
+	<property name="SortOrder2" value="0004"/>
+</block>
+
+
+
+<!-- [GQ] Electric Timer Relay (Closed) -->
+<block name="GQelectrictimerrelay_closed">
+	<property name="CustomIcon" value="breakerBoxClosed"/>
+	<property name="CustomIconTint" value="00FF00"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="TimerRelay"/>
+	<property name="RequiredPower" value="1"/>
+	<property name="PoweredType" value="Constant"/>
+	<property name="DisplayType" value="blockElectrical"/>
+	<property name="Material" value="Mmetal_weak"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Industrial/singleHomeFuseBox_04Prefab"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="WaterFlow" value="permitted"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="EconomicValue" value="119"/>
+	<property name="TraderStageTemplate" value="electricTier1"/><!-- electrictimerrelay -->
+	<property name="TakeDelay" value="5"/>
+	<property class="RepairItems">
+		<property name="resourceForgedIron" value="2"/>
+		<property name="resourceElectricParts" value="3"/>
+	</property>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceElectricParts" count="1,3" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceScrapIron" count="5,10" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="SortOrder1" value="B155"/>
+	<property name="SortOrder2" value="0005"/>
+	<property name="Group" value="Science,TCScience"/>
+	<property name="Tags" value="electricianSkill"/>
+	<property name="FilterTags" value="MC_playerBlocks,SC_electrical"/>
+</block>
+
+<!-- [GQ] Electric Timer Relay (Open) -->
+<block name="GQelectrictimerrelay_open">
+	<property name="Extends" value="GQelectrictimerrelay_closed"/>
+	<property name="CustomIcon" value="breakerBoxOpen"/>
+	<property name="CustomIconTint" value="00FF00"/>
+	<property name="Model" value="Entities/Industrial/singleHomeFuseBox_03Prefab"/>
+	<property name="SortOrder2" value="0006"/>
+</block>
+
+<!-- [GQ] Electric Timer Wall Relay (Closed) -->
+<block name="GQelectrictimerrelaywall_closed">
+	<property name="Extends" value="GQelectrictimerrelay_closed"/>
+	<property name="CustomIcon" value="breakerBoxWallClosed"/>
+	<property name="CustomIconTint" value="00FF00"/>
+	<property name="Model" value="Entities/Industrial/singleHomeFuseBox_06Prefab"/>
+	<property name="SortOrder2" value="0007"/>
+</block>
+
+<!-- [GQ] Electric Timer Wall Relay (Open) -->
+<block name="GQelectrictimerrelaywall_open">
+	<property name="Extends" value="GQelectrictimerrelay_closed"/>
+	<property name="CustomIcon" value="breakerBoxWallOpen"/>
+	<property name="CustomIconTint" value="00FF00"/>
+	<property name="Model" value="Entities/Industrial/singleHomeFuseBox_05Prefab"/>
+	<property name="SortOrder2" value="0008"/>
+</block>
+
+
+</append>
+
+</Config>

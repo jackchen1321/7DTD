@@ -1,0 +1,27 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+
+GQelectricwirerelay_closed,blocks,Electricity,,,[GQ] Electric Wire Relay (Closed),,,,,,,,,,,,,
+GQelectricwirerelay_closedDesc,blocks,Electricity,,,"A more modern, lower profile electric wire relay."
+GQelectricwirerelay_open,blocks,Electricity,,,[GQ] Electric Wire Relay (Open),,,,,,,,,,,,,
+GQelectricwirerelay_openDesc,blocks,Electricity,,,"A more modern, lower profile electric wire relay."
+
+GQelectricwirerelaywall_closed,blocks,Electricity,,,[GQ] Electric Wire Wall Relay (Closed),,,,,,,,,,,,,
+GQelectricwirerelay_closedDesc,blocks,Electricity,,,"A more modern, lower profile electric wire relay."
+GQelectricwirerelaywall_open,blocks,Electricity,,,[GQ] Electric Wire Wall Relay (Open),,,,,,,,,,,,,
+GQelectricwirerelay_openDesc,blocks,Electricity,,,"A more modern, lower profile electric wire relay."
+
+GQelectrictimerrelay_closed,blocks,Electricity,,,[GQ] Electric Timer Relay (Closed),,,,,,,,,,,,,
+GQelectrictimerrelay_closedDesc,blocks,Electricity,,,"A more modern, lower profile electric wire relay."
+GQelectrictimerrelay_open,blocks,Electricity,,,[GQ] Electric Timer Relay (Open),,,,,,,,,,,,,
+GQelectrictimerrelay_openDesc,blocks,Electricity,,,"A more modern, lower profile electric wire relay."
+
+GQelectrictimerrelaywall_closed,blocks,Electricity,,,[GQ] Electric Timer Wall Relay (Closed),,,,,,,,,,,,,
+GQelectrictimerrelaywall_closedDesc,blocks,Electricity,,,"A more modern, lower profile electric wire relay."
+GQelectrictimerrelaywall_open,blocks,Electricity,,,[GQ] Electric Timer Wall Relay (Open),,,,,,,,,,,,,
+GQelectrictimerrelaywall_openDesc,blocks,Electricity,,,"A more modern, lower profile electric wire relay."
+
+
+
+
+
+

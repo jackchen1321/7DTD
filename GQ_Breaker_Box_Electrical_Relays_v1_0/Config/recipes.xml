@@ -1,0 +1,72 @@
+<Config>
+	<append xpath="/recipes">
+	
+<recipe name="GQelectricwirerelay_closed" count="1" craft_area="workbench" tags="perkAdvancedEngineering">
+	<ingredient name="resourceForgedIron" count="2"/>
+	<ingredient name="resourceElectricParts" count="1"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".56,.56,.56,.34,.15" tags="resourceForgedIron"/>
+	</effect_group>
+</recipe>
+
+<recipe name="GQelectricwirerelay_open" count="1" craft_area="workbench" tags="perkAdvancedEngineering">
+	<ingredient name="resourceForgedIron" count="2"/>
+	<ingredient name="resourceElectricParts" count="1"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".56,.56,.56,.34,.15" tags="resourceForgedIron"/>
+	</effect_group>
+</recipe>
+
+<recipe name="GQelectricwirerelaywall_closed" count="1" craft_area="workbench" tags="perkAdvancedEngineering">
+	<ingredient name="resourceForgedIron" count="2"/>
+	<ingredient name="resourceElectricParts" count="1"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".56,.56,.56,.34,.15" tags="resourceForgedIron"/>
+	</effect_group>
+</recipe>
+
+<recipe name="GQelectricwirerelaywall_open" count="1" craft_area="workbench" tags="perkAdvancedEngineering">
+	<ingredient name="resourceForgedIron" count="2"/>
+	<ingredient name="resourceElectricParts" count="1"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".56,.56,.56,.34,.15" tags="resourceForgedIron"/>
+	</effect_group>
+</recipe>
+
+
+
+<recipe name="GQelectrictimerrelay_closed" count="1" craft_area="workbench" tags="perkAdvancedEngineering">
+	<ingredient name="resourceForgedIron" count="2"/>
+	<ingredient name="resourceElectricParts" count="5"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".56,.56,.56,.34,.15" tags="resourceForgedIron,resourceElectricParts"/>
+	</effect_group>
+</recipe>
+
+<recipe name="GQelectrictimerrelay_open" count="1" craft_area="workbench" tags="perkAdvancedEngineering">
+	<ingredient name="resourceForgedIron" count="2"/>
+	<ingredient name="resourceElectricParts" count="5"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".56,.56,.56,.34,.15" tags="resourceForgedIron,resourceElectricParts"/>
+	</effect_group>
+</recipe>
+
+<recipe name="GQelectrictimerrelaywall_closed" count="1" craft_area="workbench" tags="perkAdvancedEngineering">
+	<ingredient name="resourceForgedIron" count="2"/>
+	<ingredient name="resourceElectricParts" count="5"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".56,.56,.56,.34,.15" tags="resourceForgedIron,resourceElectricParts"/>
+	</effect_group>
+</recipe>
+
+<recipe name="GQelectrictimerrelaywall_open" count="1" craft_area="workbench" tags="perkAdvancedEngineering">
+	<ingredient name="resourceForgedIron" count="2"/>
+	<ingredient name="resourceElectricParts" count="5"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".56,.56,.56,.34,.15" tags="resourceForgedIron,resourceElectricParts"/>
+	</effect_group>
+</recipe>
+
+ 
+	</append>
+</Config>
