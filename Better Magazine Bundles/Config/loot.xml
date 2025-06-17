@@ -1,0 +1,36 @@
+<config>
+
+<remove xpath="/lootcontainers/lootgroup[@name='groupQuestRewardSkillMagazinesAll01']"/>
+
+<insertafter xpath="/lootcontainers/lootgroup[@name='skillMagazines']">
+
+<lootgroup name="groupQuestRewardSkillMagazinesAll01" count="3">
+	<item name="bowsSkillMagazine" count="3"/>
+	<item name="spearsSkillMagazine" count="3"/>
+	<item name="clubsSkillMagazine" count="3"/>
+	<item name="sledgehammersSkillMagazine" count="3"/>
+	<item name="harvestingToolsSkillMagazine" count="3"/>
+	<item name="knucklesSkillMagazine" count="3"/>
+	<item name="bladesSkillMagazine" count="3"/>
+	<item name="repairToolsSkillMagazine" count="3"/>
+	<item name="salvageToolsSkillMagazine" count="3"/>
+
+	<item name="handgunsSkillMagazine" count="3"/>
+	<item name="shotgunsSkillMagazine" count="3"/>
+	<item name="riflesSkillMagazine" count="3"/>
+	<item name="machineGunsSkillMagazine" count="3"/>
+	<item name="explosivesSkillMagazine" count="3"/>
+	<item name="armorSkillMagazine" count="3"/>
+	<item name="roboticsSkillMagazine" count="3"/>
+
+	<item name="workstationSkillMagazine" count="3"/>
+	<item name="medicalSkillMagazine" count="3"/>
+	<item name="foodSkillMagazine" count="3"/>
+	<item name="seedSkillMagazine" count="3"/>
+	<item name="vehiclesSkillMagazine" count="3"/>
+	<item name="electricianSkillMagazine" count="3"/>
+	<item name="trapsSkillMagazine" count="3"/>
+</lootgroup> 
+
+</insertafter> 
+</config>

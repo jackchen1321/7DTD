@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<configs>
+  <set xpath="/items/item[@name='drinkYuccaJuiceSmoothie']/effect_group/triggered_effect[@cvar='$foodAmountAdd']/@value">66</set>
+  <set xpath="/items/item[@name='drinkYuccaJuiceSmoothie']/effect_group/triggered_effect[@cvar='foodHealthAmount']/@value">33</set>
+  <set xpath="/items/item[@name='drinkYuccaJuiceSmoothie']/effect_group/triggered_effect[@cvar='foodHealthFarmer']/@value">33</set>
+  <set xpath="/items/item[@name='drinkYuccaJuiceSmoothie']/effect_group/triggered_effect[@cvar='$waterAmountAdd']/@value">78</set>
+  <set xpath="/items/item[@name='drinkYuccaJuiceSmoothie']/effect_group/display_value[@name='dDuration']/@value">1080</set>
+  <set xpath="/items/item[@name='drinkYuccaJuiceSmoothie']/effect_group/triggered_effect[@cvar='$buffYuccaJuiceSmoothieDuration'][@operation='add']/@value">1080</set>
+  <set xpath="/items/item[@name='drinkYuccaJuiceSmoothie']/effect_group/triggered_effect[@cvar='$buffYuccaJuiceSmoothieDuration'][@operation='set']/@value">8100</set>
+  <set xpath="/items/item[@name='drinkYuccaJuiceSmoothie']/effect_group/triggered_effect/requirement[@cvar='$buffYuccaJuiceSmoothieDuration'][@operation='GT']/@value">8100</set>
+  <set xpath="/items/item[@name='foodBurntSmoothie']/effect_group/triggered_effect[@cvar='$foodAmountAdd']/@value">30</set>
+  <set xpath="/items/item[@name='foodBurntSmoothie']/effect_group/triggered_effect[@cvar='foodHealthAmount']/@value">30</set>
+  <set xpath="/items/item[@name='foodBurntSmoothie']/effect_group/triggered_effect[@cvar='foodHealthFarmer']/@value">30</set>
+  <set xpath="/items/item[@name='foodBurntSmoothie']/effect_group/triggered_effect[@cvar='$waterAmountAdd']/@value">30</set>
+  <set xpath="/items/item[@name='foodBurntSmoothie']/effect_group/display_value[@name='dDuration']/@value">900</set>
+  <set xpath="/items/item[@name='foodBurntSmoothie']/effect_group/triggered_effect[@cvar='$BurntHazardTimer'][@operation='add']/@value">900</set>
+  <set xpath="/items/item[@name='foodBurntSmoothie']/effect_group/triggered_effect[@cvar='$BurntHazardTimer'][@operation='set']/@value">2700</set>
+  <set xpath="/items/item[@name='foodBurntSmoothie']/effect_group/triggered_effect/requirement[@cvar='$BurntHazardTimer'][@operation='GT']/@value">2700</set>
+  <set xpath="/items/item[@name='foodOasisSmoothie']/effect_group/triggered_effect[@cvar='$foodAmountAdd']/@value">30</set>
+  <set xpath="/items/item[@name='foodOasisSmoothie']/effect_group/triggered_effect[@cvar='foodHealthAmount']/@value">30</set>
+  <set xpath="/items/item[@name='foodOasisSmoothie']/effect_group/triggered_effect[@cvar='foodHealthFarmer']/@value">30</set>
+  <set xpath="/items/item[@name='foodOasisSmoothie']/effect_group/triggered_effect[@cvar='$waterAmountAdd']/@value">30</set>
+  <set xpath="/items/item[@name='foodOasisSmoothie']/effect_group/display_value[@name='dDuration']/@value">900</set>
+  <set xpath="/items/item[@name='foodOasisSmoothie']/effect_group/triggered_effect[@cvar='$DesertHazardTimer'][@operation='add']/@value">900</set>
+  <set xpath="/items/item[@name='foodOasisSmoothie']/effect_group/triggered_effect[@cvar='$DesertHazardTimer'][@operation='set']/@value">2700</set>
+  <set xpath="/items/item[@name='foodOasisSmoothie']/effect_group/triggered_effect/requirement[@cvar='$DesertHazardTimer'][@operation='GT']/@value">2700</set>
+  <set xpath="/items/item[@name='foodFrostbiteSmoothie']/effect_group/triggered_effect[@cvar='$foodAmountAdd']/@value">30</set>
+  <set xpath="/items/item[@name='foodFrostbiteSmoothie']/effect_group/triggered_effect[@cvar='foodHealthAmount']/@value">30</set>
+  <set xpath="/items/item[@name='foodFrostbiteSmoothie']/effect_group/triggered_effect[@cvar='foodHealthFarmer']/@value">30</set>
+  <set xpath="/items/item[@name='foodFrostbiteSmoothie']/effect_group/triggered_effect[@cvar='$waterAmountAdd']/@value">30</set>
+  <set xpath="/items/item[@name='foodFrostbiteSmoothie']/effect_group/display_value[@name='dDuration']/@value">900</set>
+  <set xpath="/items/item[@name='foodFrostbiteSmoothie']/effect_group/triggered_effect[@cvar='$SnowHazardTimer'][@operation='add']/@value">900</set>
+  <set xpath="/items/item[@name='foodFrostbiteSmoothie']/effect_group/triggered_effect[@cvar='$SnowHazardTimer'][@operation='set']/@value">2700</set>
+  <set xpath="/items/item[@name='foodFrostbiteSmoothie']/effect_group/triggered_effect/requirement[@cvar='$SnowHazardTimer'][@operation='GT']/@value">2700</set>
+  <set xpath="/items/item[@name='foodAtomicSmoothie']/effect_group/triggered_effect[@cvar='$foodAmountAdd']/@value">30</set>
+  <set xpath="/items/item[@name='foodAtomicSmoothie']/effect_group/triggered_effect[@cvar='foodHealthAmount']/@value">30</set>
+  <set xpath="/items/item[@name='foodAtomicSmoothie']/effect_group/triggered_effect[@cvar='foodHealthFarmer']/@value">30</set>
+  <set xpath="/items/item[@name='foodAtomicSmoothie']/effect_group/triggered_effect[@cvar='$waterAmountAdd']/@value">30</set>
+  <set xpath="/items/item[@name='foodAtomicSmoothie']/effect_group/display_value[@name='dDuration']/@value">900</set>
+  <set xpath="/items/item[@name='foodAtomicSmoothie']/effect_group/triggered_effect[@cvar='$WastelandHazardTimer'][@operation='add']/@value">900</set>
+  <set xpath="/items/item[@name='foodAtomicSmoothie']/effect_group/triggered_effect[@cvar='$WastelandHazardTimer'][@operation='set']/@value">2700</set>
+  <set xpath="/items/item[@name='foodAtomicSmoothie']/effect_group/triggered_effect/requirement[@cvar='$WastelandHazardTimer'][@operation='GT']/@value">2700</set>
+</configs>
