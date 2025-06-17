@@ -1,0 +1,71 @@
+<configs>
+
+
+	<append xpath="/items">
+		<!-- Small Engine -->
+		<item name="smallEngine">
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MsmallEngine"/>
+			<property name="RepairTools" value="resourceRepairKit"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="Material" value="MmechanicalParts"/>
+			<property name="Weight" value="200"/>
+			<property name="EconomicValue" value="1000"/>
+			<property name="Group" value="Resources"/>
+			<property name="DegradationBreaksAfter" value="false"/>
+			<property name="SoundPickup" value="engine_grab"/>
+			<property name="SoundPlace" value="engine_place"/>
+			<property class="Attributes">
+				<property name="DegradationMax" value="1000,6000"/>
+				<property name="VehicleNoise" value="1,.1"/>
+				<property name="VehicleMaxSpeed" value="5,18"/>
+				<property name="VehicleAcceleration" value="7,14"/>
+				<property name="VehicleMetersPerLiter" value="8,12"/>
+				<property name="VehicleIdleSecondsPerLiter" value="6,12"/>
+				<property name="VehicleStartDelayInSeconds" value="1,.1"/>
+				<property name="VehicleStartChance" value=".5,.99"/>
+				<property name="VehicleTankSize" value="1000, 2000"/>
+				<property name="VehicleFuelItem" value="ammoGasCan"/>
+			</property>
+		</item>
+		
+
+
+
+	</append>
+
+	<!-- Engines -->
+	<set xpath="/items/item[@name='smallEngine']/property[@name='Stacknumber']/@value">40000</set>
+	<!-- Books -->
+	<set xpath="/items/item[starts-with(@name, 'book')]/property[@name='Stacknumber']/@value">40000</set>
+	<!-- Tool Category -->
+	<set xpath="/items/item[starts-with(@name, 'tool')]/property[@name='Stacknumber']/@value">40000</set>
+	<!-- Resource Category -->
+	<set xpath="/items/item[starts-with(@name, 'resource')]/property[@name='Stacknumber']/@value">40000</set>
+	<!-- Ammo Category -->
+	<set xpath="/items/item[starts-with(@name, 'ammo')]/property[@name='Stacknumber']/@value">40000</set>
+	<!-- Thrown Weapons Category -->
+	<set xpath="/items/item[starts-with(@name, 'thrown')]/property[@name='Stacknumber']/@value">40000</set>
+	<!-- Medical Category -->
+	<set xpath="/items/item[starts-with(@name, 'medical')]/property[@name='Stacknumber']/@value">40000</set>
+	<!-- AmmoGasCan -->
+	<set xpath="/items/item[@name='ammoGasCan']/property[@name='Stacknumber']/@value">40000</set>
+	<!-- Drug Category -->
+	<set xpath="/items/item[starts-with(@name, 'drug')]/property[@name='Stacknumber']/@value">40000</set>
+	<!-- Drink Category -->
+	<set xpath="/items/item[starts-with(@name, 'drink')]/property[@name='Stacknumber']/@value">40000</set>
+	<!-- Food Category -->
+	<set xpath="/items/item[starts-with(@name, 'food')]/property[@name='Stacknumber']/@value">40000</set>
+	<!-- Specific Items -->
+	<set xpath="/items/item[@name='partsMaster']/property[@name='Stacknumber']/@value">40000</set>
+	<set xpath="/items/item[@name='gunMGT1AK47Parts']/property[@name='Stacknumber']/@value">40000</set>
+	<set xpath="/items/item[@name='schematicMaster']/property[@name='Stacknumber']/@value">40000</set>
+	<set xpath="/items/item[@name='blankNoteMaster']/property[@name='Stacknumber']/@value">40000</set>
+	<set xpath="/items/item[@name='candle']/property[@name='Stacknumber']/@value">40000</set>
+	<set xpath="/items/item[@name='meleeToolTorch']/property[@name='Stacknumber']/@value">40000</set>
+	<set xpath="/items/item[@name='casinoCoin']/property[@name='Stacknumber']/@value">40000</set>
+	<set xpath="/items/item[@name='oldCash']/property[@name='Stacknumber']/@value">40000</set>
+</configs>

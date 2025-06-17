@@ -1,0 +1,45 @@
+<configs>
+	<append xpath="/blocks">
+		<block name="TM1_ConcreteBarrier">
+			<property name="Extends" value="concreteNoUpgradeMaster"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="CustomIcon" value="barrierConcrete"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="Entities/Industrial/barrierConcretePrefab"/>
+			<property name="MultiBlockDim" value="3,1,1"/>
+			<property name="WaterFlow" value="permitted"/>
+			<property name="Path" value="solid"/>
+			<property name="IsTerrainDecoration" value="false"/>
+			<property name="SortOrder1" value="B553"/>
+			<property name="FilterTags" value="MC_outdoor,SC_decor"/>
+			<property name="MaxDamage" value="3000"/>
+			<property name="DescriptionKey" value="TM1_ConcreteBarrierDesc"/>
+			<property name="EconomicValue" value="200"/>
+			<property name="SellableToTrader" value="true"/>
+		</block>
+		<block name="TM1_Hesco">
+			<property name="Material" value="Msandstone"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="EconomicValue" value="200"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Model" value="Entities/Industrial/barrierMilitaryPrefab"/>
+			<property name="ImposterExchange" value="imposterBlock" param1="19"/>
+			<property name="CustomIcon" value="barrierMilitary"/>
+			<property name="LODCullScale" value="0.5"/>
+			<property name="WaterFlow" value="permitted"/>
+			<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
+			<property name="Path" value="solid"/>
+			<property name="MaxDamage" value="1000"/>
+			<drop event="Harvest" name="resourceClayLump" count="3,5" prob="0.2" tag="allHarvest"/>
+			<drop event="Harvest" name="resourceCloth" count="3,5" prob="0.2" tag="allHarvest"/>
+			<drop event="Harvest" name="resourceScrapIron" count="3,5" prob="0.2" tag="allHarvest"/>
+			<drop event="Harvest" name="resourceCrushedSand" count="3,5" tag="allHarvest"/>
+			<drop event="Harvest" name="resourceRockSmall" count="3,5" tag="allHarvest"/>
+			<drop event="Destroy" count="0"/>
+			<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.5" stick_chance="1"/>
+			<property name="SortOrder1" value="B554"/>
+			<property name="SortOrder2" value="0000"/>
+			<property name="FilterTags" value="MC_building,SC_commercial,SC_construction,SC_decor"/>
+		</block>
+	</append>
+</configs>

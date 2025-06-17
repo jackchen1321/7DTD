@@ -1,0 +1,797 @@
+<AmmoPressCompatibility>
+	
+		<!--	***************************	-->
+				<!--	Izy Ammo      -->
+		<!--	***************************	-->
+
+<!--	Izy 556 AMMO   -->
+
+<conditional>
+	<if cond="mod_loaded('IZY_RMP_556pack')">	
+    <append xpath="/items/item[@name='ammo556mmBulletBall']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>
+    <append xpath="/items/item[@name='ammo556mmBulletBallBundle']">        
+        <property name="Group" value="Ammo/Weapons,Ammo,RegularAmmo"/>
+    </append>    
+    <append xpath="/items/item[@name='ammo556mmHIpower']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,HPAmmo"/>
+    </append>
+    <append xpath="/items/item[@name='ammo556mmHIpowerBundle']">        
+        <property name="Group" value="Ammo/Weapons,Ammo,HPAmmo"/>
+    </append>    
+    <append xpath="/items/item[@name='ammo556mmArmorPiercing']">        
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,APAmmo"/>
+    </append>
+    <append xpath="/items/item[@name='ammo556mmArmorPiercingBundle']">        
+        <property name="Group" value="Ammo/Weapons,Ammo,APAmmo"/>
+    </append>
+	</if>
+</conditional>		
+
+<!--	Izy 45 AMMO   -->
+
+<conditional>
+	<if cond="mod_loaded('IZY_RMP_45ACP')">
+    <append xpath="/items/item[@name='ammo45ACPBulletBall']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>
+	
+    <append xpath="/items/item[@name='ammo45ACPBulletBallBundle']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>
+
+    <append xpath="/items/item[@name='ammo45ACPHighpower']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,HPAmmo"/>
+    </append>
+
+    <append xpath="/items/item[@name='ammo45ACPHighpowerBundle']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,HPAmmo"/>
+    </append>
+
+    <append xpath="/items/item[@name='ammo45ACPArmorpiecing']">        
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,APAmmo"/>
+    </append>
+
+    <append xpath="/items/item[@name='ammo45ACPArmorpiecingBundle']">        
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,APAmmo"/>
+    </append>
+
+    <append xpath="/items/item[@name='ammo45ACPEnhanced']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>
+
+    <append xpath="/items/item[@name='ammo45ACPEnhancedBundle']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>
+	</if>
+</conditional>
+	
+<!--	Izy Shotgun AMMO   -->
+
+<conditional>
+	<if cond="mod_loaded('IZY_RMP_SG')">
+    <append xpath="/items/item[@name='ammoShotgunShellPremium']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>
+
+    <append xpath="/items/item[@name='ammoShotgunShellPremiumBundle']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>
+	
+    <append xpath="/items/item[@name='ammoShotgunShellDragoBreath']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>
+
+    <append xpath="/items/item[@name='ammoShotgunShellDragoBreathBundle']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>
+	</if>
+</conditional>
+	
+<!--	Izy 762 AMMO   -->
+
+<conditional>
+	<if cond="mod_loaded('IZY_RMP_762pack')">
+    <append xpath="/items/item[@name='ammo762mmExplosiveFragmentations']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>
+
+    <append xpath="/items/item[@name='ammo762mmExplosiveFragmentationsBundle']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>
+	</if>
+</conditional>
+
+		<!--	***************************	-->
+			<!--	EFT Overhaul Ammo    -->
+		<!--	***************************	-->		
+
+<conditional>
+	<if cond="mod_loaded('EFT_Overhaul')">	
+	
+		<!-- *** 5.45x39 -->
+		
+    <append xpath="/items/item[@name='ammoEft54539']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>		
+		
+    <append xpath="/items/item[@name='ammoEft54539AP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,APAmmo"/>
+    </append>	
+	
+    <append xpath="/items/item[@name='ammoEft54539HP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,HPAmmo"/>
+    </append>	
+		
+		<!-- *** 5.56x45 -->
+		
+    <append xpath="/items/item[@name='ammoEft55645NATO']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>		
+		
+    <append xpath="/items/item[@name='ammoEft55645NATOAP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,APAmmo"/>
+    </append>	
+	
+    <append xpath="/items/item[@name='ammoEft55645NATOHP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,HPAmmo"/>
+    </append>			
+		
+		<!-- *** .300 Blackout -->
+
+    <append xpath="/items/item[@name='ammoEft300blk']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>		
+		
+    <append xpath="/items/item[@name='ammoEft300BblkAP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,APAmmo"/>
+    </append>	
+	
+    <append xpath="/items/item[@name='ammoEft300blkHP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,HPAmmo"/>
+    </append>	
+		
+		<!-- *** 7.62x39 -->
+
+    <append xpath="/items/item[@name='ammoEft76239']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>		
+		
+    <append xpath="/items/item[@name='ammoEft76239AP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,APAmmo"/>
+    </append>	
+	
+    <append xpath="/items/item[@name='ammoEft76239HP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,HPAmmo"/>
+    </append>	
+
+		<!-- *** 7.62x51 -->
+
+   <append xpath="/items/item[@name='ammoEft76251NATO']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>		
+		
+    <append xpath="/items/item[@name='ammoEft76251NATOAP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,APAmmo"/>
+    </append>	
+	
+    <append xpath="/items/item[@name='ammoEft76251NATOHP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,HPAmmo"/>
+    </append>	
+		
+		<!-- *** 7.62x54R -->
+
+   <append xpath="/items/item[@name='ammoEft76254R']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>		
+		
+    <append xpath="/items/item[@name='ammoEft76254RAP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,APAmmo"/>
+    </append>	
+	
+    <append xpath="/items/item[@name='ammoEft76254RHP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,HPAmmo"/>
+    </append>	
+
+		<!-- *** .338LAPUA -->
+
+<append xpath="/items/item[@name='ammoEft338']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>
+		
+    <append xpath="/items/item[@name='ammoEft338AP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,APAmmo"/>
+    </append>	
+	
+    <append xpath="/items/item[@name='ammoEft338HP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,HPAmmo"/>
+</append>
+
+		<!-- *** 9x19 -->
+
+   <append xpath="/items/item[@name='ammoEft919mm']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>		
+		
+    <append xpath="/items/item[@name='ammoEft919mmAP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,APAmmo"/>
+    </append>	
+	
+    <append xpath="/items/item[@name='ammoEft919mmHP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,HPAmmo"/>
+    </append>	
+		
+		<!-- *** 9x21 -->
+
+   <append xpath="/items/item[@name='ammoEft921mm']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>		
+		
+    <append xpath="/items/item[@name='ammoEft921mmAP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,APAmmo"/>
+    </append>	
+	
+    <append xpath="/items/item[@name='ammoEft921mmHP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,HPAmmo"/>
+    </append>	
+	
+		<!-- *** 9x39 -->
+
+   <append xpath="/items/item[@name='ammoEft939']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>		
+		
+    <append xpath="/items/item[@name='ammoEft939AP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,APAmmo"/>
+    </append>	
+	
+    <append xpath="/items/item[@name='ammoEft939HP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,HPAmmo"/>
+    </append>	
+		
+		<!-- *** .45 ACP -->
+
+   <append xpath="/items/item[@name='ammoEft45ACP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>		
+		
+    <append xpath="/items/item[@name='ammoEft45ACPAP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,APAmmo"/>
+    </append>	
+	
+    <append xpath="/items/item[@name='ammoEft45ACPRIP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,HPAmmo"/>
+    </append>	
+
+		<!-- *** 4.6x30 -->
+
+   <append xpath="/items/item[@name='ammoEft4630mmHK']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>		
+		
+    <append xpath="/items/item[@name='ammoEft4630mmHKAP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,APAmmo"/>
+    </append>	
+	
+    <append xpath="/items/item[@name='ammoEft4630mmHKHP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,HPAmmo"/>
+    </append>	
+
+		<!-- *** 5.7x28 -->
+		
+   <append xpath="/items/item[@name='ammoEft5728FN']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>		
+		
+    <append xpath="/items/item[@name='ammoEft5728FNAP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,APAmmo"/>
+    </append>	
+	
+    <append xpath="/items/item[@name='ammoEft5728FNHP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,HPAmmo"/>
+    </append>		
+
+		<!-- ### 12/70 -->
+		
+  <append xpath="/items/item[@name='ammoEft7mmShotgun']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>		
+		
+    <append xpath="/items/item[@name='ammoEftAP20Slug']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,APAmmo"/>
+    </append>		
+
+		<!-- ### 12.7x33 | .50AE -->	
+
+  <append xpath="/items/item[@name='ammoEft50ae']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>	
+	
+  <append xpath="/items/item[@name='ammoEft50aeHP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>		
+	
+		<!-- ### 40x46 & 40x53 -->
+	<append xpath="/items/item[@name='ammoEft4046381']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>		
+		
+    <append xpath="/items/item[@name='ammoEft4053vog25']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,APAmmo"/>
+    </append>	
+	
+	</if>
+</conditional>
+
+		<!--	***************************	-->
+		<!--	EFT Extraction Pack Ammo    -->
+		<!--	***************************	-->		
+
+<conditional>
+	<if cond="mod_loaded('Z2_EFT_Extraction_Both_Ammo')">
+
+		<!-- *** 5.45x39 -->
+		
+    <append xpath="/items/item[@name='ammoEft54539']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>		
+		
+    <append xpath="/items/item[@name='ammoEft54539AP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,APAmmo"/>
+    </append>	
+	
+    <append xpath="/items/item[@name='ammoEft54539HP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,HPAmmo"/>
+    </append>	
+		
+		<!-- *** 5.56x45 -->
+		
+    <append xpath="/items/item[@name='ammoEft55645NATO']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>		
+		
+    <append xpath="/items/item[@name='ammoEft55645NATOAP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,APAmmo"/>
+    </append>	
+	
+    <append xpath="/items/item[@name='ammoEft55645NATOHP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,HPAmmo"/>
+    </append>			
+		
+		<!-- *** .300 Blackout -->
+
+    <append xpath="/items/item[@name='ammoEft300blk']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>		
+		
+    <append xpath="/items/item[@name='ammoEft300BblkAP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,APAmmo"/>
+    </append>	
+	
+    <append xpath="/items/item[@name='ammoEft300blkHP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,HPAmmo"/>
+    </append>	
+		
+		<!-- *** 7.62x39 -->
+
+    <append xpath="/items/item[@name='ammoEft76239']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>		
+		
+    <append xpath="/items/item[@name='ammoEft76239AP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,APAmmo"/>
+    </append>	
+	
+    <append xpath="/items/item[@name='ammoEft76239HP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,HPAmmo"/>
+    </append>	
+
+		<!-- *** 7.62x51 -->
+
+   <append xpath="/items/item[@name='ammoEft76251NATO']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>		
+		
+    <append xpath="/items/item[@name='ammoEft76251NATOAP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,APAmmo"/>
+    </append>	
+	
+    <append xpath="/items/item[@name='ammoEft76251NATOHP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,HPAmmo"/>
+    </append>	
+		
+		<!-- *** 7.62x54R -->
+
+   <append xpath="/items/item[@name='ammoEft76254R']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>		
+		
+    <append xpath="/items/item[@name='ammoEft76254RAP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,APAmmo"/>
+    </append>	
+	
+    <append xpath="/items/item[@name='ammoEft76254RHP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,HPAmmo"/>
+    </append>	
+
+		<!-- *** .338LAPUA -->
+
+<append xpath="/items/item[@name='ammoEft338']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>
+		
+    <append xpath="/items/item[@name='ammoEft338AP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,APAmmo"/>
+    </append>	
+	
+    <append xpath="/items/item[@name='ammoEft338HP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,HPAmmo"/>
+</append>
+
+		<!-- *** 9x19 -->
+
+   <append xpath="/items/item[@name='ammoEft919mm']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>		
+		
+    <append xpath="/items/item[@name='ammoEft919mmAP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,APAmmo"/>
+    </append>	
+	
+    <append xpath="/items/item[@name='ammoEft919mmHP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,HPAmmo"/>
+    </append>	
+		
+		<!-- *** 9x21 -->
+
+   <append xpath="/items/item[@name='ammoEft921mm']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>		
+		
+    <append xpath="/items/item[@name='ammoEft921mmAP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,APAmmo"/>
+    </append>	
+	
+    <append xpath="/items/item[@name='ammoEft921mmHP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,HPAmmo"/>
+    </append>	
+	
+		<!-- *** 9x39 -->
+
+   <append xpath="/items/item[@name='ammoEft939']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>		
+		
+    <append xpath="/items/item[@name='ammoEft939AP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,APAmmo"/>
+    </append>	
+	
+    <append xpath="/items/item[@name='ammoEft939HP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,HPAmmo"/>
+    </append>	
+		
+		<!-- *** .45 ACP -->
+
+   <append xpath="/items/item[@name='ammoEft45ACP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>		
+		
+    <append xpath="/items/item[@name='ammoEft45ACPAP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,APAmmo"/>
+    </append>	
+	
+    <append xpath="/items/item[@name='ammoEft45ACPRIP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,HPAmmo"/>
+    </append>	
+
+		<!-- *** 4.6x30 -->
+
+   <append xpath="/items/item[@name='ammoEft4630mmHK']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>		
+		
+    <append xpath="/items/item[@name='ammoEft4630mmHKAP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,APAmmo"/>
+    </append>	
+	
+    <append xpath="/items/item[@name='ammoEft4630mmHKHP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,HPAmmo"/>
+    </append>	
+
+		<!-- *** 5.7x28 -->
+		
+   <append xpath="/items/item[@name='ammoEft5728FN']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>		
+		
+    <append xpath="/items/item[@name='ammoEft5728FNAP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,APAmmo"/>
+    </append>	
+	
+    <append xpath="/items/item[@name='ammoEft5728FNHP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,HPAmmo"/>
+    </append>		
+
+		<!-- ### 12/70 -->
+		
+  <append xpath="/items/item[@name='ammoEft7mmShotgun']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>		
+		
+    <append xpath="/items/item[@name='ammoEftAP20Slug']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,APAmmo"/>
+    </append>		
+
+		<!-- ### 12.7x33 | .50AE -->	
+
+  <append xpath="/items/item[@name='ammoEft50ae']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>	
+	
+  <append xpath="/items/item[@name='ammoEft50aeHP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>		
+	
+		<!-- ### 40x46 & 40x53 -->
+	<append xpath="/items/item[@name='ammoEft4046381']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>		
+		
+    <append xpath="/items/item[@name='ammoEft4053vog25']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,APAmmo"/>
+    </append>	
+
+	</if>
+</conditional>
+
+<conditional>
+	<if cond="mod_loaded('Z2_EFT_Extraction_EFT_Only_Ammo')">
+
+		<!-- *** 5.45x39 -->
+		
+    <append xpath="/items/item[@name='ammoEft54539']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>		
+		
+    <append xpath="/items/item[@name='ammoEft54539AP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,APAmmo"/>
+    </append>	
+	
+    <append xpath="/items/item[@name='ammoEft54539HP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,HPAmmo"/>
+    </append>	
+		
+		<!-- *** 5.56x45 -->
+		
+    <append xpath="/items/item[@name='ammoEft55645NATO']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>		
+		
+    <append xpath="/items/item[@name='ammoEft55645NATOAP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,APAmmo"/>
+    </append>	
+	
+    <append xpath="/items/item[@name='ammoEft55645NATOHP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,HPAmmo"/>
+    </append>			
+		
+		<!-- *** .300 Blackout -->
+
+    <append xpath="/items/item[@name='ammoEft300blk']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>		
+		
+    <append xpath="/items/item[@name='ammoEft300BblkAP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,APAmmo"/>
+    </append>	
+	
+    <append xpath="/items/item[@name='ammoEft300blkHP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,HPAmmo"/>
+    </append>	
+		
+		<!-- *** 7.62x39 -->
+
+    <append xpath="/items/item[@name='ammoEft76239']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>		
+		
+    <append xpath="/items/item[@name='ammoEft76239AP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,APAmmo"/>
+    </append>	
+	
+    <append xpath="/items/item[@name='ammoEft76239HP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,HPAmmo"/>
+    </append>	
+
+		<!-- *** 7.62x51 -->
+
+   <append xpath="/items/item[@name='ammoEft76251NATO']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>		
+		
+    <append xpath="/items/item[@name='ammoEft76251NATOAP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,APAmmo"/>
+    </append>	
+	
+    <append xpath="/items/item[@name='ammoEft76251NATOHP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,HPAmmo"/>
+    </append>	
+		
+		<!-- *** 7.62x54R -->
+
+   <append xpath="/items/item[@name='ammoEft76254R']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>		
+		
+    <append xpath="/items/item[@name='ammoEft76254RAP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,APAmmo"/>
+    </append>	
+	
+    <append xpath="/items/item[@name='ammoEft76254RHP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,HPAmmo"/>
+    </append>	
+
+		<!-- *** .338LAPUA -->
+
+<append xpath="/items/item[@name='ammoEft338']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>
+		
+    <append xpath="/items/item[@name='ammoEft338AP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,APAmmo"/>
+    </append>	
+	
+    <append xpath="/items/item[@name='ammoEft338HP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,HPAmmo"/>
+</append>
+
+		<!-- *** 9x19 -->
+
+   <append xpath="/items/item[@name='ammoEft919mm']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>		
+		
+    <append xpath="/items/item[@name='ammoEft919mmAP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,APAmmo"/>
+    </append>	
+	
+    <append xpath="/items/item[@name='ammoEft919mmHP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,HPAmmo"/>
+    </append>	
+		
+		<!-- *** 9x21 -->
+
+   <append xpath="/items/item[@name='ammoEft921mm']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>		
+		
+    <append xpath="/items/item[@name='ammoEft921mmAP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,APAmmo"/>
+    </append>	
+	
+    <append xpath="/items/item[@name='ammoEft921mmHP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,HPAmmo"/>
+    </append>	
+	
+		<!-- *** 9x39 -->
+
+   <append xpath="/items/item[@name='ammoEft939']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>		
+		
+    <append xpath="/items/item[@name='ammoEft939AP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,APAmmo"/>
+    </append>	
+	
+    <append xpath="/items/item[@name='ammoEft939HP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,HPAmmo"/>
+    </append>	
+		
+		<!-- *** .45 ACP -->
+
+   <append xpath="/items/item[@name='ammoEft45ACP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>		
+		
+    <append xpath="/items/item[@name='ammoEft45ACPAP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,APAmmo"/>
+    </append>	
+	
+    <append xpath="/items/item[@name='ammoEft45ACPRIP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,HPAmmo"/>
+    </append>	
+
+		<!-- *** 4.6x30 -->
+
+   <append xpath="/items/item[@name='ammoEft4630mmHK']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>		
+		
+    <append xpath="/items/item[@name='ammoEft4630mmHKAP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,APAmmo"/>
+    </append>	
+	
+    <append xpath="/items/item[@name='ammoEft4630mmHKHP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,HPAmmo"/>
+    </append>	
+
+		<!-- *** 5.7x28 -->
+		
+   <append xpath="/items/item[@name='ammoEft5728FN']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>		
+		
+    <append xpath="/items/item[@name='ammoEft5728FNAP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,APAmmo"/>
+    </append>	
+	
+    <append xpath="/items/item[@name='ammoEft5728FNHP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,HPAmmo"/>
+    </append>		
+
+		<!-- ### 12/70 -->
+		
+  <append xpath="/items/item[@name='ammoEft7mmShotgun']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>		
+		
+    <append xpath="/items/item[@name='ammoEftAP20Slug']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,APAmmo"/>
+    </append>		
+
+		<!-- ### 12.7x33 | .50AE -->	
+
+  <append xpath="/items/item[@name='ammoEft50ae']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>	
+	
+  <append xpath="/items/item[@name='ammoEft50aeHP']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>		
+	
+		<!-- ### 40x46 & 40x53 -->
+	<append xpath="/items/item[@name='ammoEft4046381']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>		
+		
+    <append xpath="/items/item[@name='ammoEft4053vog25']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,APAmmo"/>
+    </append>	
+
+	</if>
+</conditional>
+
+		<!--	***************************	-->
+	<!--	LittleRedSonja T2T3 Weapons Pack Ammo    -->
+		<!--	***************************	-->		
+
+<conditional>
+	<if cond="mod_loaded('LittleRedSonja_T2IT3')">
+    <append xpath="/items/item[@name='ammoShotgunHellFire']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>
+
+    <append xpath="/items/item[@name='ammoBundleShotgunHellFire']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>
+	</if>
+</conditional>
+
+		<!--	***************************	-->
+	<!--	Closer's Experimental Weapon Pack    -->
+		<!--	***************************	-->	
+
+<conditional>
+	<if cond="mod_loaded('CLSWeaponPackEXP')">
+    <append xpath="/items/item[@name='ammoKaboomstickShellHE']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>
+
+    <append xpath="/items/item[@name='ammoKaboomstickShellFrag']">    
+        <property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
+    </append>
+	</if>
+</conditional>
+
+</AmmoPressCompatibility>

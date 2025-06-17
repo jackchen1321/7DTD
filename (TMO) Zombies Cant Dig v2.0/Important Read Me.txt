@@ -1,0 +1,15 @@
+Greetings Survivors,
+I hope that you enjoy this Mod as much as I do. I decided to make this as I feel its so ignorant to have a underground bunker that zombies can tunnel into and chop up like swiss cheese. With this mod, zombies can not dig down
+unless specified otherwise by zombie name in the config that auto generates. So if you dont want any digging, keep it as is. If you want to add some, just follow the XML instructions I set and youll be good. 
+
+Works locally OR ServerSide Only! 
+
+Discord:
+https://discord.gg/jvDuq9SUQR
+
+Permissions:
+You must request my permission to use this in overhauls. If you do and permission is granted, you can add the mod download link as a dependency so that they are downloading straight from my Nexus. This ensures I am getting credit, and they are
+getting the latest version. Failure to follow this, will result in reporting to all proper channels. 
+
+
+TheMeanOne

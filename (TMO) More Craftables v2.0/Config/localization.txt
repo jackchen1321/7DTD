@@ -1,0 +1,22 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,English,Context / Alternate Text
+
+barbedWireSpindle,items,Item,,, "[b][ff0000]Barbed Wire Spindle[-][/b]\n[ffffff]A reinforced barbed wire structure.[-]",,
+barbedWireSpindle1m,items,Item,,, "[b][ff0000]Barbed Wire Spindle (1m)[-][/b]\n[ffffff]A compact barbed wire defense segment.[-]",,
+barbedWireSpindleDiagonal1m,items,Item,,, "[b][ff0000]Barbed Wire Spindle (Diagonal)[-][/b]\n[ffffff]A barbed wire spindle set at a 45-degree angle for varied defensive layouts.[-]",,
+barbedWireSpindle2,items,Item,,, "[b][ff0000]Barbed Wire Spindle Type B[-][/b]\n[ffffff]A variation of the barbed wire spindle for alternative defense setups.[-]",,
+barbedWireSpindle3,items,Item,,, "[b][ff0000]Barbed Wire Spindle Type C[-][/b]\n[ffffff]Another design variation for defensive structures.[-]",,
+barbedWireSpindle4,items,Item,,, "[b][ff0000]Barbed Wire Spindle Type D[-][/b]\n[ffffff]A specialized variant for unique defense strategies.[-]",,
+
+barbedWireSpindleDesc,blocks,Block,,, "A sturdy barbed wire barrier designed to slow down and injure intruders. Ideal for perimeter defense.",
+barbedWireSpindle1mDesc,blocks,Block,,, "A compact version of the barbed wire spindle, useful for tighter spaces while maintaining defensive capability.",
+barbedWireSpindleDiagonal1mDesc,blocks,Block,,, "A barbed wire spindle rotated at a 45-degree angle, offering a different placement option for defenses.",
+barbedWireSpindle2Desc,blocks,Block,,, "A reinforced variant of the barbed wire spindle, offering enhanced durability against threats.",
+barbedWireSpindle3Desc,blocks,Block,,, "A specialized barbed wire design, adaptable for layered defenses and strategic positioning.",
+barbedWireSpindle4Desc,blocks,Block,,, "An advanced barbed wire structure optimized for high-security fortifications and prolonged defense.",
+
+TM1_ConcreteBarrier,items,Item,,, "[b][00BFFF]Defensive Concrete Barrier[-][/b]\n[ffffff]A heavy-duty concrete barrier designed for fortifications.[-]",,
+TM1_ConcreteBarrierDesc,blocks,Block,,, "A reinforced concrete barrier that can be stacked to create strong defensive walls, keeping out zombies and intruders.",
+
+TM1_Hesco,items,Item,,, "[b][00BFFF]Military Hesco Block[-][/b]\n[ffffff]A durable sand-filled barrier with excellent damage resistance.[-]",,
+TM1_HescoDesc,blocks,Block,,, "A military-grade Hesco barrier filled with sand, providing strong protection against attacks.",
+

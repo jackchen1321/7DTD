@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <property name="WhitelistDigging" value="true" />
+  <!--When set to true, only zombies listed below will be allowed to dig downward. If false, digging is not restricted and all zombies can dig normally. So if you want NO zombies digging, remove everything in the AllowList and set WhitelistDigging to true.-->
+  <property name="AllowList" value=" ">
+    <!--Add more zombie entity class names separated by commas. Example: zombieFatCop,zombieSteve,zombieSoldier-->
+  </property>
+</config>

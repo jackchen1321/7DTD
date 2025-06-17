@@ -1,0 +1,14 @@
+<configs>
+
+	<set xpath="/lootcontainers/lootcontainer[@name='playerBackpack']/@size">20,11</set> <!-- Set larger for Drop Size to prevent inventory loss! -->
+	<set xpath="/lootcontainers/lootcontainer[@name='playerWoodWritableStorage']/@size">10,10</set> <!-- 100 Slots -->
+	<set xpath="/lootcontainers/lootcontainer[@name='playerIronWritableStorage']/@size">12,10</set> <!-- 120 Slots -->
+	<set xpath="/lootcontainers/lootcontainer[@name='playerSteelWritableStorage']/@size">14,10</set>  <!-- 140 Slots -->
+	
+	<set xpath="/lootcontainers/lootcontainer[@name='vehicleBicycle']/@size">10,4</set>
+    <set xpath="/lootcontainers/lootcontainer[@name='vehicleMinibike']/@size">10,8</set>
+    <set xpath="/lootcontainers/lootcontainer[@name='vehicleMotorcycle']/@size">10,9</set>
+    <set xpath="/lootcontainers/lootcontainer[@name='vehicle4x4Truck']/@size">10,12</set>
+    <set xpath="/lootcontainers/lootcontainer[@name='vehicleGyrocopter']/@size">10,9</set>
+    <set xpath="/lootcontainers/lootcontainer[@name='roboticDrone']/@size">9,5</set>
+</configs>

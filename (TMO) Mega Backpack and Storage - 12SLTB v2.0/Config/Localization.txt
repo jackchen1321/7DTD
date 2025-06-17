@@ -1,0 +1,7 @@
+Key,UsedInMainMenu,Source,Context,Changes,English
+
+perkPackMuleRank1LongDesc,progression,perk Str,,,Everyone starts small.\nCarry more items without being encumbered.
+perkPackMuleRank2LongDesc,progression,perk Str,,,You're getting the hang of it.\nExpand your carrying capacity even further.
+perkPackMuleRank3LongDesc,progression,perk Str,,,Your organizational skills are improving.\nManage to carry even more without breaking a sweat.
+perkPackMuleRank4LongDesc,progression,perk Str,,,You're a master of packing.\nYour capacity to carry keeps growing.
+perkPackMuleRank5LongDesc,progression,perk Str,,,Your capability is unmatched.\nYou've achieved peak efficiency in carrying.

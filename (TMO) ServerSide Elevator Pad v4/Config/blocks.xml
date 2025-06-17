@@ -1,0 +1,194 @@
+<config>
+	<append xpath="/blocks">
+		<block name="TheMeanOnesServerSideElevator">
+			<property name="CreativeMode" value="All"/>
+			<property name="Class" value="DoorSecure"/>
+			<property name="Group" value="Science"/>
+			<property name="CustomIcon" value="elevatorDoor"/>
+			<property name="Texture" value="173"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="CustomIconTint" value="4682B4"/>
+			<property name="TintColor" value="4682B4"/>
+			<!-- Steel Blue -->
+			<property name="OpenSound" value="open_door_wood"/>
+			<property name="EconomicValue" value="2900"/>
+			<property name="UnlockedBy" value="craftingRobotics"/>
+			<property name="CloseSound" value="close_door_wood"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="Material" value="TheMeanOnes_Metal"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="@:Entities/Elevators/elevator_testPrefab.prefab"/>
+			<property name="ModelOffset" value="1.5,0,1"/>
+			<property name="MultiBlockDim" value="3,1,2"/>
+			<property name="LightOpacity" value="1"/>
+			<property name="Place" value="Door"/>
+			<property name="CanPickup" value="false"/>
+			<property name="DescriptionKey" value="TheMeanOnesServerSideElevatorDesc2"/>
+			<property name="PlaceEverywhere" value="true"/>
+			<property name="MeshDamage" value="Platform, 99999"/>
+			<drop event="Destroy" count="0"/>
+			<property name="BlockTag" value="Door"/>
+			<property class="RepairItems">
+				<property name="resourceForgedSteel" value="2"/>
+			</property>
+			<property name="SortOrder1" value="LD10"/>
+			<property name="SortOrder2" value="0008"/>
+		</block>
+		<!-- Regular and Neon Colors Variants -->
+		<block name="TheMeanOnesServerSideElevatorRed">
+			<property name="Extends" value="TheMeanOnesServerSideElevator"/>
+			<property name="CustomIconTint" value="FF0000"/>
+			<property name="TintColor" value="FF0000"/>
+			<!-- Red -->
+			<property name="SortOrder2" value="0009"/>
+		</block>
+		<block name="TheMeanOnesServerSideElevatorOrange">
+			<property name="Extends" value="TheMeanOnesServerSideElevator"/>
+			<property name="CustomIconTint" value="FFA500"/>
+			<property name="TintColor" value="FFA500"/>
+			<!-- Orange -->
+			<property name="SortOrder2" value="0010"/>
+		</block>
+		<block name="TheMeanOnesServerSideElevatorYellow">
+			<property name="Extends" value="TheMeanOnesServerSideElevator"/>
+			<property name="CustomIconTint" value="FFFF00"/>
+			<property name="TintColor" value="FFFF00"/>
+			<!-- Yellow -->
+			<property name="SortOrder2" value="0011"/>
+		</block>
+		<block name="TheMeanOnesServerSideElevatorGreen">
+			<property name="Extends" value="TheMeanOnesServerSideElevator"/>
+			<property name="CustomIconTint" value="008000"/>
+			<property name="TintColor" value="008000"/>
+			<!-- Green -->
+			<property name="SortOrder2" value="0012"/>
+		</block>
+		<block name="TheMeanOnesServerSideElevatorBlue">
+			<property name="Extends" value="TheMeanOnesServerSideElevator"/>
+			<property name="CustomIconTint" value="0000FF"/>
+			<property name="TintColor" value="0000FF"/>
+			<!-- Blue -->
+			<property name="SortOrder2" value="0013"/>
+		</block>
+		<block name="TheMeanOnesServerSideElevatorIndigo">
+			<property name="Extends" value="TheMeanOnesServerSideElevator"/>
+			<property name="CustomIconTint" value="4B0082"/>
+			<property name="TintColor" value="4B0082"/>
+			<!-- Indigo -->
+			<property name="SortOrder2" value="0014"/>
+		</block>
+		<block name="TheMeanOnesServerSideElevatorViolet">
+			<property name="Extends" value="TheMeanOnesServerSideElevator"/>
+			<property name="CustomIconTint" value="EE82EE"/>
+			<property name="TintColor" value="EE82EE"/>
+			<!-- Violet -->
+			<property name="SortOrder2" value="0015"/>
+		</block>
+		<block name="TheMeanOnesServerSideElevatorNeonRed">
+			<property name="Extends" value="TheMeanOnesServerSideElevator"/>
+			<property name="CustomIconTint" value="FF073A"/>
+			<property name="TintColor" value="FF073A"/>
+			<!-- Neon Red -->
+			<property name="SortOrder2" value="0016"/>
+		</block>
+		<block name="TheMeanOnesServerSideElevatorNeonOrange">
+			<property name="Extends" value="TheMeanOnesServerSideElevator"/>
+			<property name="CustomIconTint" value="FF6700"/>
+			<property name="TintColor" value="FF6700"/>
+			<!-- Neon Orange -->
+			<property name="SortOrder2" value="0017"/>
+		</block>
+		<block name="TheMeanOnesServerSideElevatorNeonYellow">
+			<property name="Extends" value="TheMeanOnesServerSideElevator"/>
+			<property name="CustomIconTint" value="FFFF33"/>
+			<property name="TintColor" value="FFFF33"/>
+			<!-- Neon Yellow -->
+			<property name="SortOrder2" value="0018"/>
+		</block>
+		<block name="TheMeanOnesServerSideElevatorNeonGreen">
+			<property name="Extends" value="TheMeanOnesServerSideElevator"/>
+			<property name="CustomIconTint" value="39FF14"/>
+			<property name="TintColor" value="39FF14"/>
+			<!-- Neon Green -->
+			<property name="SortOrder2" value="0019"/>
+		</block>
+		<block name="TheMeanOnesServerSideElevatorNeonBlue">
+			<property name="Extends" value="TheMeanOnesServerSideElevator"/>
+			<property name="CustomIconTint" value="1F51FF"/>
+			<property name="TintColor" value="1F51FF"/>
+			<!-- Neon Blue -->
+			<property name="SortOrder2" value="0020"/>
+		</block>
+		<block name="TheMeanOnesServerSideElevatorNeonIndigo">
+			<property name="Extends" value="TheMeanOnesServerSideElevator"/>
+			<property name="CustomIconTint" value="5B00FF"/>
+			<property name="TintColor" value="5B00FF"/>
+			<!-- Neon Indigo -->
+			<property name="SortOrder2" value="0021"/>
+		</block>
+		<block name="TheMeanOnesServerSideElevatorNeonViolet">
+			<property name="Extends" value="TheMeanOnesServerSideElevator"/>
+			<property name="CustomIconTint" value="9D00FF"/>
+			<property name="TintColor" value="9D00FF"/>
+			<!-- Neon Violet -->
+			<property name="SortOrder2" value="0022"/>
+		</block>
+		<block name="TheMeanOnesServerSideElevatorBlack">
+			<property name="Extends" value="TheMeanOnesServerSideElevator"/>
+			<property name="CustomIconTint" value="000000"/>
+			<property name="TintColor" value="000000"/>
+			<!-- Black -->
+			<property name="SortOrder2" value="0023"/>
+		</block>
+		<block name="TheMeanOnesServerSideElevatorBrown">
+			<property name="Extends" value="TheMeanOnesServerSideElevator"/>
+			<property name="CustomIconTint" value="8B4513"/>
+			<property name="TintColor" value="8B4513"/>
+			<!-- Brown -->
+			<property name="SortOrder2" value="0024"/>
+		</block>
+		<block name="TheMeanOnesServerSideElevatorGrey">
+			<property name="Extends" value="TheMeanOnesServerSideElevator"/>
+			<property name="CustomIconTint" value="808080"/>
+			<property name="TintColor" value="808080"/>
+			<!-- Grey -->
+			<property name="SortOrder2" value="0025"/>
+		</block>
+		<block name="TheMeanOnesServerSideElevatorCrimson">
+			<property name="Extends" value="TheMeanOnesServerSideElevator"/>
+			<property name="CustomIconTint" value="DC143C"/>
+			<property name="TintColor" value="DC143C"/>
+			<!-- Crimson -->
+			<property name="SortOrder2" value="0026"/>
+		</block>
+		<block name="TheMeanOnesServerSideElevatorAqua">
+			<property name="Extends" value="TheMeanOnesServerSideElevator"/>
+			<property name="CustomIconTint" value="00FFFF"/>
+			<property name="TintColor" value="00FFFF"/>
+			<!-- Aqua -->
+			<property name="SortOrder2" value="0027"/>
+		</block>
+		<block name="TheMeanOnesServerSideElevatorDeepPink">
+			<property name="Extends" value="TheMeanOnesServerSideElevator"/>
+			<property name="CustomIconTint" value="FF1493"/>
+			<property name="TintColor" value="FF1493"/>
+			<!-- Deep Pink -->
+			<property name="SortOrder2" value="0028"/>
+		</block>
+		<block name="TheMeanOnesServerSideElevatorChartreuse">
+			<property name="Extends" value="TheMeanOnesServerSideElevator"/>
+			<property name="CustomIconTint" value="7FFF00"/>
+			<property name="TintColor" value="7FFF00"/>
+			<!-- Chartreuse -->
+			<property name="SortOrder2" value="0029"/>
+		</block>
+		<!-- Vending Shape -->
+		<block name="TheMeanOnesServerSideElevatorVariantHelper">
+			<property name="Extends" value="TheMeanOnesServerSideElevator"/>
+			<property name="ItemTypeIcon" value="all_blocks"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="SelectAlternates" value="true"/>
+			<property name="PlaceAltBlockValue" value="TheMeanOnesServerSideElevator,TheMeanOnesServerSideElevatorRed,TheMeanOnesServerSideElevatorOrange,TheMeanOnesServerSideElevatorYellow,TheMeanOnesServerSideElevatorGreen,TheMeanOnesServerSideElevatorBlue,TheMeanOnesServerSideElevatorIndigo,TheMeanOnesServerSideElevatorViolet,TheMeanOnesServerSideElevatorNeonRed,TheMeanOnesServerSideElevatorNeonOrange,TheMeanOnesServerSideElevatorNeonYellow,TheMeanOnesServerSideElevatorNeonGreen,TheMeanOnesServerSideElevatorNeonBlue,TheMeanOnesServerSideElevatorNeonIndigo,TheMeanOnesServerSideElevatorNeonViolet,TheMeanOnesServerSideElevatorBlack,TheMeanOnesServerSideElevatorBrown,TheMeanOnesServerSideElevatorGrey,TheMeanOnesServerSideElevatorCrimson,TheMeanOnesServerSideElevatorAqua,TheMeanOnesServerSideElevatorDeepPink,TheMeanOnesServerSideElevatorChartreuse"/>
+		</block>
+	</append>
+</config>

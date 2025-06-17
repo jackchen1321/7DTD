@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+	<Name value="TheMeanOnesTraderNeverCloses" />
+	<DisplayName value="TheMeanOnes Trader Never Closes" />
+	<Description value="The trader will never close with this mod! For Version 2.0" />
+	<Author value="TheMeanOneMods" />
+	<Version value="2.0" />
+	<Website value="" />
+	<SkipWithAntiCheat value="false" />
+</xml>

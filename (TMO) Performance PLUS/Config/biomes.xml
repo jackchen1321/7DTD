@@ -1,0 +1,188 @@
+<TheMeanOne>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/decorations/decoration[contains(@blockname, 'resourceRock01')]/@prob">0.00022</set>
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<!-- Removing Overabundances of Trees that are Generated on the Map  -->
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<!-- ===== Pine Trees ===== -->
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/subbiome[contains(@prob, '')]/decorations/decoration[contains(@blockname, 'treeMountainPine19m')]/@prob">0.0001</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/decorations/decoration[contains(@blockname, 'treeMountainPine19m')]/@prob">0.0002</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/subbiome[contains(@prob, '')]/decorations/decoration[contains(@blockname, 'treeMountainPine27m')]/@prob">0.00</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/decorations/decoration[contains(@blockname, 'treeMountainPine27m')]/@prob">0.00</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/subbiome[contains(@prob, '')]/decorations/decoration[contains(@blockname, 'treeMountainPine31m')]/@prob">0.0001</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/decorations/decoration[contains(@blockname, 'treeMountainPine31m')]/@prob">0.002</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/subbiome[contains(@prob, '')]/decorations/decoration[contains(@blockname, 'treeMountainPine41m')]/@prob">0.0001</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/decorations/decoration[contains(@blockname, 'treeMountainPine41m')]/@prob">0.0002</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/subbiome[contains(@prob, '')]/decorations/decoration[contains(@blockname, 'treeMountainPine48m')]/@prob">0.0001</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/decorations/decoration[contains(@blockname, 'treeMountainPine48m')]/@prob">0.0002</set>
+	<!-- ===== Oak Trees - Large ===== -->
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/subbiome[contains(@prob, '')]/decorations/decoration[contains(@blockname, 'treeOakLrg01')]/@prob">0.0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/decorations/decoration[contains(@blockname, 'treeOakLrg01')]/@prob">0.0001</set>
+	<!-- ===== Oak Trees - Medium ===== -->
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/subbiome[contains(@prob, '')]/decorations/decoration[contains(@blockname, 'treeOakMed01')]/@prob">0.0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/decorations/decoration[contains(@blockname, 'treeOakMed01')]/@prob">0.01</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/subbiome[contains(@prob, '')]/decorations/decoration[contains(@blockname, 'treeOakMed02')]/@prob">0.0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/decorations/decoration[contains(@blockname, 'treeOakMed02')]/@prob">0.00</set>
+	<!-- ===== Oak Trees - Small ===== -->
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/subbiome[contains(@prob, '')]/decorations/decoration[contains(@blockname, 'treeOakSml01')]/@prob">0.00</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/decorations/decoration[contains(@blockname, 'treeOakSml01')]/@prob">0.00</set>
+	<!-- ===== Wasteland Optimization ===== -->
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/decorations/decoration[contains(@blockname, 'treePineBurntMed')]/@prob">0.00</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/decorations/decoration[contains(@blockname, 'treeBurntMaple01')]/@prob">0.008</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/decorations/decoration[contains(@blockname, 'treeBurntMaple02')]/@prob">0.008</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/decorations/decoration[contains(@blockname, 'treeBurntMaple03')]/@prob">0.008</set>
+	<!-- ===== Remnant Stone Prefabs ===== -->
+	
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<!-- Removing excess Tall Grass (Short is really only whats needed to Function -->
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<!-- Pine Forest -->
+	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.27']/decorations/decoration[@type='block' and @blockname='treeTallGrassDiagonal']/@prob">0.00</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.31']/decorations/decoration[@type='block' and @blockname='treeTallGrassDiagonal']/@prob">0.00</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='treeTallGrassDiagonal']/@prob">0.00</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='treeTallGrassDiagonal']/@prob">0.00</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='treeTallGrassDiagonal']/@prob">0.00</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/decorations/decoration[@type='block' and @blockname='treeTallGrassDiagonal']/@prob">0.00</set>
+	<!-- Snow -->
+	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.3']/decorations/decoration[@type='block' and @blockname='treeSnowyGrassDiagonal']/@prob">0.00</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.3']/decorations/decoration[@type='block' and @blockname='treeSnowyGrassDiagonal']/@prob">0.00</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='treeSnowyGrassDiagonal']/@prob">0.00</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='treeSnowyGrassDiagonal']/@prob">0.00</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='treeSnowyGrassDiagonal']/@prob">0.00</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='snow']/decorations/decoration[@type='block' and @blockname='treeSnowyGrassDiagonal']/@prob">0.00</set>
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<!-- Removing excess Waste and Ruble from Biomes -->
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<set xpath="/worldgeneration/pois/poi[@name='City Asphalt']/decal[@texture='2']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='City Asphalt']/decal[@texture='3']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='City Asphalt']/decal[@texture='4']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='City Asphalt']/decal[@texture='5']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='City Asphalt']/decal[@texture='6']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='City Asphalt']/decal[@texture='7']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='City Asphalt']/decal[@texture='8']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='City Asphalt']/decal[@texture='9']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='City Asphalt']/blockontop[@blockname='cinderBlocks03']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='City Asphalt']/blockontop[@blockname='cntStreetRandomLootHelper']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='City Asphalt']/blockontop[@blockname='decoCarTireSmallFlat']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='City Asphalt']/blockontop[@blockname='goreBlockAnimal']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='City Asphalt']/decal[@texture='0']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='City Asphalt']/decal[@texture='1']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='City Asphalt']/decal[@texture='10']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='City Asphalt']/decal[@texture='11']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='City Asphalt']/decal[@texture='12']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='City Asphalt']/decal[@texture='13']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='City Asphalt']/decal[@texture='14']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='City Asphalt']/decal[@texture='15']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='Country Road Asphalt']/blockontop[@blockname='cntStreetRandomLootHelper']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='Country Road Asphalt']/blockontop[@blockname='decoCarTireSmallFlat']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='Country Road Asphalt']/decal[@texture='15']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='Country Road Asphalt']/decal[@texture='2']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='Country Road Asphalt']/decal[@texture='3']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='Country Road Asphalt']/decal[@texture='4']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='Country Road Asphalt']/decal[@texture='5']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='Country Road Asphalt']/decal[@texture='6']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='Country Road Asphalt']/decal[@texture='7']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='Country Road Asphalt']/decal[@texture='8']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='Country Road Asphalt']/decal[@texture='9']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='Road Gravel']/decal[@texture='0']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='Road Gravel']/decal[@texture='1']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='Road Gravel']/decal[@texture='10']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='Road Gravel']/decal[@texture='11']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='Road Gravel']/decal[@texture='12']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='Road Gravel']/decal[@texture='13']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='Road Gravel']/decal[@texture='14']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='Road Gravel']/decal[@texture='15']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='Road Gravel']/decal[@texture='2']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='Road Gravel']/decal[@texture='3']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='Road Gravel']/decal[@texture='4']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='Road Gravel']/decal[@texture='5']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='Road Gravel']/decal[@texture='6']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='Road Gravel']/decal[@texture='7']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='Road Gravel']/decal[@texture='8']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='Road Gravel']/decal[@texture='9']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='Country Road Asphalt']/blockontop[@blockname='goreBlockAnimal']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='Country Road Asphalt']/blockontop[@blockname='rock01']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='Country Road Asphalt']/blockontop[@blockname='rock02']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='Country Road Asphalt']/decal[@texture='0']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='Country Road Asphalt']/decal[@texture='1']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='Country Road Asphalt']/decal[@texture='10']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='Country Road Asphalt']/decal[@texture='11']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='Country Road Asphalt']/decal[@texture='12']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='Country Road Asphalt']/decal[@texture='13']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='Country Road Asphalt']/decal[@texture='14']/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/decorations/decoration[contains(@blockname, 'scrapMetalPile')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/subbiome[contains(@prob, '')]/decorations/decoration[contains(@blockname, 'scrapMetalPile')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/subbiome[contains(@prob, '')]/decorations/decoration[contains(@blockname, 'cinderBlocks01')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/decorations/decoration[contains(@blockname, 'cinderBlocks01')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/subbiome[contains(@prob, '')]/decorations/decoration[contains(@blockname, 'cinderBlocks02')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/decorations/decoration[contains(@blockname, 'cinderBlocks02')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/subbiome[contains(@prob, '')]/decorations/decoration[contains(@blockname, 'cinderBlocks03')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/decorations/decoration[contains(@blockname, 'cinderBlocks03')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/subbiome[contains(@prob, '')]/decorations/decoration[contains(@blockname, 'mineCandyTin')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/decorations/decoration[contains(@blockname, 'mineCandyTin')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/subbiome[contains(@prob, '')]/decorations/decoration[contains(@blockname, 'mineHubcap')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/decorations/decoration[contains(@blockname, 'mineHubcap')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/subbiome[contains(@prob, '')]/decorations/decoration[contains(@blockname, 'emberPileDeco1')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/decorations/decoration[contains(@blockname, 'emberPileDeco1')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/subbiome[contains(@prob, '')]/decorations/decoration[contains(@blockname, 'emberPileDeco2')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/decorations/decoration[contains(@blockname, 'emberPileDeco2')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/subbiome[contains(@prob, '')]/decorations/decoration[contains(@blockname, 'emberPileDeco3')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/decorations/decoration[contains(@blockname, 'emberPileDeco3')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/subbiome[contains(@prob, '')]/decorations/decoration[contains(@blockname, 'emberPileDeco4')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/decorations/decoration[contains(@blockname, 'emberPileDeco4')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/subbiome[contains(@prob, '')]/decorations/decoration[contains(@blockname, 'rubblePileWoodBurntLarge')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/decorations/decoration[contains(@blockname, 'rubblePileWoodBurntLarge')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/subbiome[contains(@prob, '')]/decorations/decoration[contains(@blockname, 'rubblePileWoodBurntSmall')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/decorations/decoration[contains(@blockname, 'rubblePileWoodBurntSmall')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/subbiome[contains(@prob, '')]/decorations/decoration[contains(@blockname, 'rubblePileBricks')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/decorations/decoration[contains(@blockname, 'rubblePileBricks')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/subbiome[contains(@prob, '')]/decorations/decoration[contains(@blockname, 'rubblePileBricksLong')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/decorations/decoration[contains(@blockname, 'rubblePileBricksLong')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/subbiome[contains(@prob, '')]/decorations/decoration[contains(@blockname, 'rubblePileBricksSmall')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/decorations/decoration[contains(@blockname, 'rubblePileBricksSmall')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/subbiome[contains(@prob, '')]/decorations/decoration[contains(@blockname, 'rubblePileCement')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/decorations/decoration[contains(@blockname, 'rubblePileCement')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/subbiome[contains(@prob, '')]/decorations/decoration[contains(@blockname, 'brickDestroyed01')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/decorations/decoration[contains(@blockname, 'brickDestroyed01')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/subbiome[contains(@prob, '')]/decorations/decoration[contains(@blockname, 'brickDestroyed02')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/decorations/decoration[contains(@blockname, 'brickDestroyed02')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/subbiome[contains(@prob, '')]/decorations/decoration[contains(@blockname, 'brickDestroyed03')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/decorations/decoration[contains(@blockname, 'brickDestroyed03')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/decorations/decoration[contains(@blockname, 'brickDestroyed01')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/decorations/decoration[contains(@blockname, 'brickDestroyed02')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/decorations/decoration[contains(@blockname, 'brickDestroyed03')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/decorations/decoration[contains(@blockname, 'cinderBlocks01')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/decorations/decoration[contains(@blockname, 'cinderBlocks02')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/decorations/decoration[contains(@blockname, 'cinderBlocks03')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/decorations/decoration[contains(@blockname, 'emberPileDeco1')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/decorations/decoration[contains(@blockname, 'emberPileDeco2')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/decorations/decoration[contains(@blockname, 'emberPileDeco3')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/decorations/decoration[contains(@blockname, 'emberPileDeco4')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/decorations/decoration[contains(@blockname, 'mineCandyTin')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/decorations/decoration[contains(@blockname, 'mineHubcap')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/decorations/decoration[contains(@blockname, 'rubblePileBricks')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/decorations/decoration[contains(@blockname, 'rubblePileBricksLong')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/decorations/decoration[contains(@blockname, 'rubblePileBricksSmall')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/decorations/decoration[contains(@blockname, 'rubblePileCement')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/decorations/decoration[contains(@blockname, 'rubblePileWoodBurntLarge')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/decorations/decoration[contains(@blockname, 'rubblePileWoodBurntSmall')]/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='Road Gravel']/blockontop[@blockname='cntStreetRandomLootHelper']/@prob">0</set>
+	<set xpath="/worldgeneration/pois/poi[@name='Road Gravel']/blockontop[@blockname='goreBlockAnimal']/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/subbiome[contains(@prob, '')]/decorations/decoration[contains(@blockname, 'brickDestroyed01')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/subbiome[contains(@prob, '')]/decorations/decoration[contains(@blockname, 'brickDestroyed02')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/subbiome[contains(@prob, '')]/decorations/decoration[contains(@blockname, 'brickDestroyed03')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/subbiome[contains(@prob, '')]/decorations/decoration[contains(@blockname, 'cinderBlocks01')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/subbiome[contains(@prob, '')]/decorations/decoration[contains(@blockname, 'cinderBlocks02')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/subbiome[contains(@prob, '')]/decorations/decoration[contains(@blockname, 'cinderBlocks03')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/subbiome[contains(@prob, '')]/decorations/decoration[contains(@blockname, 'emberPileDeco1')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/subbiome[contains(@prob, '')]/decorations/decoration[contains(@blockname, 'emberPileDeco2')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/subbiome[contains(@prob, '')]/decorations/decoration[contains(@blockname, 'emberPileDeco3')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/subbiome[contains(@prob, '')]/decorations/decoration[contains(@blockname, 'emberPileDeco4')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/subbiome[contains(@prob, '')]/decorations/decoration[contains(@blockname, 'mineCandyTin')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/subbiome[contains(@prob, '')]/decorations/decoration[contains(@blockname, 'mineHubcap')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/subbiome[contains(@prob, '')]/decorations/decoration[contains(@blockname, 'rubblePileBricks')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/subbiome[contains(@prob, '')]/decorations/decoration[contains(@blockname, 'rubblePileBricksLong')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/subbiome[contains(@prob, '')]/decorations/decoration[contains(@blockname, 'rubblePileBricksSmall')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/subbiome[contains(@prob, '')]/decorations/decoration[contains(@blockname, 'rubblePileCement')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/subbiome[contains(@prob, '')]/decorations/decoration[contains(@blockname, 'rubblePileWoodBurntLarge')]/@prob">0</set>
+	<set xpath="worldgeneration/biomes/biome[contains(@name, '')]/subbiome[contains(@prob, '')]/decorations/decoration[contains(@blockname, 'rubblePileWoodBurntSmall')]/@prob">0</set>
+</TheMeanOne>

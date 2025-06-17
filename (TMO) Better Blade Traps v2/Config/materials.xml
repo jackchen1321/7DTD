@@ -1,0 +1,11 @@
+<configs>
+	<!-- Adjusting Material Properties for Blade Trap -->
+	<set xpath="materials/material[@id='MmetalBladeTrap']/property[@name='MaxDamage']/@value">4000</set>
+	<!-- Increased from 2000 -->
+	<set xpath="materials/material[@id='MmetalBladeTrap']/property[@name='explosionresistance']/@value">.8</set>
+	<!-- Increased from 0.4 -->
+	<set xpath="materials/material[@id='MmetalBladeTrap']/property[@name='stability_glue']/@value">150</set>
+	<!-- Increased from 40 -->
+	<set xpath="materials/material[@id='MmetalBladeTrap']/property[@name='Experience']/@value">3</set>
+	<!-- Increased from 2 -->
+</configs>

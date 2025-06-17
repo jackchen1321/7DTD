@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <Name value="TheMeanOnesPickupCratesNWorkstations"/>
+    <DisplayName value="TheMeanOnes Pickup Crates N Workstations "/>
+    <Description value="Allows all crates and workstations to be picked up without duplication, or return resources aside from the block itself. Based on TheMeanOnes Original PickYaCrate Up Modlet that was removed during 1.1 update"/>
+    <Author value="TheMeanOneMods"/>
+    <Version value="22.0"/>
+    <Website value="https://discord.gg/WRy7mBH7hZ"/>
+</xml>

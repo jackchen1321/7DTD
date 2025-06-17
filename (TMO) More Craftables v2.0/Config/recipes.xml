@@ -1,0 +1,2578 @@
+<configs>
+	<append xpath="/recipes">
+	
+<!-- =================================================== -->
+<!-- TheMeanOnes V2 Additions  -->
+<!-- =================================================== -->
+<recipe name="decoHeadphonesBroken" count="1" craft_time="1" craft_area="workbench">
+    <ingredient name="resourceElectricParts" count="1"/>
+    <ingredient name="resourceScrapPolymers" count="1"/>
+</recipe>
+
+<recipe name="tableCommunion" count="1" craft_time="1" craft_area="workbench">
+    <ingredient name="resourceWood" count="75"/>
+</recipe>
+
+<recipe name="churchBell" count="1" craft_time="18" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="155"/>
+</recipe>
+
+<recipe name="churchBellHanging" count="1" craft_time="18" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="155"/>
+</recipe>
+
+<recipe name="churchBell1x2x1" count="1" craft_time="18" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="155"/>
+</recipe>
+
+<recipe name="churchBellHanging1x2x1" count="1" craft_time="18" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="155"/>
+</recipe>
+
+<recipe name="awningFullWhite" count="1" craft_time="5" craft_area="workbench">
+    <ingredient name="resourceCloth" count="4"/>
+    <ingredient name="resourceWood" count="2"/>
+</recipe>
+<recipe name="awningFullBrown" count="1" craft_time="5" craft_area="workbench">
+    <ingredient name="resourceCloth" count="4"/>
+    <ingredient name="resourceWood" count="2"/>
+</recipe>
+<recipe name="awningFullRed" count="1" craft_time="5" craft_area="workbench">
+    <ingredient name="resourceCloth" count="4"/>
+    <ingredient name="resourceWood" count="2"/>
+</recipe>
+<recipe name="awningFullOrange" count="1" craft_time="5" craft_area="workbench">
+    <ingredient name="resourceCloth" count="4"/>
+    <ingredient name="resourceWood" count="2"/>
+</recipe>
+<recipe name="awningFullYellow" count="1" craft_time="5" craft_area="workbench">
+    <ingredient name="resourceCloth" count="4"/>
+    <ingredient name="resourceWood" count="2"/>
+</recipe>
+<recipe name="awningFullGreen" count="1" craft_time="5" craft_area="workbench">
+    <ingredient name="resourceCloth" count="4"/>
+    <ingredient name="resourceWood" count="2"/>
+</recipe>
+<recipe name="awningFullBlue" count="1" craft_time="5" craft_area="workbench">
+    <ingredient name="resourceCloth" count="4"/>
+    <ingredient name="resourceWood" count="2"/>
+</recipe>
+<recipe name="awningFullPurple" count="1" craft_time="5" craft_area="workbench">
+    <ingredient name="resourceCloth" count="4"/>
+    <ingredient name="resourceWood" count="2"/>
+</recipe>
+<recipe name="awningFullGrey" count="1" craft_time="5" craft_area="workbench">
+    <ingredient name="resourceCloth" count="4"/>
+    <ingredient name="resourceWood" count="2"/>
+</recipe>
+<recipe name="awningFullBlack" count="1" craft_time="5" craft_area="workbench">
+    <ingredient name="resourceCloth" count="4"/>
+    <ingredient name="resourceWood" count="2"/>
+</recipe>
+<recipe name="awningFullPink" count="1" craft_time="5" craft_area="workbench">
+    <ingredient name="resourceCloth" count="4"/>
+    <ingredient name="resourceWood" count="2"/>
+</recipe>
+
+<!-- Straight Awning Recipes -->
+<recipe name="awningStraightWhite" count="1" craft_time="4" craft_area="workbench">
+    <ingredient name="resourceCloth" count="3"/>
+    <ingredient name="resourceWood" count="2"/>
+</recipe>
+<recipe name="awningStraightBrown" count="1" craft_time="4" craft_area="workbench">
+    <ingredient name="resourceCloth" count="3"/>
+    <ingredient name="resourceWood" count="2"/>
+</recipe>
+<recipe name="awningStraightRed" count="1" craft_time="4" craft_area="workbench">
+    <ingredient name="resourceCloth" count="3"/>
+    <ingredient name="resourceWood" count="2"/>
+</recipe>
+<recipe name="awningStraightOrange" count="1" craft_time="4" craft_area="workbench">
+    <ingredient name="resourceCloth" count="3"/>
+    <ingredient name="resourceWood" count="2"/>
+</recipe>
+<recipe name="awningStraightYellow" count="1" craft_time="4" craft_area="workbench">
+    <ingredient name="resourceCloth" count="3"/>
+    <ingredient name="resourceWood" count="2"/>
+</recipe>
+<recipe name="awningStraightGreen" count="1" craft_time="4" craft_area="workbench">
+    <ingredient name="resourceCloth" count="3"/>
+    <ingredient name="resourceWood" count="2"/>
+</recipe>
+<recipe name="awningStraightBlue" count="1" craft_time="4" craft_area="workbench">
+    <ingredient name="resourceCloth" count="3"/>
+    <ingredient name="resourceWood" count="2"/>
+</recipe>
+<recipe name="awningStraightPurple" count="1" craft_time="4" craft_area="workbench">
+    <ingredient name="resourceCloth" count="3"/>
+    <ingredient name="resourceWood" count="2"/>
+</recipe>
+<recipe name="awningStraightGrey" count="1" craft_time="4" craft_area="workbench">
+    <ingredient name="resourceCloth" count="3"/>
+    <ingredient name="resourceWood" count="2"/>
+</recipe>
+<recipe name="awningStraightBlack" count="1" craft_time="4" craft_area="workbench">
+    <ingredient name="resourceCloth" count="3"/>
+    <ingredient name="resourceWood" count="2"/>
+</recipe>
+<recipe name="awningStraightPink" count="1" craft_time="4" craft_area="workbench">
+    <ingredient name="resourceCloth" count="3"/>
+    <ingredient name="resourceWood" count="2"/>
+</recipe>
+
+<!-- Corner Left Awning Recipes -->
+<recipe name="awningCornerLeftWhite" count="1" craft_time="6" craft_area="workbench">
+    <ingredient name="resourceCloth" count="5"/>
+    <ingredient name="resourceWood" count="3"/>
+</recipe>
+<recipe name="awningCornerLeftBrown" count="1" craft_time="6" craft_area="workbench">
+    <ingredient name="resourceCloth" count="5"/>
+    <ingredient name="resourceWood" count="3"/>
+</recipe>
+<recipe name="awningCornerLeftRed" count="1" craft_time="6" craft_area="workbench">
+    <ingredient name="resourceCloth" count="5"/>
+    <ingredient name="resourceWood" count="3"/>
+</recipe>
+<recipe name="awningCornerLeftOrange" count="1" craft_time="6" craft_area="workbench">
+    <ingredient name="resourceCloth" count="5"/>
+    <ingredient name="resourceWood" count="3"/>
+</recipe>
+<recipe name="awningCornerLeftYellow" count="1" craft_time="6" craft_area="workbench">
+    <ingredient name="resourceCloth" count="5"/>
+    <ingredient name="resourceWood" count="3"/>
+</recipe>
+<recipe name="awningCornerLeftGreen" count="1" craft_time="6" craft_area="workbench">
+    <ingredient name="resourceCloth" count="5"/>
+    <ingredient name="resourceWood" count="3"/>
+</recipe>
+<recipe name="awningCornerLeftBlue" count="1" craft_time="6" craft_area="workbench">
+    <ingredient name="resourceCloth" count="5"/>
+    <ingredient name="resourceWood" count="3"/>
+</recipe>
+<recipe name="awningCornerLeftPurple" count="1" craft_time="6" craft_area="workbench">
+    <ingredient name="resourceCloth" count="5"/>
+    <ingredient name="resourceWood" count="3"/>
+</recipe>
+<recipe name="awningCornerLeftGrey" count="1" craft_time="6" craft_area="workbench">
+    <ingredient name="resourceCloth" count="5"/>
+    <ingredient name="resourceWood" count="3"/>
+</recipe>
+<recipe name="awningCornerLeftBlack" count="1" craft_time="6" craft_area="workbench">
+    <ingredient name="resourceCloth" count="5"/>
+    <ingredient name="resourceWood" count="3"/>
+</recipe>
+<recipe name="awningCornerLeftPink" count="1" craft_time="6" craft_area="workbench">
+    <ingredient name="resourceCloth" count="5"/>
+    <ingredient name="resourceWood" count="3"/>
+</recipe>
+
+<!-- Corner Right Awning Recipes -->
+<recipe name="awningCornerRightWhite" count="1" craft_time="6" craft_area="workbench">
+    <ingredient name="resourceCloth" count="5"/>
+    <ingredient name="resourceWood" count="3"/>
+</recipe>
+<recipe name="awningCornerRightBrown" count="1" craft_time="6" craft_area="workbench">
+    <ingredient name="resourceCloth" count="5"/>
+    <ingredient name="resourceWood" count="3"/>
+</recipe>
+<recipe name="awningCornerRightRed" count="1" craft_time="6" craft_area="workbench">
+    <ingredient name="resourceCloth" count="5"/>
+    <ingredient name="resourceWood" count="3"/>
+</recipe>
+<recipe name="awningCornerRightOrange" count="1" craft_time="6" craft_area="workbench">
+    <ingredient name="resourceCloth" count="5"/>
+    <ingredient name="resourceWood" count="3"/>
+</recipe>
+<recipe name="awningCornerRightYellow" count="1" craft_time="6" craft_area="workbench">
+    <ingredient name="resourceCloth" count="5"/>
+    <ingredient name="resourceWood" count="3"/>
+</recipe>
+<recipe name="awningCornerRightGreen" count="1" craft_time="6" craft_area="workbench">
+    <ingredient name="resourceCloth" count="5"/>
+    <ingredient name="resourceWood" count="3"/>
+</recipe>
+<recipe name="awningCornerRightBlue" count="1" craft_time="6" craft_area="workbench">
+    <ingredient name="resourceCloth" count="5"/>
+    <ingredient name="resourceWood" count="3"/>
+</recipe>
+<recipe name="awningCornerRightPurple" count="1" craft_time="6" craft_area="workbench">
+    <ingredient name="resourceCloth" count="5"/>
+    <ingredient name="resourceWood" count="3"/>
+</recipe>
+<recipe name="awningCornerRightGrey" count="1" craft_time="6" craft_area="workbench">
+    <ingredient name="resourceCloth" count="5"/>
+    <ingredient name="resourceWood" count="3"/>
+</recipe>
+<recipe name="awningCornerRightBlack" count="1" craft_time="6" craft_area="workbench">
+    <ingredient name="resourceCloth" count="5"/>
+    <ingredient name="resourceWood" count="3"/>
+</recipe>
+<recipe name="awningCornerRightPink" count="1" craft_time="6" craft_area="workbench">
+    <ingredient name="resourceCloth" count="5"/>
+    <ingredient name="resourceWood" count="3"/>
+</recipe>
+<recipe name="signMisc4Sale" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+
+<recipe name="signMisc4SaleSold" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+
+<recipe name="signMiscAdministration" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signMiscBewareOfDog" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signMiscStair" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signMiscQuarantineArea" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signMiscRestrictedArea" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signMiscSmile" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signMiscQuarantineTape" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signMiscWarningQuarantine" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signMisc4Lease" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+
+<recipe name="paintingAbstract01_2x2" count="1" craft_time="6" craft_area="workbench">
+    <ingredient name="resourceCloth" count="5"/>
+    <ingredient name="resourceWood" count="3"/>
+</recipe>
+
+<recipe name="paintingAbstract02_2x2" count="1" craft_time="6" craft_area="workbench">
+    <ingredient name="resourceCloth" count="6"/>
+    <ingredient name="resourceWood" count="3"/>
+</recipe>
+
+<recipe name="paintingAbstract03_2x2" count="1" craft_time="6" craft_area="workbench">
+    <ingredient name="resourceCloth" count="7"/>
+    <ingredient name="resourceWood" count="3"/>
+</recipe>
+
+<recipe name="paintingAbstract04_2x2" count="1" craft_time="6" craft_area="workbench">
+    <ingredient name="resourceCloth" count="8"/>
+    <ingredient name="resourceWood" count="3"/>
+</recipe>
+
+<recipe name="paintingAbstract01_3x2" count="1" craft_time="6" craft_area="workbench">
+    <ingredient name="resourceCloth" count="12"/>
+    <ingredient name="resourceWood" count="6"/>
+</recipe>
+
+<recipe name="paintingAbstract02_3x2" count="1" craft_time="6" craft_area="workbench">
+    <ingredient name="resourceCloth" count="13"/>
+    <ingredient name="resourceWood" count="6"/>
+</recipe>
+
+<recipe name="paintingAbstract03_3x2" count="1" craft_time="6" craft_area="workbench">
+    <ingredient name="resourceCloth" count="14"/>
+    <ingredient name="resourceWood" count="6"/>
+</recipe>
+<recipe name="paintingAbstract04_3x2" count="1" craft_time="6" craft_area="workbench">
+    <ingredient name="resourceCloth" count="15"/>
+    <ingredient name="resourceWood" count="6"/>
+</recipe>
+
+
+<!-- =================================================== -->
+<!-- TheMeanOnes Craftable Signs MegaPack -->
+<!-- =================================================== -->
+
+<!-- OPEN SIGNS -->
+<recipe name="signShopOpen" count="1" craft_time="20" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="5"/>
+    <ingredient name="resourceElectricParts" count="2"/>
+    <ingredient name="resourceScrapPolymers" count="2"/>
+</recipe>
+<recipe name="signOpenWallMountChain" count="1" craft_time="20" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="5"/>
+    <ingredient name="resourceElectricParts" count="2"/>
+    <ingredient name="resourceScrapPolymers" count="2"/>
+</recipe>
+<recipe name="signOpenWallMountFrame" count="1" craft_time="20" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="5"/>
+    <ingredient name="resourceElectricParts" count="2"/>
+    <ingredient name="resourceScrapPolymers" count="2"/>
+</recipe>
+<recipe name="signOpenSideMount" count="1" craft_time="20" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="5"/>
+    <ingredient name="resourceElectricParts" count="2"/>
+    <ingredient name="resourceScrapPolymers" count="2"/>
+</recipe>
+<recipe name="signOpenCeilingMount" count="1" craft_time="20" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="5"/>
+    <ingredient name="resourceElectricParts" count="2"/>
+    <ingredient name="resourceScrapPolymers" count="2"/>
+</recipe>
+
+<!-- COLD BEER SIGN -->
+<recipe name="signNeonColdBeer" count="1" craft_time="20" craft_area="workbench">
+    <ingredient name="resourceBrokenGlass" count="5"/>
+    <ingredient name="resourceElectricParts" count="1"/>
+    <ingredient name="resourceScrapPolymers" count="2"/>
+</recipe>
+
+<!-- ROAD SIGNS -->
+<recipe name="signRoadArrowheadApache" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="5"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signRoadAZ260eastSpeed65" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signRoadAZ260west" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signRoadAZ260westSpeed65" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signRoadAZ73north" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signRoadAZ73northSpeed65" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signRoadAZ73south" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signRoadAZ73southSpeed65" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signRoadApacheAZ260" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signRoadBellLake" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signRoadCoronado" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signRoadCoronadoCourtland" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signRoadCourtlandApache" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signRoadCourtlandAZ260Left" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signRoadCourtlandAZ260Right" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signRoadCourtlandBell" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signRoadCourtlandHuenink" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signRoadCourtlandMaple" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signRoadCourtlandTran" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signRoadDavis" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signRoadEssig" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signRoadLangTran" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signRoadTran" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signRoadMaple" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signRoadDestinationsEast" count="1" craft_time="20" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="12"/>
+    <ingredient name="resourcePaint" count="3"/>
+</recipe>
+<recipe name="signRoadDestinationsWest" count="1" craft_time="20" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="12"/>
+    <ingredient name="resourcePaint" count="3"/>
+</recipe>
+<recipe name="signCamping" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signSpillwayLake" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signAnselAdamsRiver" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signNationalPark" count="1" craft_time="25" craft_area="workbench">
+    <ingredient name="resourceRockSmall" count="20"/>
+    <ingredient name="resourceCement" count="10"/>
+</recipe>
+<recipe name="signCampFish" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signInfoCenter" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signNoHazardousWaste" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signRoadWork" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signRoadRoughSurface" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signSchoolZone" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signRoadSlow" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signRoadSpeed25" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signRoadSpeed25noTrucks" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signRoadSpeed35" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signRoadSpeed45" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signRoadSpeed55" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signRoadSpeed65" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signRoadStop" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signRoadStop4way" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signNoParkingHanging" count="1" craft_time="10">
+    <ingredient name="resourceScrapIron" count="3"/>
+    <ingredient name="resourcePaint" count="1"/>
+</recipe>
+<recipe name="signCrossWalkYellowHanging" count="1" craft_time="10">
+    <ingredient name="resourceScrapIron" count="3"/>
+    <ingredient name="resourcePaint" count="1"/>
+</recipe>
+<recipe name="signSlowHanging" count="1" craft_time="10">
+    <ingredient name="resourceScrapIron" count="3"/>
+    <ingredient name="resourcePaint" count="1"/>
+</recipe>
+<recipe name="signDoNotEnterHanging" count="1" craft_time="10">
+    <ingredient name="resourceScrapIron" count="3"/>
+    <ingredient name="resourcePaint" count="1"/>
+</recipe>
+<recipe name="signNeighborhoodWatch" count="1" craft_time="10">
+    <ingredient name="resourceScrapIron" count="3"/>
+    <ingredient name="resourcePaint" count="1"/>
+</recipe>
+<recipe name="signPrivateProperty" count="1" craft_time="10">
+    <ingredient name="resourceScrapIron" count="3"/>
+    <ingredient name="resourcePaint" count="1"/>
+</recipe>
+<recipe name="signNotice" count="1" craft_time="10">
+    <ingredient name="resourceScrapIron" count="3"/>
+    <ingredient name="resourcePaint" count="1"/>
+</recipe>
+<recipe name="signNoticeTrader" count="1" craft_time="10">
+    <ingredient name="resourceScrapIron" count="3"/>
+    <ingredient name="resourcePaint" count="1"/>
+</recipe>
+<recipe name="signGunsThinSafety" count="1" craft_time="10">
+    <ingredient name="resourceScrapIron" count="3"/>
+    <ingredient name="resourcePaint" count="1"/>
+</recipe>
+<recipe name="signGunsThinSafety2" count="1" craft_time="10">
+    <ingredient name="resourceScrapIron" count="3"/>
+    <ingredient name="resourcePaint" count="1"/>
+</recipe>
+<recipe name="signGunsWideWarning" count="1" craft_time="10">
+    <ingredient name="resourceScrapIron" count="5"/>
+    <ingredient name="resourcePaint" count="1"/>
+</recipe>
+<recipe name="signGunsWideWarning2" count="1" craft_time="10">
+    <ingredient name="resourceScrapIron" count="5"/>
+    <ingredient name="resourcePaint" count="1"/>
+</recipe>
+<recipe name="signGunsThinAttention" count="1" craft_time="10">
+    <ingredient name="resourceScrapIron" count="3"/>
+    <ingredient name="resourcePaint" count="1"/>
+</recipe>
+<recipe name="signGunsThinNo" count="1" craft_time="10">
+    <ingredient name="resourceScrapIron" count="3"/>
+    <ingredient name="resourcePaint" count="1"/>
+</recipe>
+<recipe name="signGunsThinPermitted" count="1" craft_time="10">
+    <ingredient name="resourceScrapIron" count="3"/>
+    <ingredient name="resourcePaint" count="1"/>
+</recipe>
+<recipe name="signGunsThinPrivate" count="1" craft_time="10">
+    <ingredient name="resourceScrapIron" count="3"/>
+    <ingredient name="resourcePaint" count="1"/>
+</recipe>
+<recipe name="signGunsThinReturn" count="1" craft_time="10">
+    <ingredient name="resourceScrapIron" count="3"/>
+    <ingredient name="resourcePaint" count="1"/>
+</recipe>
+<recipe name="signGunsThinSmile" count="1" craft_time="10">
+    <ingredient name="resourceScrapIron" count="3"/>
+    <ingredient name="resourcePaint" count="1"/>
+</recipe>
+<recipe name="signGunsThinSmoke" count="1" craft_time="10">
+    <ingredient name="resourceScrapIron" count="3"/>
+    <ingredient name="resourcePaint" count="1"/>
+</recipe>
+<recipe name="signPassNGasHanging" count="1" craft_time="10">
+    <ingredient name="resourceScrapIron" count="3"/>
+    <ingredient name="resourcePaint" count="1"/>
+</recipe>
+<recipe name="signPassNGasHanging2" count="1" craft_time="15">
+    <ingredient name="resourceScrapIron" count="5"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signRoadPrivate" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signYardSign01" count="1" craft_time="10">
+    <ingredient name="resourceScrapIron" count="3"/>
+    <ingredient name="resourcePaint" count="1"/>
+</recipe>
+<recipe name="signCrossWalkYellow" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signDoNotEnter" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signHandicapParking" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signNoParking" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="parkingMeter" count="1" craft_time="20" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="5"/>
+    <ingredient name="resourceElectricParts" count="2"/>
+    <ingredient name="resourceMechanicalParts" count="2"/>
+</recipe>
+<recipe name="signTowAway" count="1" craft_time="10">
+    <ingredient name="resourceScrapIron" count="3"/>
+    <ingredient name="resourcePaint" count="1"/>
+</recipe>
+
+<!-- SHOP SIGNS -->
+<recipe name="signTraderJenInterior" count="1" craft_time="20" craft_area="workbench">
+    <ingredient name="resourceWood" count="10"/>
+    <ingredient name="resourceElectricParts" count="2"/>
+</recipe>
+<recipe name="signTraderJenExterior" count="1" craft_time="25" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="15"/>
+    <ingredient name="resourceElectricParts" count="4"/>
+</recipe>
+<recipe name="signTraderJoelExteriorSmall" count="1" craft_time="20" craft_area="workbench">
+    <ingredient name="resourceWood" count="8"/>
+    <ingredient name="resourceElectricParts" count="2"/>
+</recipe>
+<recipe name="signTraderJoelExteriorLarge" count="1" craft_time="25" craft_area="workbench">
+    <ingredient name="resourceWood" count="15"/>
+    <ingredient name="resourceElectricParts" count="4"/>
+</recipe>
+<recipe name="signTraderHughExterior" count="1" craft_time="25" craft_area="workbench">
+    <ingredient name="resourceWood" count="15"/>
+    <ingredient name="resourcePaint" count="3"/>
+</recipe>
+<recipe name="signTraderHughInterior" count="1" craft_time="20" craft_area="workbench">
+    <ingredient name="resourceWood" count="10"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signTraderBobExterior" count="1" craft_time="20" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="5"/>
+    <ingredient name="resourceElectricParts" count="2"/>
+</recipe>
+<recipe name="signTraderBobExteriorLarge" count="1" craft_time="20" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="5"/>
+    <ingredient name="resourceElectricParts" count="2"/>
+</recipe>
+<recipe name="signTraderBobExteriorBig" count="1" craft_time="25" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="15"/>
+    <ingredient name="resourcePaint" count="3"/>
+</recipe>
+<recipe name="signTraderBobInterior" count="1" craft_time="20" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signTraderBobInteriorNoLights" count="1" craft_time="20" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signTraderRektExteriorSmall" count="1" craft_time="20" craft_area="workbench">
+    <ingredient name="resourceWood" count="8"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signTraderRektExteriorLarge" count="1" craft_time="25" craft_area="workbench">
+    <ingredient name="resourceWood" count="12"/>
+    <ingredient name="resourcePaint" count="3"/>
+</recipe>
+<recipe name="signShopGas" count="1" craft_time="25" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="10"/>
+    <ingredient name="resourceElectricParts" count="4"/>
+    <ingredient name="resourceScrapPolymers" count="4"/>
+</recipe>
+<recipe name="signShopGasLit" count="1" craft_time="25" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="10"/>
+    <ingredient name="resourceElectricParts" count="5"/>
+    <ingredient name="resourceScrapPolymers" count="4"/>
+</recipe>
+<recipe name="signShopGasWall" count="1" craft_time="25" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="10"/>
+    <ingredient name="resourceElectricParts" count="4"/>
+    <ingredient name="resourceScrapPolymers" count="4"/>
+</recipe>
+<recipe name="signShopGasWallLit" count="1" craft_time="25" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="10"/>
+    <ingredient name="resourceElectricParts" count="5"/>
+    <ingredient name="resourceScrapPolymers" count="4"/>
+</recipe>
+<recipe name="signShopGasLarge" count="1" craft_time="30" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="15"/>
+    <ingredient name="resourceElectricParts" count="6"/>
+    <ingredient name="resourceScrapPolymers" count="6"/>
+</recipe>
+<recipe name="signShopGasLargeLit" count="1" craft_time="30" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="15"/>
+    <ingredient name="resourceElectricParts" count="7"/>
+    <ingredient name="resourceScrapPolymers" count="6"/>
+</recipe>
+<recipe name="signShopGasLargeWall" count="1" craft_time="30" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="15"/>
+    <ingredient name="resourceElectricParts" count="6"/>
+    <ingredient name="resourceScrapPolymers" count="6"/>
+</recipe>
+<recipe name="signShopGasLargeWallLit" count="1" craft_time="30" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="15"/>
+    <ingredient name="resourceElectricParts" count="7"/>
+    <ingredient name="resourceScrapPolymers" count="6"/>
+</recipe>
+<recipe name="signShopGunStore" count="1" craft_time="25" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="10"/>
+    <ingredient name="resourceElectricParts" count="4"/>
+    <ingredient name="resourceScrapPolymers" count="4"/>
+</recipe>
+<recipe name="signShopGunStoreLit" count="1" craft_time="25" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="10"/>
+    <ingredient name="resourceElectricParts" count="5"/>
+    <ingredient name="resourceScrapPolymers" count="4"/>
+</recipe>
+<recipe name="signShopGunStoreWall" count="1" craft_time="25" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="10"/>
+    <ingredient name="resourceElectricParts" count="4"/>
+    <ingredient name="resourceScrapPolymers" count="4"/>
+</recipe>
+<recipe name="signShopGunStoreWallLit" count="1" craft_time="25" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="10"/>
+    <ingredient name="resourceElectricParts" count="5"/>
+    <ingredient name="resourceScrapPolymers" count="4"/>
+</recipe>
+<recipe name="signShopGunStoreLarge" count="1" craft_time="30" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="15"/>
+    <ingredient name="resourceElectricParts" count="6"/>
+    <ingredient name="resourceScrapPolymers" count="6"/>
+</recipe>
+<recipe name="signShopGunStoreLargeLit" count="1" craft_time="30" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="15"/>
+    <ingredient name="resourceElectricParts" count="7"/>
+    <ingredient name="resourceScrapPolymers" count="6"/>
+</recipe>
+<recipe name="signShopGunStoreLargeWall" count="1" craft_time="30" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="15"/>
+    <ingredient name="resourceElectricParts" count="6"/>
+    <ingredient name="resourceScrapPolymers" count="6"/>
+</recipe>
+<recipe name="signShopGunStoreLargeWallLit" count="1" craft_time="30" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="15"/>
+    <ingredient name="resourceElectricParts" count="7"/>
+    <ingredient name="resourceScrapPolymers" count="6"/>
+</recipe>
+<recipe name="signShopBookStore" count="1" craft_time="25" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="10"/>
+    <ingredient name="resourceElectricParts" count="4"/>
+    <ingredient name="resourceScrapPolymers" count="4"/>
+</recipe>
+<recipe name="signShopBookStoreLit" count="1" craft_time="25" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="10"/>
+    <ingredient name="resourceElectricParts" count="5"/>
+    <ingredient name="resourceScrapPolymers" count="4"/>
+</recipe>
+<recipe name="signShopBookStoreWall" count="1" craft_time="25" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="10"/>
+    <ingredient name="resourceElectricParts" count="4"/>
+    <ingredient name="resourceScrapPolymers" count="4"/>
+</recipe>
+<recipe name="signShopBookStoreWallLit" count="1" craft_time="25" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="10"/>
+    <ingredient name="resourceElectricParts" count="5"/>
+    <ingredient name="resourceScrapPolymers" count="4"/>
+</recipe>
+<recipe name="signShopBookStoreLarge" count="1" craft_time="30" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="15"/>
+    <ingredient name="resourceElectricParts" count="6"/>
+    <ingredient name="resourceScrapPolymers" count="6"/>
+</recipe>
+<recipe name="signShopBookStoreLargeLit" count="1" craft_time="30" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="15"/>
+    <ingredient name="resourceElectricParts" count="7"/>
+    <ingredient name="resourceScrapPolymers" count="6"/>
+</recipe>
+<recipe name="signShopBookStoreLargeWall" count="1" craft_time="30" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="15"/>
+    <ingredient name="resourceElectricParts" count="6"/>
+    <ingredient name="resourceScrapPolymers" count="6"/>
+</recipe>
+<recipe name="signShopBookStoreLargeWallLit" count="1" craft_time="30" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="15"/>
+    <ingredient name="resourceElectricParts" count="7"/>
+    <ingredient name="resourceScrapPolymers" count="6"/>
+</recipe>
+<recipe name="signShopPharmacy" count="1" craft_time="25" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="10"/>
+    <ingredient name="resourceElectricParts" count="4"/>
+    <ingredient name="resourceScrapPolymers" count="4"/>
+</recipe>
+<recipe name="signShopPharmacyLit" count="1" craft_time="25" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="10"/>
+    <ingredient name="resourceElectricParts" count="5"/>
+    <ingredient name="resourceScrapPolymers" count="4"/>
+</recipe>
+<recipe name="signShopPharmacyWall" count="1" craft_time="25" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="10"/>
+    <ingredient name="resourceElectricParts" count="4"/>
+    <ingredient name="resourceScrapPolymers" count="4"/>
+</recipe>
+<recipe name="signShopPharmacyWallLit" count="1" craft_time="25" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="10"/>
+    <ingredient name="resourceElectricParts" count="5"/>
+    <ingredient name="resourceScrapPolymers" count="4"/>
+</recipe>
+<recipe name="signShopPharmacyLarge" count="1" craft_time="30" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="15"/>
+    <ingredient name="resourceElectricParts" count="6"/>
+    <ingredient name="resourceScrapPolymers" count="6"/>
+</recipe>
+<recipe name="signShopPharmacyLargeLit" count="1" craft_time="30" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="15"/>
+    <ingredient name="resourceElectricParts" count="7"/>
+    <ingredient name="resourceScrapPolymers" count="6"/>
+</recipe>
+<recipe name="signShopPharmacyLargeWall" count="1" craft_time="30" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="15"/>
+    <ingredient name="resourceElectricParts" count="6"/>
+    <ingredient name="resourceScrapPolymers" count="6"/>
+</recipe>
+<recipe name="signShopPharmacyLargeWallLit" count="1" craft_time="30" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="15"/>
+    <ingredient name="resourceElectricParts" count="7"/>
+    <ingredient name="resourceScrapPolymers" count="6"/>
+</recipe>
+<recipe name="signShopToolStore" count="1" craft_time="25" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="10"/>
+    <ingredient name="resourceElectricParts" count="4"/>
+    <ingredient name="resourceScrapPolymers" count="4"/>
+</recipe>
+<recipe name="signShopToolStoreLit" count="1" craft_time="25" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="10"/>
+    <ingredient name="resourceElectricParts" count="5"/>
+    <ingredient name="resourceScrapPolymers" count="4"/>
+</recipe>
+<recipe name="signShopToolStoreWall" count="1" craft_time="25" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="10"/>
+    <ingredient name="resourceElectricParts" count="4"/>
+    <ingredient name="resourceScrapPolymers" count="4"/>
+</recipe>
+<recipe name="signShopToolStoreWallLit" count="1" craft_time="25" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="10"/>
+    <ingredient name="resourceElectricParts" count="5"/>
+    <ingredient name="resourceScrapPolymers" count="4"/>
+</recipe>
+<recipe name="signShopToolStoreLarge" count="1" craft_time="30" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="15"/>
+    <ingredient name="resourceElectricParts" count="6"/>
+    <ingredient name="resourceScrapPolymers" count="6"/>
+</recipe>
+<recipe name="signShopToolStoreLargeLit" count="1" craft_time="30" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="15"/>
+    <ingredient name="resourceElectricParts" count="7"/>
+    <ingredient name="resourceScrapPolymers" count="6"/>
+</recipe>
+<recipe name="signShopToolStoreLargeWall" count="1" craft_time="30" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="15"/>
+    <ingredient name="resourceElectricParts" count="6"/>
+    <ingredient name="resourceScrapPolymers" count="6"/>
+</recipe>
+<recipe name="signShopToolStoreLargeWallLit" count="1" craft_time="30" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="15"/>
+    <ingredient name="resourceElectricParts" count="7"/>
+    <ingredient name="resourceScrapPolymers" count="6"/>
+</recipe>
+<recipe name="signShopGrocery" count="1" craft_time="25" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="10"/>
+    <ingredient name="resourceElectricParts" count="4"/>
+    <ingredient name="resourceScrapPolymers" count="4"/>
+</recipe>
+<recipe name="signShopGroceryLit" count="1" craft_time="25" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="10"/>
+    <ingredient name="resourceElectricParts" count="5"/>
+    <ingredient name="resourceScrapPolymers" count="4"/>
+</recipe>
+<recipe name="signShopGroceryWall" count="1" craft_time="25" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="10"/>
+    <ingredient name="resourceElectricParts" count="4"/>
+    <ingredient name="resourceScrapPolymers" count="4"/>
+</recipe>
+<recipe name="signShopGroceryWallLit" count="1" craft_time="25" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="10"/>
+    <ingredient name="resourceElectricParts" count="5"/>
+    <ingredient name="resourceScrapPolymers" count="4"/>
+</recipe>
+<recipe name="signShopGroceryLarge" count="1" craft_time="30" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="15"/>
+    <ingredient name="resourceElectricParts" count="6"/>
+    <ingredient name="resourceScrapPolymers" count="6"/>
+</recipe>
+<recipe name="signShopGroceryLargeLit" count="1" craft_time="30" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="15"/>
+    <ingredient name="resourceElectricParts" count="7"/>
+    <ingredient name="resourceScrapPolymers" count="6"/>
+</recipe>
+<recipe name="signShopGroceryLargeWall" count="1" craft_time="30" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="15"/>
+    <ingredient name="resourceElectricParts" count="6"/>
+    <ingredient name="resourceScrapPolymers" count="6"/>
+</recipe>
+<recipe name="signShopGroceryLargeWallLit" count="1" craft_time="30" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="15"/>
+    <ingredient name="resourceElectricParts" count="7"/>
+    <ingredient name="resourceScrapPolymers" count="6"/>
+</recipe>
+<recipe name="signShopSavageCountry" count="1" craft_time="25" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="10"/>
+    <ingredient name="resourceElectricParts" count="4"/>
+    <ingredient name="resourceScrapPolymers" count="4"/>
+</recipe>
+<recipe name="signShopSavageCountryLit" count="1" craft_time="25" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="10"/>
+    <ingredient name="resourceElectricParts" count="5"/>
+    <ingredient name="resourceScrapPolymers" count="4"/>
+</recipe>
+<recipe name="signShopSavageCountryWall" count="1" craft_time="25" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="10"/>
+    <ingredient name="resourceElectricParts" count="4"/>
+    <ingredient name="resourceScrapPolymers" count="4"/>
+</recipe>
+<recipe name="signShopSavageCountryWallLit" count="1" craft_time="25" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="10"/>
+    <ingredient name="resourceElectricParts" count="5"/>
+    <ingredient name="resourceScrapPolymers" count="4"/>
+</recipe>
+<recipe name="signShopSavageCountryLarge" count="1" craft_time="30" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="15"/>
+    <ingredient name="resourceElectricParts" count="6"/>
+    <ingredient name="resourceScrapPolymers" count="6"/>
+</recipe>
+<recipe name="signShopSavageCountryLargeLit" count="1" craft_time="30" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="15"/>
+    <ingredient name="resourceElectricParts" count="7"/>
+    <ingredient name="resourceScrapPolymers" count="6"/>
+</recipe>
+<recipe name="signShopSavageCountryLargeWall" count="1" craft_time="30" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="15"/>
+    <ingredient name="resourceElectricParts" count="6"/>
+    <ingredient name="resourceScrapPolymers" count="6"/>
+</recipe>
+<recipe name="signShopSavageCountryLargeWallLit" count="1" craft_time="30" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="15"/>
+    <ingredient name="resourceElectricParts" count="7"/>
+    <ingredient name="resourceScrapPolymers" count="6"/>
+</recipe>
+<recipe name="signShopMoPowerElectronics" count="1" craft_time="25" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="10"/>
+    <ingredient name="resourceElectricParts" count="4"/>
+    <ingredient name="resourceScrapPolymers" count="4"/>
+</recipe>
+<recipe name="signShopMoPowerElectronicsLit" count="1" craft_time="25" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="10"/>
+    <ingredient name="resourceElectricParts" count="5"/>
+    <ingredient name="resourceScrapPolymers" count="4"/>
+</recipe>
+<recipe name="signShopMoPowerElectronicsWall" count="1" craft_time="25" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="10"/>
+    <ingredient name="resourceElectricParts" count="4"/>
+    <ingredient name="resourceScrapPolymers" count="4"/>
+</recipe>
+<recipe name="signShopMoPowerElectronicsWallLit" count="1" craft_time="25" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="10"/>
+    <ingredient name="resourceElectricParts" count="5"/>
+    <ingredient name="resourceScrapPolymers" count="4"/>
+</recipe>
+<recipe name="signShopMoPowerElectronicsLarge" count="1" craft_time="30" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="15"/>
+    <ingredient name="resourceElectricParts" count="6"/>
+    <ingredient name="resourceScrapPolymers" count="6"/>
+</recipe>
+<recipe name="signShopMoPowerElectronicsLargeLit" count="1" craft_time="30" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="15"/>
+    <ingredient name="resourceElectricParts" count="7"/>
+    <ingredient name="resourceScrapPolymers" count="6"/>
+</recipe>
+<recipe name="signShopMoPowerElectronicsLargeWall" count="1" craft_time="30" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="15"/>
+    <ingredient name="resourceElectricParts" count="6"/>
+    <ingredient name="resourceScrapPolymers" count="6"/>
+</recipe>
+<recipe name="signShopMoPowerElectronicsLargeWallLit" count="1" craft_time="30" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="15"/>
+    <ingredient name="resourceElectricParts" count="7"/>
+    <ingredient name="resourceScrapPolymers" count="6"/>
+</recipe>
+<recipe name="signShopPostOfficeSign" count="1" craft_time="25" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="10"/>
+    <ingredient name="resourceElectricParts" count="4"/>
+    <ingredient name="resourceScrapPolymers" count="4"/>
+</recipe>
+<recipe name="signShopPostOfficeSignLit" count="1" craft_time="25" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="10"/>
+    <ingredient name="resourceElectricParts" count="5"/>
+    <ingredient name="resourceScrapPolymers" count="4"/>
+</recipe>
+<recipe name="signShopPostOfficeSignWall" count="1" craft_time="25" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="10"/>
+    <ingredient name="resourceElectricParts" count="4"/>
+    <ingredient name="resourceScrapPolymers" count="4"/>
+</recipe>
+<recipe name="signShopPostOfficeSignWallLit" count="1" craft_time="25" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="10"/>
+    <ingredient name="resourceElectricParts" count="5"/>
+    <ingredient name="resourceScrapPolymers" count="4"/>
+</recipe>
+<recipe name="signShopPostOfficeSignLarge" count="1" craft_time="30" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="15"/>
+    <ingredient name="resourceElectricParts" count="6"/>
+    <ingredient name="resourceScrapPolymers" count="6"/>
+</recipe>
+<recipe name="signShopPostOfficeSignLargeLit" count="1" craft_time="30" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="15"/>
+    <ingredient name="resourceElectricParts" count="7"/>
+    <ingredient name="resourceScrapPolymers" count="6"/>
+</recipe>
+<recipe name="signShopPostOfficeSignLargeWall" count="1" craft_time="30" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="15"/>
+    <ingredient name="resourceElectricParts" count="6"/>
+    <ingredient name="resourceScrapPolymers" count="6"/>
+</recipe>
+<recipe name="signShopPostOfficeSignLargeWallLit" count="1" craft_time="30" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="15"/>
+    <ingredient name="resourceElectricParts" count="7"/>
+    <ingredient name="resourceScrapPolymers" count="6"/>
+</recipe>
+
+<!-- PILLS LOGO SIGNS -->
+<recipe name="signPillsLogo" count="1" craft_time="20" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="5"/>
+    <ingredient name="resourceElectricParts" count="3"/>
+    <ingredient name="resourceScrapPolymers" count="2"/>
+</recipe>
+<recipe name="signPillsLogoSmall" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="3"/>
+    <ingredient name="resourceElectricParts" count="2"/>
+    <ingredient name="resourceScrapPolymers" count="1"/>
+</recipe>
+
+<!-- WANTED/MISSING POSTERS -->
+<recipe name="signPosterWantedMissing01" count="1" craft_time="10">
+    <ingredient name="resourcePaper" count="5"/>
+    <ingredient name="resourceWood" count="2"/>
+</recipe>
+<recipe name="signPosterWantedMissing02" count="1" craft_time="10">
+    <ingredient name="resourcePaper" count="3"/>
+    <ingredient name="resourceWood" count="1"/>
+</recipe>
+<recipe name="signPosterWantedMissing03" count="1" craft_time="10">
+    <ingredient name="resourcePaper" count="3"/>
+    <ingredient name="resourceWood" count="1"/>
+</recipe>
+
+<!-- DINER MENU SIGNS -->
+<recipe name="signDinersMenu" count="1" craft_time="10">
+    <ingredient name="resourcePaper" count="3"/>
+    <ingredient name="resourceWood" count="1"/>
+</recipe>
+<recipe name="signDinersMenu2m" count="1" craft_time="15">
+    <ingredient name="resourcePaper" count="5"/>
+    <ingredient name="resourceWood" count="2"/>
+</recipe>
+<recipe name="signDinersMenu2mCentered" count="1" craft_time="15">
+    <ingredient name="resourcePaper" count="5"/>
+    <ingredient name="resourceWood" count="2"/>
+</recipe>
+
+<!-- AD & SALE SIGNS -->
+<recipe name="signBookSaleAd" count="1" craft_time="15">
+    <ingredient name="resourcePaper" count="8"/>
+    <ingredient name="resourceWood" count="3"/>
+</recipe>
+<recipe name="signBread01" count="1" craft_time="15">
+    <ingredient name="resourcePaper" count="5"/>
+    <ingredient name="resourceWood" count="2"/>
+</recipe>
+<recipe name="signBread02" count="1" craft_time="15">
+    <ingredient name="resourcePaper" count="5"/>
+    <ingredient name="resourceWood" count="2"/>
+</recipe>
+<recipe name="signCigaretteAd" count="1" craft_time="15">
+    <ingredient name="resourcePaper" count="5"/>
+    <ingredient name="resourceWood" count="2"/>
+</recipe>
+<recipe name="signLaborDaySaleAd" count="1" craft_time="15">
+    <ingredient name="resourcePaper" count="8"/>
+    <ingredient name="resourceWood" count="3"/>
+</recipe>
+<recipe name="signMegaCrushAd" count="1" craft_time="15">
+    <ingredient name="resourcePaper" count="8"/>
+    <ingredient name="resourceWood" count="3"/>
+</recipe>
+<recipe name="signSale01" count="1" craft_time="15">
+    <ingredient name="resourcePaper" count="8"/>
+    <ingredient name="resourceWood" count="3"/>
+</recipe>
+<recipe name="signSale02" count="1" craft_time="15">
+    <ingredient name="resourcePaper" count="8"/>
+    <ingredient name="resourceWood" count="3"/>
+</recipe>
+<recipe name="signShamwaySale" count="1" craft_time="15">
+    <ingredient name="resourcePaper" count="8"/>
+    <ingredient name="resourceWood" count="3"/>
+</recipe>
+
+<!-- SNACK SIGNS -->
+<recipe name="signSnackPosterAtom" count="1" craft_time="10">
+    <ingredient name="resourcePaper" count="3"/>
+    <ingredient name="resourceWood" count="1"/>
+</recipe>
+<recipe name="signSnackPosterBretzels" count="1" craft_time="15">
+    <ingredient name="resourcePaper" count="5"/>
+    <ingredient name="resourceWood" count="2"/>
+</recipe>
+<recipe name="signSnackPosterEyeCandy" count="1" craft_time="15">
+    <ingredient name="resourcePaper" count="5"/>
+    <ingredient name="resourceWood" count="2"/>
+</recipe>
+<recipe name="signSnackPosterFortBites" count="1" craft_time="15">
+    <ingredient name="resourcePaper" count="5"/>
+    <ingredient name="resourceWood" count="2"/>
+</recipe>
+<recipe name="signSnackPosterGoblinO" count="1" craft_time="15">
+    <ingredient name="resourcePaper" count="5"/>
+    <ingredient name="resourceWood" count="2"/>
+</recipe>
+<recipe name="signSnackPosterHackers" count="1" craft_time="10">
+    <ingredient name="resourcePaper" count="3"/>
+    <ingredient name="resourceWood" count="1"/>
+</recipe>
+<recipe name="signSnackPosterHealth" count="1" craft_time="10">
+    <ingredient name="resourcePaper" count="3"/>
+    <ingredient name="resourceWood" count="1"/>
+</recipe>
+<recipe name="signSnackPosterJailBreakers" count="1" craft_time="10">
+    <ingredient name="resourcePaper" count="3"/>
+    <ingredient name="resourceWood" count="1"/>
+</recipe>
+<recipe name="signSnackPosterJerky" count="1" craft_time="15">
+    <ingredient name="resourcePaper" count="5"/>
+    <ingredient name="resourceWood" count="2"/>
+</recipe>
+<recipe name="signSnackPosterNachos" count="1" craft_time="15">
+    <ingredient name="resourcePaper" count="5"/>
+    <ingredient name="resourceWood" count="2"/>
+</recipe>
+<recipe name="signSnackPosterNachosRanch" count="1" craft_time="15">
+    <ingredient name="resourcePaper" count="5"/>
+    <ingredient name="resourceWood" count="2"/>
+</recipe>
+<recipe name="signSnackPosterNerd" count="1" craft_time="15">
+    <ingredient name="resourcePaper" count="5"/>
+    <ingredient name="resourceWood" count="2"/>
+</recipe>
+<recipe name="signSnackPosterOopsClassic" count="1" craft_time="15">
+    <ingredient name="resourcePaper" count="5"/>
+    <ingredient name="resourceWood" count="2"/>
+</recipe>
+<recipe name="signSnackPosterOops" count="1" craft_time="15">
+    <ingredient name="resourcePaper" count="5"/>
+    <ingredient name="resourceWood" count="2"/>
+</recipe>
+<recipe name="signSnackPosterPrime" count="1" craft_time="10">
+    <ingredient name="resourcePaper" count="3"/>
+    <ingredient name="resourceWood" count="1"/>
+</recipe>
+<recipe name="signSnackPosterRamen" count="1" craft_time="10">
+    <ingredient name="resourcePaper" count="3"/>
+    <ingredient name="resourceWood" count="1"/>
+</recipe>
+<recipe name="signSnackPosterSkullCrusher" count="1" craft_time="10">
+    <ingredient name="resourcePaper" count="3"/>
+    <ingredient name="resourceWood" count="1"/>
+</recipe>
+
+<!-- GAS SIGNS -->
+<recipe name="signGas01" count="1" craft_time="10">
+    <ingredient name="resourceScrapIron" count="3"/>
+    <ingredient name="resourcePaint" count="1"/>
+</recipe>
+<recipe name="signGas02" count="1" craft_time="10">
+    <ingredient name="resourceScrapIron" count="3"/>
+    <ingredient name="resourcePaint" count="1"/>
+</recipe>
+<recipe name="signGas03" count="1" craft_time="10">
+    <ingredient name="resourceScrapIron" count="3"/>
+    <ingredient name="resourcePaint" count="1"/>
+</recipe>
+<recipe name="signGas04" count="1" craft_time="10">
+    <ingredient name="resourceScrapIron" count="3"/>
+    <ingredient name="resourcePaint" count="1"/>
+</recipe>
+<recipe name="signGas05" count="1" craft_time="10">
+    <ingredient name="resourceScrapIron" count="3"/>
+    <ingredient name="resourcePaint" count="1"/>
+</recipe>
+<recipe name="signGas06" count="1" craft_time="10">
+    <ingredient name="resourceScrapIron" count="3"/>
+    <ingredient name="resourcePaint" count="1"/>
+</recipe>
+<recipe name="signGas07" count="1" craft_time="10">
+    <ingredient name="resourceScrapIron" count="3"/>
+    <ingredient name="resourcePaint" count="1"/>
+</recipe>
+<recipe name="signGas08" count="1" craft_time="10">
+    <ingredient name="resourceScrapIron" count="3"/>
+    <ingredient name="resourcePaint" count="1"/>
+</recipe>
+<recipe name="signGas09" count="1" craft_time="10">
+    <ingredient name="resourceScrapIron" count="3"/>
+    <ingredient name="resourcePaint" count="1"/>
+</recipe>
+<recipe name="signGas10" count="1" craft_time="10">
+    <ingredient name="resourceScrapIron" count="3"/>
+    <ingredient name="resourcePaint" count="1"/>
+</recipe>
+<recipe name="signGas11" count="1" craft_time="10">
+    <ingredient name="resourceScrapIron" count="3"/>
+    <ingredient name="resourcePaint" count="1"/>
+</recipe>
+<recipe name="signGas12" count="1" craft_time="10">
+    <ingredient name="resourceScrapIron" count="3"/>
+    <ingredient name="resourcePaint" count="1"/>
+</recipe>
+<recipe name="signGas13" count="1" craft_time="10">
+    <ingredient name="resourceScrapIron" count="3"/>
+    <ingredient name="resourcePaint" count="1"/>
+</recipe>
+<recipe name="signGas14" count="1" craft_time="10">
+    <ingredient name="resourceScrapIron" count="3"/>
+    <ingredient name="resourcePaint" count="1"/>
+</recipe>
+<recipe name="signGas15" count="1" craft_time="10">
+    <ingredient name="resourceScrapIron" count="3"/>
+    <ingredient name="resourcePaint" count="1"/>
+</recipe>
+<recipe name="signGas16" count="1" craft_time="10">
+    <ingredient name="resourceScrapIron" count="3"/>
+    <ingredient name="resourcePaint" count="1"/>
+</recipe>
+<recipe name="signGas17" count="1" craft_time="10">
+    <ingredient name="resourceScrapIron" count="3"/>
+    <ingredient name="resourcePaint" count="1"/>
+</recipe>
+<recipe name="signGas18" count="1" craft_time="10">
+    <ingredient name="resourceScrapIron" count="3"/>
+    <ingredient name="resourcePaint" count="1"/>
+</recipe>
+<recipe name="signGas19" count="1" craft_time="15">
+    <ingredient name="resourceScrapIron" count="5"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signGas20" count="1" craft_time="15">
+    <ingredient name="resourceScrapIron" count="5"/>
+    <ingredient name="resourcePaint" count="2"/>
+</recipe>
+<recipe name="signGas21" count="1" craft_time="10">
+    <ingredient name="resourceScrapIron" count="3"/>
+    <ingredient name="resourcePaint" count="1"/>
+</recipe>
+
+<!-- BULLETIN BOARDS -->
+<recipe name="signBulletinBoard01" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceWood" count="8"/>
+    <ingredient name="resourcePaper" count="5"/>
+    <ingredient name="resourceNail" count="4"/>
+</recipe>
+<recipe name="signBulletinBoard02" count="1" craft_time="15" craft_area="workbench">
+    <ingredient name="resourceWood" count="8"/>
+    <ingredient name="resourcePaper" count="5"/>
+    <ingredient name="resourceNail" count="4"/>
+</recipe>
+
+<!-- SAFETY SIGNS -->
+<recipe name="signNotice01" count="1" craft_time="10">
+    <ingredient name="resourcePaper" count="3"/>
+    <ingredient name="resourceWood" count="1"/>
+</recipe>
+<recipe name="signNotice02" count="1" craft_time="10">
+    <ingredient name="resourcePaper" count="3"/>
+    <ingredient name="resourceWood" count="1"/>
+</recipe>
+<recipe name="signNotice03" count="1" craft_time="10">
+    <ingredient name="resourcePaper" count="3"/>
+    <ingredient name="resourceWood" count="1"/>
+</recipe>
+<recipe name="signNotice04" count="1" craft_time="10">
+    <ingredient name="resourcePaper" count="3"/>
+    <ingredient name="resourceWood" count="1"/>
+</recipe>
+<recipe name="signSafetyWorkProtection" count="1" craft_time="15">
+    <ingredient name="resourcePaper" count="5"/>
+    <ingredient name="resourceWood" count="2"/>
+</recipe>
+<recipe name="signAuthorizedPersonnel" count="1" craft_time="10">
+    <ingredient name="resourcePaper" count="3"/>
+    <ingredient name="resourceWood" count="1"/>
+</recipe>
+<recipe name="signStaffOnly" count="1" craft_time="10">
+    <ingredient name="resourcePaper" count="3"/>
+    <ingredient name="resourceWood" count="1"/>
+</recipe>
+<recipe name="signCaution" count="1" craft_time="10">
+    <ingredient name="resourcePaper" count="3"/>
+    <ingredient name="resourceWood" count="1"/>
+</recipe>
+<recipe name="signHardHat" count="1" craft_time="10">
+    <ingredient name="resourcePaper" count="3"/>
+    <ingredient name="resourceWood" count="1"/>
+</recipe>
+
+<!-- MOVIE POSTERS -->
+<recipe name="signPosterMovie2159" count="1" craft_time="10">
+    <ingredient name="resourcePaper" count="3"/>
+    <ingredient name="resourceBrokenGlass" count="2"/>
+    <ingredient name="resourceWood" count="1"/>
+</recipe>
+<recipe name="signPosterMovieLoneWolf" count="1" craft_time="10">
+    <ingredient name="resourcePaper" count="3"/>
+    <ingredient name="resourceBrokenGlass" count="2"/>
+    <ingredient name="resourceWood" count="1"/>
+</recipe>
+<recipe name="signPosterMovieMammasJustice" count="1" craft_time="10">
+    <ingredient name="resourcePaper" count="3"/>
+    <ingredient name="resourceBrokenGlass" count="2"/>
+    <ingredient name="resourceWood" count="1"/>
+</recipe>
+<recipe name="signPosterMovieSexualTension" count="1" craft_time="10">
+    <ingredient name="resourcePaper" count="3"/>
+    <ingredient name="resourceBrokenGlass" count="2"/>
+    <ingredient name="resourceWood" count="1"/>
+</recipe>
+<recipe name="signPosterMovieTheater2159" count="1" craft_time="15">
+    <ingredient name="resourcePaper" count="5"/>
+    <ingredient name="resourceBrokenGlass" count="3"/>
+    <ingredient name="resourceWood" count="2"/>
+</recipe>
+<recipe name="signPosterMovieTheaterLoneWolf" count="1" craft_time="15">
+    <ingredient name="resourcePaper" count="5"/>
+    <ingredient name="resourceBrokenGlass" count="3"/>
+    <ingredient name="resourceWood" count="2"/>
+</recipe>
+<recipe name="signPosterMovieTheaterMammasJustice" count="1" craft_time="15">
+    <ingredient name="resourcePaper" count="5"/>
+    <ingredient name="resourceBrokenGlass" count="3"/>
+    <ingredient name="resourceWood" count="2"/>
+</recipe>
+<recipe name="signPosterMovieTheaterSexualTension" count="1" craft_time="15">
+    <ingredient name="resourcePaper" count="5"/>
+    <ingredient name="resourceBrokenGlass" count="3"/>
+    <ingredient name="resourceWood" count="2"/>
+</recipe>
+
+<!-- BATHROOM SIGNS -->
+<recipe name="signBathroomSignUnisexWallMount" count="1" craft_time="10" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="3"/>
+    <ingredient name="resourcePaint" count="1"/>
+</recipe>
+<recipe name="signBathroomSignUnisexCeilingMount" count="1" craft_time="10" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="3"/>
+    <ingredient name="resourcePaint" count="1"/>
+</recipe>
+<recipe name="signBathroomSignWomenWallMount" count="1" craft_time="10" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="3"/>
+    <ingredient name="resourcePaint" count="1"/>
+</recipe>
+<recipe name="signBathroomSignWomenCeilingMount" count="1" craft_time="10" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="3"/>
+    <ingredient name="resourcePaint" count="1"/>
+</recipe>
+<recipe name="signBathroomSignMenWallMount" count="1" craft_time="10" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="3"/>
+    <ingredient name="resourcePaint" count="1"/>
+</recipe>
+<recipe name="signBathroomSignMenCeilingMount" count="1" craft_time="10" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="3"/>
+    <ingredient name="resourcePaint" count="1"/>
+</recipe>
+
+		<!-- =================================================== -->
+		<!-- TheMeanOnes Craftable Ranges and RangeHoods and Fridges  -->
+		<!-- =================================================== -->
+
+<!-- RANGE HOODS -->
+<recipe name="hoodRangeWhite" count="1" craft_time="20" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="5"/>
+    <ingredient name="resourceElectricParts" count="3"/>
+    <ingredient name="resourceScrapPolymers" count="2"/>
+</recipe>
+<recipe name="hoodRangeYellow" count="1" craft_time="20" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="5"/>
+    <ingredient name="resourceElectricParts" count="3"/>
+    <ingredient name="resourceScrapPolymers" count="2"/>
+</recipe>
+<recipe name="hoodRangeGreen" count="1" craft_time="20" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="5"/>
+    <ingredient name="resourceElectricParts" count="3"/>
+    <ingredient name="resourceScrapPolymers" count="2"/>
+</recipe>
+<recipe name="hoodRangeGrey" count="1" craft_time="20" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="5"/>
+    <ingredient name="resourceElectricParts" count="3"/>
+    <ingredient name="resourceScrapPolymers" count="2"/>
+</recipe>
+<recipe name="hoodRangeBlack" count="1" craft_time="20" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="5"/>
+    <ingredient name="resourceElectricParts" count="3"/>
+    <ingredient name="resourceScrapPolymers" count="2"/>
+</recipe>
+<recipe name="hoodRangeWhiteOffset" count="1" craft_time="20" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="5"/>
+    <ingredient name="resourceElectricParts" count="3"/>
+    <ingredient name="resourceScrapPolymers" count="2"/>
+</recipe>
+<recipe name="hoodRangeYellowOffset" count="1" craft_time="20" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="5"/>
+    <ingredient name="resourceElectricParts" count="3"/>
+    <ingredient name="resourceScrapPolymers" count="2"/>
+</recipe>
+<recipe name="hoodRangeGreenOffset" count="1" craft_time="20" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="5"/>
+    <ingredient name="resourceElectricParts" count="3"/>
+    <ingredient name="resourceScrapPolymers" count="2"/>
+</recipe>
+<recipe name="hoodRangeGreyOffset" count="1" craft_time="20" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="5"/>
+    <ingredient name="resourceElectricParts" count="3"/>
+    <ingredient name="resourceScrapPolymers" count="2"/>
+</recipe>
+<recipe name="hoodRangeBlackOffset" count="1" craft_time="20" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="5"/>
+    <ingredient name="resourceElectricParts" count="3"/>
+    <ingredient name="resourceScrapPolymers" count="2"/>
+</recipe>
+
+<!-- OLD STOVES -->
+
+<recipe name="cntStoveOldVer1Closed_Player" count="1" craft_time="25" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="8"/>
+    <ingredient name="resourceElectricParts" count="4"/>
+    <ingredient name="resourceScrapIron" count="5"/>
+</recipe>
+
+
+<!-- MODERN STOVES -->
+
+<recipe name="cntStoveModernVer1Closed_Player" count="1" craft_time="30" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="10"/>
+    <ingredient name="resourceElectricParts" count="5"/>
+    <ingredient name="resourceScrapIron" count="8"/>
+</recipe>
+
+
+<!-- GAS RANGES -->
+
+<recipe name="cntgasRangeGrey" count="1" craft_time="25" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="8"/>
+    <ingredient name="resourceMechanicalParts" count="4"/>
+    <ingredient name="resourceMetalPipe" count="2"/>
+</recipe>
+
+<!-- Refrigerators --> 
+
+<recipe name="cntRetroFridgeVer1Closed_Player" count="1" craft_time="30" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="10"/>
+    <ingredient name="resourceElectricParts" count="8"/>
+    <ingredient name="resourceMetalPipe" count="2"/>
+    <ingredient name="resourceScrapPolymers" count="5"/>
+</recipe>
+<recipe name="cntFridgeStainlessSteel_Player" count="1" craft_time="30" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="12"/>
+    <ingredient name="resourceElectricParts" count="10"/>
+    <ingredient name="resourceMetalPipe" count="2"/>
+    <ingredient name="resourceScrapPolymers" count="6"/>
+</recipe>
+		<!-- =================================================== -->
+		<!-- TheMeanOnes Craftable Static Vehicles  -->
+		<!-- =================================================== -->
+
+
+<recipe name="busCityTraderOnly" count="1" craft_time="60" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="50"/>
+    <ingredient name="resourceMechanicalParts" count="20"/>
+    <ingredient name="resourceElectricParts" count="15"/>
+    <ingredient name="resourceScrapPolymers" count="30"/>
+</recipe>
+<recipe name="bicycleStatic" count="1" craft_time="20" craft_area="workbench">
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceMechanicalParts" count="4"/>
+    <ingredient name="resourceScrapPolymers" count="5"/>
+</recipe>
+<recipe name="minibikeStatic" count="1" craft_time="30" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="15"/>
+    <ingredient name="resourceMechanicalParts" count="6"/>
+    <ingredient name="resourceElectricParts" count="4"/>
+</recipe>
+<recipe name="motorcycleStatic" count="1" craft_time="40" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="20"/>
+    <ingredient name="resourceMechanicalParts" count="8"/>
+    <ingredient name="resourceElectricParts" count="6"/>
+    <ingredient name="resourceScrapPolymers" count="10"/>
+</recipe>
+<recipe name="4x4Static" count="1" craft_time="50" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="30"/>
+    <ingredient name="resourceMechanicalParts" count="12"/>
+    <ingredient name="resourceElectricParts" count="10"/>
+    <ingredient name="resourceScrapPolymers" count="15"/>
+</recipe>
+<recipe name="gyrocopterStatic" count="1" craft_time="50" craft_area="workbench">
+    <ingredient name="resourceForgedIron" count="25"/>
+    <ingredient name="resourceMechanicalParts" count="10"/>
+    <ingredient name="resourceElectricParts" count="12"/>
+    <ingredient name="resourceScrapPolymers" count="15"/>
+</recipe>
+
+		
+		<!-- =================================================== -->
+		<!-- TheMeanOnes Mo Doors  -->
+		<!-- =================================================== -->
+		<recipe name="exteriorHouseDoorWhite" count="1" craft_time="25" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceWood" count="10"/>
+			<ingredient name="resourcePaint" count="3"/>
+		</recipe>
+		<recipe name="exteriorHouseDoorBrown" count="1" craft_time="25" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceWood" count="10"/>
+			<ingredient name="resourcePaint" count="3"/>
+		</recipe>
+		<recipe name="exteriorHouseDoorRed" count="1" craft_time="25" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceWood" count="10"/>
+			<ingredient name="resourcePaint" count="3"/>
+		</recipe>
+		<recipe name="exteriorHouseDoorOrange" count="1" craft_time="25" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceWood" count="10"/>
+			<ingredient name="resourcePaint" count="3"/>
+		</recipe>
+		<recipe name="exteriorHouseDoorYellow" count="1" craft_time="25" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceWood" count="10"/>
+			<ingredient name="resourcePaint" count="3"/>
+		</recipe>
+		<recipe name="exteriorHouseDoorGreen" count="1" craft_time="25" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceWood" count="10"/>
+			<ingredient name="resourcePaint" count="3"/>
+		</recipe>
+		<recipe name="exteriorHouseDoorBlue" count="1" craft_time="25" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceWood" count="10"/>
+			<ingredient name="resourcePaint" count="3"/>
+		</recipe>
+		<recipe name="exteriorHouseDoorPurple" count="1" craft_time="25" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceWood" count="10"/>
+			<ingredient name="resourcePaint" count="3"/>
+		</recipe>
+		<recipe name="exteriorHouseDoorGrey" count="1" craft_time="25" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceWood" count="10"/>
+			<ingredient name="resourcePaint" count="3"/>
+		</recipe>
+		<recipe name="exteriorHouseDoorPink" count="1" craft_time="25" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceWood" count="10"/>
+			<ingredient name="resourcePaint" count="3"/>
+		</recipe>
+		<recipe name="exteriorHouseDoorOak" count="1" craft_time="25" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceWood" count="10"/>
+			<ingredient name="resourcePaint" count="3"/>
+		</recipe>
+		<recipe name="exteriorHouseDoorDoubleWhite" count="1" craft_time="30" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceWood" count="15"/>
+			<ingredient name="resourcePaint" count="5"/>
+		</recipe>
+		<recipe name="exteriorHouseDoorDoubleBrown" count="1" craft_time="30" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceWood" count="15"/>
+			<ingredient name="resourcePaint" count="5"/>
+		</recipe>
+		<recipe name="exteriorHouseDoorDoubleRed" count="1" craft_time="30" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceWood" count="15"/>
+			<ingredient name="resourcePaint" count="5"/>
+		</recipe>
+		<recipe name="exteriorHouseDoorDoubleOrange" count="1" craft_time="30" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceWood" count="15"/>
+			<ingredient name="resourcePaint" count="5"/>
+		</recipe>
+		<recipe name="exteriorHouseDoorDoubleYellow" count="1" craft_time="30" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceWood" count="15"/>
+			<ingredient name="resourcePaint" count="5"/>
+		</recipe>
+		<recipe name="exteriorHouseDoorDoubleGreen" count="1" craft_time="30" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceWood" count="15"/>
+			<ingredient name="resourcePaint" count="5"/>
+		</recipe>
+		<recipe name="exteriorHouseDoorDoubleBlue" count="1" craft_time="30" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceWood" count="15"/>
+			<ingredient name="resourcePaint" count="5"/>
+		</recipe>
+		<recipe name="exteriorHouseDoorDoublePurple" count="1" craft_time="30" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceWood" count="15"/>
+			<ingredient name="resourcePaint" count="5"/>
+		</recipe>
+		<recipe name="exteriorHouseDoorDoubleGrey" count="1" craft_time="30" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceWood" count="15"/>
+			<ingredient name="resourcePaint" count="5"/>
+		</recipe>
+		<recipe name="exteriorHouseDoorDoublePink" count="1" craft_time="30" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceWood" count="15"/>
+			<ingredient name="resourcePaint" count="5"/>
+		</recipe>
+		<recipe name="exteriorHouseDoorDoubleOak" count="1" craft_time="30" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceWood" count="15"/>
+			<ingredient name="resourcePaint" count="5"/>
+		</recipe>
+		<!-- SCREEN DOORS -->
+		<recipe name="exteriorScreenDoor" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="2"/>
+		</recipe>
+		<recipe name="exteriorScreenDoornNoFrame" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="2"/>
+		</recipe>
+		<!-- SLIDING DOORS -->
+		<recipe name="houseSlidingDoorWhite" count="1" craft_time="25" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="5"/>
+			<ingredient name="resourceSpring" count="3"/>
+		</recipe>
+		<recipe name="houseSlidingDoorBlack" count="1" craft_time="25" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="5"/>
+			<ingredient name="resourceSpring" count="3"/>
+		</recipe>
+		<!-- FRENCH SINGLE DOORS -->
+		<recipe name="frenchDoorWhite" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceWood" count="25"/>
+		</recipe>
+		<recipe name="frenchDoorBrown" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceWood" count="25"/>
+		</recipe>
+		<recipe name="frenchDoorRed" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceWood" count="25"/>
+		</recipe>
+		<recipe name="frenchDoorOrange" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceWood" count="25"/>
+		</recipe>
+		<recipe name="frenchDoorYellow" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceWood" count="25"/>
+		</recipe>
+		<recipe name="frenchDoorGreen" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceWood" count="25"/>
+		</recipe>
+		<recipe name="frenchDoorBlue" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceWood" count="25"/>
+		</recipe>
+		<recipe name="frenchDoorPurple" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceWood" count="25"/>
+		</recipe>
+		<recipe name="frenchDoorGrey" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceWood" count="25"/>
+		</recipe>
+		<recipe name="frenchDoorPink" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceWood" count="25"/>
+		</recipe>
+		<recipe name="frenchDoorOak" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceWood" count="25"/>
+		</recipe>
+		<!-- FRENCH DOUBLE DOORS -->
+		<recipe name="frenchDoorDoubleWhite" count="1" craft_time="30" craft_area="workbench">
+			<ingredient name="resourceWood" count="40"/>
+		</recipe>
+		<recipe name="frenchDoorDoubleBrown" count="1" craft_time="30" craft_area="workbench">
+			<ingredient name="resourceWood" count="40"/>
+		</recipe>
+		<recipe name="frenchDoorDoubleRed" count="1" craft_time="30" craft_area="workbench">
+			<ingredient name="resourceWood" count="40"/>
+		</recipe>
+		<recipe name="frenchDoorDoubleOrange" count="1" craft_time="30" craft_area="workbench">
+			<ingredient name="resourceWood" count="40"/>
+		</recipe>
+		<recipe name="frenchDoorDoubleYellow" count="1" craft_time="30" craft_area="workbench">
+			<ingredient name="resourceWood" count="40"/>
+		</recipe>
+		<recipe name="frenchDoorDoubleGreen" count="1" craft_time="30" craft_area="workbench">
+			<ingredient name="resourceWood" count="40"/>
+		</recipe>
+		<recipe name="frenchDoorDoubleBlue" count="1" craft_time="30" craft_area="workbench">
+			<ingredient name="resourceWood" count="40"/>
+		</recipe>
+		<recipe name="frenchDoorDoublePurple" count="1" craft_time="30" craft_area="workbench">
+			<ingredient name="resourceWood" count="40"/>
+		</recipe>
+		<recipe name="frenchDoorDoubleGrey" count="1" craft_time="30" craft_area="workbench">
+			<ingredient name="resourceWood" count="40"/>
+		</recipe>
+		<recipe name="frenchDoorDoublePink" count="1" craft_time="30" craft_area="workbench">
+			<ingredient name="resourceWood" count="40"/>
+		</recipe>
+		<recipe name="frenchDoorDoubleOak" count="1" craft_time="30" craft_area="workbench">
+			<ingredient name="resourceWood" count="40"/>
+		</recipe>
+		<!-- INTERIOR OLD DOORS - SINGLE -->
+		<recipe name="interiorDoorOldWhite" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceWood" count="20"/>
+		</recipe>
+		<recipe name="interiorDoorOldBrown" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceWood" count="20"/>
+		</recipe>
+		<recipe name="interiorDoorOldRed" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceWood" count="20"/>
+		</recipe>
+		<recipe name="interiorDoorOldOrange" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceWood" count="20"/>
+		</recipe>
+		<recipe name="interiorDoorOldYellow" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceWood" count="20"/>
+		</recipe>
+		<recipe name="interiorDoorOldGreen" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceWood" count="20"/>
+		</recipe>
+		<recipe name="interiorDoorOldBlue" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceWood" count="20"/>
+		</recipe>
+		<recipe name="interiorDoorOldPurple" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceWood" count="20"/>
+		</recipe>
+		<recipe name="interiorDoorOldGrey" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceWood" count="20"/>
+		</recipe>
+		<recipe name="interiorDoorOldPink" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceWood" count="20"/>
+		</recipe>
+		<recipe name="interiorDoorOldOak" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceWood" count="20"/>
+		</recipe>
+		<!-- INTERIOR OLD DOORS - DOUBLE -->
+		<recipe name="interiorDoorOldDoubleWhite" count="1" craft_time="25" craft_area="workbench">
+			<ingredient name="resourceWood" count="35"/>
+		</recipe>
+		<recipe name="interiorDoorOldDoubleBrown" count="1" craft_time="25" craft_area="workbench">
+			<ingredient name="resourceWood" count="35"/>
+		</recipe>
+		<recipe name="interiorDoorOldDoubleRed" count="1" craft_time="25" craft_area="workbench">
+			<ingredient name="resourceWood" count="35"/>
+		</recipe>
+		<recipe name="interiorDoorOldDoubleOrange" count="1" craft_time="25" craft_area="workbench">
+			<ingredient name="resourceWood" count="35"/>
+		</recipe>
+		<recipe name="interiorDoorOldDoubleYellow" count="1" craft_time="25" craft_area="workbench">
+			<ingredient name="resourceWood" count="35"/>
+		</recipe>
+		<recipe name="interiorDoorOldDoubleGreen" count="1" craft_time="25" craft_area="workbench">
+			<ingredient name="resourceWood" count="35"/>
+		</recipe>
+		<recipe name="interiorDoorOldDoubleBlue" count="1" craft_time="25" craft_area="workbench">
+			<ingredient name="resourceWood" count="35"/>
+		</recipe>
+		<recipe name="interiorDoorOldDoublePurple" count="1" craft_time="25" craft_area="workbench">
+			<ingredient name="resourceWood" count="35"/>
+		</recipe>
+		<recipe name="interiorDoorOldDoubleGrey" count="1" craft_time="25" craft_area="workbench">
+			<ingredient name="resourceWood" count="35"/>
+		</recipe>
+		<recipe name="interiorDoorOldDoublePink" count="1" craft_time="25" craft_area="workbench">
+			<ingredient name="resourceWood" count="35"/>
+		</recipe>
+		<recipe name="interiorDoorOldDoubleOak" count="1" craft_time="25" craft_area="workbench">
+			<ingredient name="resourceWood" count="35"/>
+		</recipe>
+		<!-- CLOSET DOORS - SINGLE -->
+		<recipe name="closetDoorWhite" count="1" craft_time="10" craft_area="workbench">
+			<ingredient name="resourceWood" count="15"/>
+		</recipe>
+		<recipe name="closetDoorBrown" count="1" craft_time="10" craft_area="workbench">
+			<ingredient name="resourceWood" count="15"/>
+		</recipe>
+		<recipe name="closetDoorRed" count="1" craft_time="10" craft_area="workbench">
+			<ingredient name="resourceWood" count="15"/>
+		</recipe>
+		<recipe name="closetDoorOrange" count="1" craft_time="10" craft_area="workbench">
+			<ingredient name="resourceWood" count="15"/>
+		</recipe>
+		<recipe name="closetDoorYellow" count="1" craft_time="10" craft_area="workbench">
+			<ingredient name="resourceWood" count="15"/>
+		</recipe>
+		<recipe name="closetDoorGreen" count="1" craft_time="10" craft_area="workbench">
+			<ingredient name="resourceWood" count="15"/>
+		</recipe>
+		<recipe name="closetDoorBlue" count="1" craft_time="10" craft_area="workbench">
+			<ingredient name="resourceWood" count="15"/>
+		</recipe>
+		<recipe name="closetDoorPurple" count="1" craft_time="10" craft_area="workbench">
+			<ingredient name="resourceWood" count="15"/>
+		</recipe>
+		<recipe name="closetDoorGrey" count="1" craft_time="10" craft_area="workbench">
+			<ingredient name="resourceWood" count="15"/>
+		</recipe>
+		<recipe name="closetDoorPink" count="1" craft_time="10" craft_area="workbench">
+			<ingredient name="resourceWood" count="15"/>
+		</recipe>
+		<!-- CLOSET DOORS - DOUBLE -->
+		<recipe name="closetDoorDoubleWhite" count="1" craft_time="15" craft_area="workbench">
+			<ingredient name="resourceWood" count="25"/>
+		</recipe>
+		<recipe name="closetDoorDoubleBrown" count="1" craft_time="15" craft_area="workbench">
+			<ingredient name="resourceWood" count="25"/>
+		</recipe>
+		<recipe name="closetDoorDoubleRed" count="1" craft_time="15" craft_area="workbench">
+			<ingredient name="resourceWood" count="25"/>
+		</recipe>
+		<recipe name="closetDoorDoubleOrange" count="1" craft_time="15" craft_area="workbench">
+			<ingredient name="resourceWood" count="25"/>
+		</recipe>
+		<recipe name="closetDoorDoubleYellow" count="1" craft_time="15" craft_area="workbench">
+			<ingredient name="resourceWood" count="25"/>
+		</recipe>
+		<recipe name="closetDoorDoubleGreen" count="1" craft_time="15" craft_area="workbench">
+			<ingredient name="resourceWood" count="25"/>
+		</recipe>
+		<recipe name="closetDoorDoubleBlue" count="1" craft_time="15" craft_area="workbench">
+			<ingredient name="resourceWood" count="25"/>
+		</recipe>
+		<recipe name="closetDoorDoublePurple" count="1" craft_time="15" craft_area="workbench">
+			<ingredient name="resourceWood" count="25"/>
+		</recipe>
+		<recipe name="closetDoorDoubleGrey" count="1" craft_time="15" craft_area="workbench">
+			<ingredient name="resourceWood" count="25"/>
+		</recipe>
+		<recipe name="closetDoorDoublePink" count="1" craft_time="15" craft_area="workbench">
+			<ingredient name="resourceWood" count="25"/>
+		</recipe>
+		<!-- PANTRY DOORS -->
+		<recipe name="pantryDoorWhite" count="1" craft_time="12" craft_area="workbench">
+			<ingredient name="resourceWood" count="15"/>
+		</recipe>
+		<recipe name="pantryDoorBrown" count="1" craft_time="12" craft_area="workbench">
+			<ingredient name="resourceWood" count="15"/>
+		</recipe>
+		<recipe name="pantryDoorRed" count="1" craft_time="12" craft_area="workbench">
+			<ingredient name="resourceWood" count="15"/>
+		</recipe>
+		<recipe name="pantryDoorOrange" count="1" craft_time="12" craft_area="workbench">
+			<ingredient name="resourceWood" count="15"/>
+		</recipe>
+		<recipe name="pantryDoorYellow" count="1" craft_time="12" craft_area="workbench">
+			<ingredient name="resourceWood" count="15"/>
+		</recipe>
+		<recipe name="pantryDoorGreen" count="1" craft_time="12" craft_area="workbench">
+			<ingredient name="resourceWood" count="15"/>
+		</recipe>
+		<recipe name="pantryDoorBlue" count="1" craft_time="12" craft_area="workbench">
+			<ingredient name="resourceWood" count="15"/>
+		</recipe>
+		<recipe name="pantryDoorPurple" count="1" craft_time="12" craft_area="workbench">
+			<ingredient name="resourceWood" count="15"/>
+		</recipe>
+		<recipe name="pantryDoorGrey" count="1" craft_time="12" craft_area="workbench">
+			<ingredient name="resourceWood" count="15"/>
+		</recipe>
+		<recipe name="pantryDoorPink" count="1" craft_time="12" craft_area="workbench">
+			<ingredient name="resourceWood" count="15"/>
+		</recipe>
+		<!-- COMMERCIAL GLASS DOORS -->
+		<recipe name="commercialGlassDoor" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceSpring" count="5"/>
+		</recipe>
+		<recipe name="commercialBulletproofGlassDoor" count="1" craft_time="30" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceSpring" count="5"/>
+		</recipe>
+		<recipe name="commercialGlassDoorDouble" count="1" craft_time="25" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceSpring" count="5"/>
+		</recipe>
+		<recipe name="commercialBulletproofGlassDoorDouble" count="1" craft_time="35" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceSpring" count="5"/>
+		</recipe>
+		<!-- COMMERCIAL SLIDING DOORS -->
+		<recipe name="commercialSlidingDoor" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="12"/>
+						<ingredient name="resourceSpring" count="5"/>
+
+		</recipe>
+		<recipe name="commercialBulletproofSlidingDoor" count="1" craft_time="30" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="12"/>
+						<ingredient name="resourceSpring" count="5"/>
+
+		</recipe>
+		<!-- COMMERCIAL DOORS V1 (Single & Double, Color Variants) -->
+		<recipe name="commercialDoorV1White" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="20"/>
+			<ingredient name="resourcePaint" count="1"/>
+		</recipe>
+		<recipe name="commercialDoorDoubleV1White" count="1" craft_time="25" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="30"/>
+			<ingredient name="resourcePaint" count="1"/>
+		</recipe>
+		<!-- Color Variants (V1) -->
+		<recipe name="commercialDoorV1Brown" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="20"/>
+			<ingredient name="resourcePaint" count="1"/>
+		</recipe>
+		<recipe name="commercialDoorV1Red" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="20"/>
+			<ingredient name="resourcePaint" count="1"/>
+		</recipe>
+		<recipe name="commercialDoorV1Orange" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="20"/>
+			<ingredient name="resourcePaint" count="1"/>
+		</recipe>
+		<recipe name="commercialDoorV1Yellow" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="20"/>
+			<ingredient name="resourcePaint" count="1"/>
+		</recipe>
+		<recipe name="commercialDoorV1Green" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="20"/>
+			<ingredient name="resourcePaint" count="1"/>
+		</recipe>
+		<recipe name="commercialDoorV1Blue" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="20"/>
+			<ingredient name="resourcePaint" count="1"/>
+		</recipe>
+		<recipe name="commercialDoorV1Purple" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="20"/>
+			<ingredient name="resourcePaint" count="1"/>
+		</recipe>
+		<recipe name="commercialDoorV1Grey" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="20"/>
+			<ingredient name="resourcePaint" count="1"/>
+		</recipe>
+		<recipe name="commercialDoorV1Pink" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="20"/>
+			<ingredient name="resourcePaint" count="1"/>
+		</recipe>
+		<recipe name="commercialDoorV1Oak" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="20"/>
+			<ingredient name="resourcePaint" count="1"/>
+		</recipe>
+		<recipe name="commercialDoorDoubleV1Brown" count="1" craft_time="25" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="30"/>
+			<ingredient name="resourcePaint" count="1"/>
+		</recipe>
+		<recipe name="commercialDoorDoubleV1Red" count="1" craft_time="25" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="30"/>
+			<ingredient name="resourcePaint" count="1"/>
+		</recipe>
+		<recipe name="commercialDoorDoubleV1Orange" count="1" craft_time="25" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="30"/>
+			<ingredient name="resourcePaint" count="1"/>
+		</recipe>
+		<recipe name="commercialDoorDoubleV1Yellow" count="1" craft_time="25" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="30"/>
+			<ingredient name="resourcePaint" count="1"/>
+		</recipe>
+		<recipe name="commercialDoorDoubleV1Green" count="1" craft_time="25" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="30"/>
+			<ingredient name="resourcePaint" count="1"/>
+		</recipe>
+		<recipe name="commercialDoorDoubleV1Blue" count="1" craft_time="25" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="30"/>
+			<ingredient name="resourcePaint" count="1"/>
+		</recipe>
+		<recipe name="commercialDoorDoubleV1Purple" count="1" craft_time="25" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="30"/>
+			<ingredient name="resourcePaint" count="1"/>
+		</recipe>
+		<recipe name="commercialDoorDoubleV1Grey" count="1" craft_time="25" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="30"/>
+			<ingredient name="resourcePaint" count="1"/>
+		</recipe>
+		<recipe name="commercialDoorDoubleV1Pink" count="1" craft_time="25" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="30"/>
+			<ingredient name="resourcePaint" count="1"/>
+		</recipe>
+		<recipe name="commercialDoorDoubleV1Oak" count="1" craft_time="25" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="30"/>
+			<ingredient name="resourcePaint" count="1"/>
+		</recipe>
+		<!-- COMMERCIAL_DOORS_V2 -->
+		<recipe name="commercialDoorV2White" count="1" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="9"/>
+		</recipe>
+		<recipe name="commercialDoorDoubleV2White" count="1" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="9"/>
+		</recipe>
+		<!-- COMMERCIAL_DOORS_V3 -->
+		<recipe name="commercialDoorV3White" count="1" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="9"/>
+		</recipe>
+		<recipe name="commercialDoorDoubleV3White" count="1" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="9"/>
+		</recipe>
+		<!-- COMMERCIAL_DOORS_V4 -->
+		<recipe name="commercialDoorV4White" count="1" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="9"/>
+		</recipe>
+		<recipe name="commercialDoorDoubleV4White" count="1" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="9"/>
+		</recipe>
+		<!-- ELEVATOR_DOORS -->
+		<recipe name="elevatorDoor" count="1" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceSpring" count="5"/>
+		</recipe>
+		<recipe name="elevatorDoorDouble" count="1" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceSpring" count="5"/>
+		</recipe>
+		<recipe name="elevatorDoorTenthBlock" count="1" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceSpring" count="5"/>
+		</recipe>
+		<!-- TRAILER_DOORS -->
+		<recipe name="trailerDoorWhite" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="10"/>
+		</recipe>
+		<!-- COLOR VARIANTS -->
+		<recipe name="trailerDoorBrown" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="3"/>
+		</recipe>
+		<recipe name="trailerDoorRed" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="10"/>
+		</recipe>
+		<recipe name="trailerDoorOrange" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="10"/>
+		</recipe>
+		<recipe name="trailerDoorYellow" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="10"/>
+		</recipe>
+		<recipe name="trailerDoorGreen" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="10"/>
+		</recipe>
+		<recipe name="trailerDoorBlue" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="10"/>
+		</recipe>
+		<recipe name="trailerDoorPurple" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="10"/>
+		</recipe>
+		<recipe name="trailerDoorGrey" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="10"/>
+		</recipe>
+		<recipe name="trailerDoorBlack" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="10"/>
+		</recipe>
+		<recipe name="trailerDoorPink" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="10"/>
+		</recipe>
+		<recipe name="trailerDoorArmyGreen" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="10"/>
+		</recipe>
+		<!-- WOODEN_FENCE_DOORS -->
+		<recipe name="woodenFenceDoorWhite" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceWood" count="10"/>
+		</recipe>
+		<recipe name="woodenFenceDoorBrown" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceWood" count="10"/>
+		</recipe>
+		<recipe name="woodenFenceDoorRed" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceWood" count="10"/>
+		</recipe>
+		<recipe name="woodenFenceDoorOrange" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceWood" count="10"/>
+		</recipe>
+		<recipe name="woodenFenceDoorYellow" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceWood" count="10"/>
+		</recipe>
+		<recipe name="woodenFenceDoorGreen" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceWood" count="10"/>
+		</recipe>
+		<recipe name="woodenFenceDoorBlue" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceWood" count="10"/>
+		</recipe>
+		<recipe name="woodenFenceDoorPurple" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceWood" count="10"/>
+		</recipe>
+		<recipe name="woodenFenceDoorGrey" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceWood" count="10"/>
+		</recipe>
+		<recipe name="woodenFenceDoorPink" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceWood" count="10"/>
+		</recipe>
+		<!-- JAIL DOORS -->
+		<recipe name="jailDoorWhite" count="1" craft_area="workbench">
+			<ingredient name="resourceForgedSteel" count="9"/>
+			<ingredient name="resourceSpring" count="2"/>
+		</recipe>
+		<recipe name="jailDoorBrown" count="1" craft_area="workbench">
+			<ingredient name="resourceForgedSteel" count="9"/>
+			<ingredient name="resourceSpring" count="2"/>
+		</recipe>
+		<recipe name="jailDoorYellow" count="1" craft_area="workbench">
+			<ingredient name="resourceForgedSteel" count="9"/>
+			<ingredient name="resourceSpring" count="2"/>
+		</recipe>
+		<recipe name="jailDoorGreen" count="1" craft_area="workbench">
+			<ingredient name="resourceForgedSteel" count="9"/>
+			<ingredient name="resourceSpring" count="2"/>
+		</recipe>
+		<recipe name="jailDoorBlue" count="1" craft_area="workbench">
+			<ingredient name="resourceForgedSteel" count="9"/>
+			<ingredient name="resourceSpring" count="2"/>
+		</recipe>
+		<recipe name="jailDoorGrey" count="1" craft_area="workbench">
+			<ingredient name="resourceForgedSteel" count="9"/>
+			<ingredient name="resourceSpring" count="2"/>
+		</recipe>
+		<recipe name="jailDoorDoubleWhite" count="1" craft_area="workbench">
+			<ingredient name="resourceForgedSteel" count="9"/>
+			<ingredient name="resourceSpring" count="4"/>
+		</recipe>
+		<recipe name="jailDoorDoubleBrown" count="1" craft_area="workbench">
+			<ingredient name="resourceForgedSteel" count="9"/>
+			<ingredient name="resourceSpring" count="4"/>
+		</recipe>
+		<recipe name="jailDoorDoubleYellow" count="1" craft_area="workbench">
+			<ingredient name="resourceForgedSteel" count="9"/>
+			<ingredient name="resourceSpring" count="4"/>
+		</recipe>
+		<recipe name="jailDoorDoubleGreen" count="1" craft_area="workbench">
+			<ingredient name="resourceForgedSteel" count="9"/>
+			<ingredient name="resourceSpring" count="4"/>
+		</recipe>
+		<recipe name="jailDoorDoubleBlue" count="1" craft_area="workbench">
+			<ingredient name="resourceForgedSteel" count="9"/>
+			<ingredient name="resourceSpring" count="4"/>
+		</recipe>
+		<recipe name="jailDoorDoubleGrey" count="1" craft_area="workbench">
+			<ingredient name="resourceForgedSteel" count="9"/>
+			<ingredient name="resourceSpring" count="4"/>
+		</recipe>
+		<!-- OLD WOOD DOORS -->
+		<recipe name="oldWoodDoor" count="1" craft_area="workbench">
+			<ingredient name="resourceWood" count="10"/>
+		</recipe>
+		<recipe name="oldWoodDoorDouble" count="1" craft_area="workbench">
+			<ingredient name="resourceWood" count="10"/>
+		</recipe>
+		<!-- =================================================== -->
+		<!-- TheMeanOnes Mo Deco  -->
+		<!-- =================================================== -->
+		<recipe name="decoSwingSet" count="1" craft_area="workbench">
+			<ingredient name="resourceScrapIron" count="85"/>
+		</recipe>
+		<recipe name="decoMetalSlide" count="1" craft_area="workbench">
+			<ingredient name="resourceScrapIron" count="65"/>
+		</recipe>
+		<recipe name="decoBasketBallHoop" count="1" craft_area="workbench">
+			<ingredient name="resourceScrapIron" count="50"/>
+		</recipe>
+		<recipe name="trophy" count="1" craft_area="workbench">
+			<ingredient name="unit_brass" count="10"/>
+		</recipe>
+		<recipe name="decoStationaryBike" count="1" craft_area="workbench">
+			<ingredient name="resourceScrapIron" count="20"/>
+			<ingredient name="resourceElectricParts" count="5"/>
+		</recipe>
+		<recipe name="decoTreadmill" count="1" craft_area="workbench">
+			<ingredient name="resourceScrapIron" count="20"/>
+			<ingredient name="resourceElectricParts" count="5"/>
+		</recipe>
+		<recipe name="decoWeightBar" count="1" craft_area="workbench">
+			<ingredient name="resourceScrapIron" count="50"/>
+		</recipe>
+		<recipe name="decoBenchPress" count="1" craft_area="workbench">
+			<ingredient name="resourceScrapIron" count="50"/>
+		</recipe>
+		<recipe name="resourceDoorKnob" count="1" craft_time="20" craft_area="workbench">
+			<ingredient name="resourceMechanicalParts" count="2"/>
+			<ingredient name="resourceScrapBrass" count="20"/>
+		</recipe>
+		<!-- =================================================== -->
+		<!-- TheMeanOnes Craftable Hedges -->
+		<!-- =================================================== -->
+		<recipe name="plantHedge" count="1">
+			<ingredient name="resourceYuccaFibers" count="40"/>
+		</recipe>
+		<recipe name="plantHedgeSnow" count="1">
+			<ingredient name="resourceYuccaFibers" count="40"/>
+		</recipe>
+		<!-- =================================================== -->
+		<!-- TheMeanOnes Craftable Flags and Flag Poles -->
+		<!-- =================================================== -->
+		<recipe name="flagWallHungUSA" count="1">
+			<ingredient name="resourceCloth" count="50"/>
+		</recipe>
+		<recipe name="flagWallHungDuke" count="1">
+			<ingredient name="resourceCloth" count="50"/>
+		</recipe>
+		<recipe name="flagWallHungHonorDuty" count="1">
+			<ingredient name="resourceCloth" count="50"/>
+		</recipe>
+		<recipe name="flagWallHungValiant" count="1">
+			<ingredient name="resourceCloth" count="50"/>
+		</recipe>
+		<recipe name="flagWallHungTFP" count="1">
+			<ingredient name="resourceCloth" count="50"/>
+		</recipe>
+		<recipe name="flagTopWallHungUSA" count="1">
+			<ingredient name="resourceCloth" count="50"/>
+		</recipe>
+		<recipe name="flagTopWallHungDuke" count="1">
+			<ingredient name="resourceCloth" count="50"/>
+		</recipe>
+		<recipe name="flagTopWallHungHonorDuty" count="1">
+			<ingredient name="resourceCloth" count="50"/>
+		</recipe>
+		<recipe name="flagTopWallHungValiant" count="1">
+			<ingredient name="resourceCloth" count="50"/>
+		</recipe>
+		<recipe name="flagTopWallHungTFP" count="1">
+			<ingredient name="resourceCloth" count="50"/>
+		</recipe>
+		<recipe name="flagPoleWhiteRiver" count="1">
+			<ingredient name="resourceScrapIron" count="100"/>
+			<ingredient name="resourcePaint" count="12"/>
+			<ingredient name="resourceCloth" count="50"/>
+		</recipe>
+		<recipe name="flagPoleTrader" count="1">
+			<ingredient name="resourceScrapIron" count="100"/>
+			<ingredient name="resourcePaint" count="12"/>
+			<ingredient name="resourceCloth" count="50"/>
+		</recipe>
+		<recipe name="flagPoleAmerican" count="1">
+			<ingredient name="resourceScrapIron" count="100"/>
+			<ingredient name="resourcePaint" count="12"/>
+			<ingredient name="resourceCloth" count="50"/>
+		</recipe>
+		<!-- =================================================== -->
+		<!-- TheMeanOnes Craftable Military Barriers -->
+		<!-- =================================================== -->
+		<!-- Military Hesco Block -->
+		<recipe name="TM1_Hesco" count="1" craft_area="cementMixer" tags="cementMixerCrafting">
+			<ingredient name="resourceCrushedSand" count="150"/>
+			<ingredient name="resourceRockSmall" count="100"/>
+			<ingredient name="resourceScrapIron" count="15"/>
+		</recipe>
+		<!-- Concrete Barrier -->
+		<recipe name="TM1_ConcreteBarrier" count="1" craft_area="cementMixer" tags="cementMixerCrafting">
+			<ingredient name="resourceCrushedSand" count="10"/>
+			<ingredient name="resourceRockSmall" count="15"/>
+			<ingredient name="resourceConcreteMix" count="150"/>
+			<ingredient name="resourceScrapIron" count="15"/>
+		</recipe>
+		<!-- =================================================== -->
+		<!-- TheMeanOnes Craftable Acid -->
+		<!-- =================================================== -->
+		<recipe name="resourceAcid" count="6" craft_time="10" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceScrapPolymers" count="6"/>
+			<ingredient name="resourceCoal" count="5"/>
+			<ingredient name="carBattery" count="1"/>
+		</recipe>
+		<!-- =================================================== -->
+		<!-- TheMeanOnes Craftable Filter -->
+		<!-- =================================================== -->
+		<recipe name="toolDewFilter" count="1" craft_time="45" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceScrapPolymers" count="50"/>
+			<ingredient name="resourceCoal" count="50"/>
+			<ingredient name="resourceCloth" count="15"/>
+			<ingredient name="resourceCrushedSand" count="75"/>
+			<ingredient name="resourceCropCottonPlant" count="25"/>
+		</recipe>
+		<!-- =================================================== -->
+		<!-- TheMeanOnes Craftable Painkillers -->
+		<!-- =================================================== -->
+		<recipe name="drugPainkillers" count="1" craft_time="10" craft_area="chemistryStation" tags="chemStationCrafting">
+			<ingredient name="resourcePotassiumNitratePowder" count="2"/>
+			<ingredient name="resourceCropCoffeeBeans" count="2"/>
+			<ingredient name="resourceAnimalFat" count="2"/>
+			<ingredient name="drinkJarBeer" count="2"/>
+			<ingredient name="resourceYuccaFibers" count="6"/>
+		</recipe>
+		<!-- =================================================== -->
+		<!-- TheMeanOnes Craftable Vitamins -->
+		<!-- =================================================== -->
+		<recipe name="drugVitamins" count="1" craft_time="10" craft_area="chemistryStation" tags="chemStationCrafting">
+			<ingredient name="resourcePotassiumNitratePowder" count="20"/>
+			<ingredient name="resourceCropCoffeeBeans" count="4"/>
+			<ingredient name="resourceAnimalFat" count="6"/>
+			<ingredient name="drinkJarBeer" count="5"/>
+			<ingredient name="resourceYuccaFibers" count="15"/>
+		</recipe>
+		<!-- =================================================== -->
+		<!-- TheMeanOnes Craftable Solar Cells -->
+		<!-- =================================================== -->
+		<recipe name="solarCell" count="1" craft_time="15" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceScrapPolymers" count="28"/>
+			<ingredient name="resourceCoal" count="12"/>
+			<ingredient name="resourceSilverNugget" count="3"/>
+			<ingredient name="resourceForgedIron" count="10"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value="1,5" tags="resourceScrapPolymers,resourceForgedIron,resourceSilverNugget"/>
+			</effect_group>
+		</recipe>
+		<!-- =================================================== -->
+		<!-- TheMeanOnes Craftable Solar Bank -->
+		<!-- =================================================== -->
+		<recipe name="solarbank" count="1" craft_time="60" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceElectricParts" count="22"/>
+			<ingredient name="resourceScrapPolymers" count="50"/>
+			<ingredient name="resourceSilverNugget" count="6"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value="1,5" tags="resourceScrapPolymers,resourceForgedIron,resourceSilverNugget"/>
+			</effect_group>
+		</recipe>
+		<!-- =================================================== -->
+		<!-- TheMeanOnes Craftable Beaker -->
+		<!-- =================================================== -->
+		<recipe name="toolBeaker" count="1" craft_time="60" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceScrapPolymers" count="160"/>
+			<ingredient name="resourceAcid" count="1"/>
+			<ingredient name="resourceBrokenGlass" count="30"/>
+		</recipe>
+		<!-- =================================================== -->
+		<!-- TheMeanOnes Craftable Sewing Kits -->
+		<!-- =================================================== -->
+		<recipe name="resourceSewingKit" count="1">
+			<ingredient name="resourceCloth" count="40"/>
+			<ingredient name="resourceScrapPolymers" count="512"/>
+			<ingredient name="resourceScrapIron" count="4"/>
+		</recipe>
+		<!-- =================================================== -->
+		<!-- TheMeanOnes Craftable Parts -->
+		<!-- =================================================== -->
+		<!-- Basic Gun Parts: Recipes for crafting basic gun parts using Forged Iron and other materials -->
+		<recipe name="gunMGT1AK47Parts" count="1" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceDuctTape" count="4"/>
+			<ingredient name="resourceMechanicalParts" count="6"/>
+		</recipe>
+		<recipe name="gunHandgunT1PistolParts" count="1" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceForgedIron" count="8"/>
+			<ingredient name="resourceDuctTape" count="3"/>
+			<ingredient name="resourceMechanicalParts" count="5"/>
+		</recipe>
+		<recipe name="gunRifleT1HuntingRifleParts" count="1" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceForgedIron" count="12"/>
+			<ingredient name="resourceDuctTape" count="5"/>
+			<ingredient name="resourceMechanicalParts" count="8"/>
+		</recipe>
+		<recipe name="gunShotgunT1DoubleBarrelParts" count="1" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceDuctTape" count="4"/>
+			<ingredient name="resourceMechanicalParts" count="7"/>
+		</recipe>
+		<!-- Advanced Gun Parts: Recipes for crafting advanced gun parts using Forged Steel and other materials -->
+		<recipe name="gunExplosivesT3RocketLauncherParts" count="1" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceForgedSteel" count="20"/>
+			<ingredient name="resourceDuctTape" count="8"/>
+			<ingredient name="resourceMechanicalParts" count="15"/>
+		</recipe>
+		<recipe name="gunBotRoboticsParts" count="1" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceForgedSteel" count="15"/>
+			<ingredient name="resourceDuctTape" count="6"/>
+			<ingredient name="resourceElectricParts" count="12"/>
+		</recipe>
+		<!-- Melee Weapon Parts: Recipes for crafting melee weapon parts using Forged Iron or Forged Steel -->
+		<recipe name="meleeWpnBatonT2StunBatonParts" count="1" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceForgedIron" count="8"/>
+			<ingredient name="resourceDuctTape" count="3"/>
+			<ingredient name="resourceElectricParts" count="10"/>
+		</recipe>
+		<recipe name="meleeWpnKnucklesT3SteelKnucklesParts" count="1" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceForgedSteel" count="12"/>
+			<ingredient name="resourceDuctTape" count="5"/>
+			<ingredient name="resourceMechanicalParts" count="8"/>
+		</recipe>
+		<recipe name="meleeWpnBladeT3MacheteParts" count="1" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceForgedSteel" count="14"/>
+			<ingredient name="resourceDuctTape" count="6"/>
+			<ingredient name="resourceMechanicalParts" count="10"/>
+		</recipe>
+		<recipe name="meleeWpnSpearT3SteelSpearParts" count="1" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceForgedSteel" count="12"/>
+			<ingredient name="resourceDuctTape" count="4"/>
+			<ingredient name="resourceMechanicalParts" count="9"/>
+		</recipe>
+		<recipe name="meleeWpnClubT3SteelClubParts" count="1" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceForgedSteel" count="14"/>
+			<ingredient name="resourceDuctTape" count="6"/>
+			<ingredient name="resourceMechanicalParts" count="10"/>
+		</recipe>
+		<recipe name="meleeWpnSledgeT3SteelSledgehammerParts" count="1" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceForgedSteel" count="16"/>
+			<ingredient name="resourceDuctTape" count="7"/>
+			<ingredient name="resourceMechanicalParts" count="12"/>
+		</recipe>
+		<!-- Tool Parts: Recipes for crafting tool parts using Forged Steel -->
+		<recipe name="meleeToolAxeT3ChainsawParts" count="1" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceForgedSteel" count="18"/>
+			<ingredient name="resourceDuctTape" count="8"/>
+			<ingredient name="resourceMechanicalParts" count="15"/>
+		</recipe>
+		<recipe name="meleeToolAllSteelParts" count="1" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceForgedSteel" count="12"/>
+			<ingredient name="resourceDuctTape" count="5"/>
+			<ingredient name="resourceMechanicalParts" count="9"/>
+		</recipe>
+		<!-- Armor Parts: Recipes for crafting armor parts using Forged Steel -->
+		<recipe name="armorParts" count="1" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceForgedSteel" count="20"/>
+			<ingredient name="resourceDuctTape" count="8"/>
+			<ingredient name="resourceMechanicalParts" count="15"/>
+		</recipe>
+		<!-- Bow Parts: Recipe for crafting bow parts -->
+		<!-- Added 12.11.24 -->
+		<recipe name="gunBowT1WoodenBowParts" count="2" craft_time="20" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceForgedSteel" count="18"/>
+			<ingredient name="resourceDuctTape" count="8"/>
+			<ingredient name="resourceMechanicalParts" count="15"/>
+		</recipe>
+		<!-- Springs and Mechanical Parts -->
+		<recipe name="resourceSpring" count="1" craft_time="5" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceForgedIron" count="3"/>
+			<ingredient name="resourceOil" count="1"/>
+		</recipe>
+	</append>
+	<append xpath="/recipes">
+		<recipe name="resourceMechanicalParts" count="2" craft_time="20" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceForgedIron" count="2"/>
+			<ingredient name="resourceOil" count="1"/>
+			<ingredient name="resourceScrapPolymers" count="2"/>
+		</recipe>
+		<!-- =================================================== -->
+		<!-- TheMeanOnes Craftable Candies -->
+		<!-- =================================================== -->
+		<recipe name="drugSkullCrushers" count="1" craft_area="chemistryStation" tags="chemStationCrafting">
+			<ingredient name="resourceRockSmall" count="100"/>
+			<ingredient name="resourceBone" count="10"/>
+			<ingredient name="resourceNail" count="10"/>
+			<ingredient name="resourceBone" count="1"/>
+		</recipe>
+		<recipe name="drugHackers" count="1" craft_area="chemistryStation" tags="chemStationCrafting">
+			<ingredient name="resourceScrapIron" count="50"/>
+			<ingredient name="resourceNail" count="10"/>
+			<ingredient name="resourceMetalPipe" count="1"/>
+			<ingredient name="resourceMechanicalParts" count="2"/>
+		</recipe>
+		<recipe name="drugOhShitzDrops" count="1" craft_area="chemistryStation" tags="chemStationCrafting">
+			<ingredient name="resourceFeather" count="25"/>
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+			<ingredient name="resourceYuccaFibers" count="100"/>
+		</recipe>
+		<recipe name="drugAtomJunkies" count="1" craft_area="chemistryStation" tags="chemStationCrafting">
+			<ingredient name="resourceGunPowder" count="50"/>
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+		</recipe>
+		<recipe name="drugEyeKandy" count="1" craft_area="chemistryStation" tags="chemStationCrafting">
+			<ingredient name="resourceCloth" count="10"/>
+			<ingredient name="foodCornMeal" count="3"/>
+			<ingredient name="resourceMetalPipe" count="1"/>
+			<ingredient name="resourceAcid" count="1"/>
+		</recipe>
+		<recipe name="drugJailBreakers" count="1" craft_area="chemistryStation" tags="chemStationCrafting">
+			<ingredient name="resourceLockPick" count="1"/>
+			<ingredient name="foodRawMeat" count="1"/>
+			<ingredient name="resourceAcid" count="1"/>
+		</recipe>
+		<recipe name="drugHealthBar" count="1" craft_area="chemistryStation" tags="chemStationCrafting">
+			<ingredient name="foodRawMeat" count="3"/>
+			<ingredient name="medicalBandage" count="1"/>
+			<ingredient name="foodCornMeal" count="3"/>
+			<ingredient name="drinkJarBoiledWater" count="2"/>
+		</recipe>
+		<recipe name="drugRockBusters" count="1" craft_area="chemistryStation" tags="chemStationCrafting">
+			<ingredient name="resourceRockSmall" count="100"/>
+			<ingredient name="resourceScrapIron" count="100"/>
+			<ingredient name="resourceScrapLead" count="100"/>
+			<ingredient name="resourceAcid" count="1"/>
+		</recipe>
+		<recipe name="drugNerdTats" count="1" craft_area="chemistryStation" tags="chemStationCrafting">
+			<ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="foodRawMeat" count="1"/>
+			<ingredient name="resourceAcid" count="1"/>
+		</recipe>
+		<recipe name="drugCovertCats" count="1" craft_area="chemistryStation" tags="chemStationCrafting">
+			<ingredient name="resourceFeather" count="10"/>
+			<ingredient name="resourceCropCottonPlant" count="10"/>
+			<ingredient name="foodRawMeat" count="1"/>
+		</recipe>
+		<recipe name="drugSugarButts" count="1" craft_area="chemistryStation" tags="chemStationCrafting">
+			<ingredient name="casinoCoin" count="100"/>
+			<ingredient name="drinkJarBeer" count="2"/>
+			<ingredient name="foodRawMeat" count="1"/>
+			<ingredient name="resourceAcid" count="1"/>
+		</recipe>
+		<!-- =================================================== -->
+		<!-- TheMeanOnes Craftable Small Engine -->
+		<!-- =================================================== -->
+		<recipe name="smallEngine" count="1" craft_time="200" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceMechanicalParts" count="38"/>
+			<ingredient name="resourceElectricParts" count="23"/>
+			<ingredient name="resourceScrapPolymers" count="26"/>
+			<ingredient name="resourceOil" count="8"/>
+		</recipe>
+		<!-- =================================================== -->
+		<!-- TheMeanOnes Craftable Security Gates -->
+		<!-- NEW -->
+		<!-- =================================================== -->
+		<recipe name="rollUpGate3x3White" count="1" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceForgedSteel" count="12"/>
+			<ingredient name="resourceMechanicalParts" count="8"/>
+		</recipe>
+		<recipe name="rollUpGate4x3White" count="1" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceForgedSteel" count="14"/>
+			<ingredient name="resourceMechanicalParts" count="12"/>
+		</recipe>
+		<recipe name="rollUpGate4x3DiagonalWhite" count="1" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceForgedSteel" count="14"/>
+			<ingredient name="resourceMechanicalParts" count="15"/>
+		</recipe>
+		<recipe name="rollUpGate5x3White" count="1" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceForgedSteel" count="20"/>
+			<ingredient name="resourceMechanicalParts" count="18"/>
+		</recipe>
+		<!-- =================================================== -->
+		<!-- TheMeanOnes Craftable Barbed Wire Rolls -->
+		<!-- NEW -->
+		<!-- =================================================== -->
+		<recipe name="barbedWireSpindle" count="1" craft_time="60" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceScrapIron" count="10"/>
+		</recipe>
+		<recipe name="barbedWireSpindle1m" count="1" craft_time="60" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceScrapIron" count="100"/>
+		</recipe>
+		<recipe name="barbedWireSpindleDiagonal1m" craft_time="60" count="1" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceScrapIron" count="100"/>
+		</recipe>
+		<recipe name="barbedWireSpindle2" count="1" craft_time="60" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceScrapIron" count="100"/>
+		</recipe>
+		<recipe name="barbedWireSpindle3" count="1" craft_time="60" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceScrapIron" count="100"/>
+		</recipe>
+		<recipe name="barbedWireSpindle4" count="1" craft_time="60" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceScrapIron" count="100"/>
+		</recipe>
+	</append>
+</configs>

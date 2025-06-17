@@ -1,0 +1,29 @@
+<TheMeanOne>
+	<!-- Setting all turrets to have better stats -->
+	<set xpath="/blocks/block[@name='autoTurret']/property[@name='RequiredPower']/@value">10</set>
+	<!-- Reduced from 15 -->
+	<set xpath="/blocks/block[@name='autoTurret']/property[@name='TurnSpeed']/@value">30</set>
+	<!-- Increased from 22.5 -->
+	<set xpath="/blocks/block[@name='autoTurret']/property[@name='MaxDistance']/@value">40</set>
+	<!-- Increased from 30 -->
+	<set xpath="/blocks/block[@name='autoTurret']/property[@name='EntityDamage']/@value">40</set>
+	<!-- Increased from 32 -->
+	<set xpath="/blocks/block[@name='autoTurret']/property[@name='BlockDamage']/@value">5</set>
+	<!-- Increased from 1 -->
+	<set xpath="/blocks/block[@name='autoTurret']/property[@name='RaySpread']/@value">1.8</set>
+	<!-- Reduced from 2.6 -->
+	<set xpath="/blocks/block[@name='autoTurret']/property[@name='BurstRoundCount']/@value">20</set>
+	<!-- Increased from 15 -->
+	<set xpath="/blocks/block[@name='autoTurret']/property[@name='BurstFireRate']/@value">0.12</set>
+	<!-- Reduced delay from 0.15 -->
+	<set xpath="/blocks/block[@name='shotgunTurret']/property[@name='MaxDistance']/@value">20</set>
+	<!-- Increased from 15 -->
+	<set xpath="/blocks/block[@name='shotgunTurret']/property[@name='EntityDamage']/@value">12</set>
+	<!-- Increased from 9 -->
+	<set xpath="/blocks/block[@name='shotgunTurret']/property[@name='RaySpread']/@value">4.5</set>
+	<!-- Reduced from 5.2 -->
+	<set xpath="/blocks/block[@name='shotgunTurret']/property[@name='BurstRoundCount']/@value">6</set>
+	<!-- Increased from 4 -->
+	<set xpath="/blocks/block[@name='shotgunTurret']/property[@name='BurstFireRate']/@value">0.5</set>
+	<!-- Reduced delay from 0.61 -->
+</TheMeanOne>

@@ -1,0 +1,15 @@
+<config>
+		<!-- Setting all other Relevant Stacks -->
+
+
+	<insertAfter xpath="/blocks/block/property[@name='CreativeMode']" >
+		<property name="Stacknumber" value="40000"/>
+	</insertAfter>
+	
+	<insertAfter xpath="/blocks/block[contains(@name, 'Shapes')]/property[@name='Material']" >
+		<property name="Stacknumber" value="40000"/>
+	</insertAfter>
+	
+
+
+</config>

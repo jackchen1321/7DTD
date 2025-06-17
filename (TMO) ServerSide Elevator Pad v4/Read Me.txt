@@ -1,0 +1,29 @@
+Greetings Survivors,
+
+Introducing the first ServerSide elevator, by TheMeanOne Mods. 
+
+This elevator brings you to new heights, 8 Blocks high. 
+
+v4
+- This version is for 2.0
+- Changed texture ID to match new conventions
+- Ensured Progression remains in tact
+- Double checked all properties and replaced the Model line to reflect the new one
+
+v3.1
+Added new color options
+Swap Out the Config with the one you would like to use.
+
+v3:
+Added 22 color options
+ Consolidated to Variant Helper (thanks mad)
+
+v3.2:
+- Added new metal material to XML giving the elevator 1200 HP standard to prevent issues with quick breaking
+- Fixed Localization 
+- Added Repair option
+Best,
+TheMeanOne
+
+Discord: https://discord.gg/jvDuq9SUQR
+

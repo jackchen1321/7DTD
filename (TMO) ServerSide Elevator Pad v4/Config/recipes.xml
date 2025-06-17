@@ -1,0 +1,10 @@
+<configs>
+	<append xpath="/recipes">
+		<recipe name="TheMeanOnesServerSideElevatorVariantHelper" count="1" craft_area="workbench" tags="craftingRobotics,TheMeanOnesServerSideElevatorBlock,learnable,workbenchCrafting">
+			<ingredient name="resourceForgedSteel" count="5"/>
+			<ingredient name="resourceScrapPolymers" count="50"/>
+			<ingredient name="resourceElectricParts" count="45"/>
+			<ingredient name="carBattery" count="2"/>
+		</recipe>
+	</append>
+</configs>

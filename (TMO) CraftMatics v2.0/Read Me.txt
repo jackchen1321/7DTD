@@ -1,0 +1,12 @@
+Greetings Survivors,
+I hope this mod finds you well. It is a simple ServerSide modlet that allows schematics to be crafted from existing mods that you find in the game. This is great for those
+friends who play with you, or join late that might not have that schematic to give them the competitive advantage. 
+
+64 Schematics including 2-3 Food ones are craftable.
+
+
+Best,
+TheMeanOne
+
+Discord:
+https://discord.gg/jvDuq9SUQR

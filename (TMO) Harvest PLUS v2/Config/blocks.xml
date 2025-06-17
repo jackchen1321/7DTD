@@ -1,0 +1,515 @@
+<Config>
+	<set xpath="/blocks/block[@name='cropsGrowingMaster']/property[@name='PlantGrowing.FertileLevel']/@value">0</set>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- Crop Growth with No Light Requirements -->
+<!-- xxxxxxxxxxThexxxxxxxxxxxx -->
+
+<!-- MUSHROOM -->
+<append xpath="/blocks/block[@name='plantedMushroom1']">
+    <property name="FallOver" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.IsRandom" value="true"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+
+</append>
+<append xpath="/blocks/block[@name='plantedMushroom2']">
+    <property name="FallOver" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.IsRandom" value="true"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+
+</append>
+<append xpath="/blocks/block[@name='plantedMushroom3Harvest']">
+    <property name="FallOver" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.IsRandom" value="true"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+
+</append>
+<append xpath="/blocks/block[@name='plantedMushroom3HarvestPlayer']">
+    <property name="FallOver" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.IsRandom" value="true"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+
+</append>
+
+<!-- YUCCA -->
+<append xpath="/blocks/block[@name='plantedYucca1']">
+    <property name="FallOver" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.IsRandom" value="true"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+</append>
+<append xpath="/blocks/block[@name='plantedYucca2']">
+    <property name="FallOver" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.IsRandom" value="true"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+</append>
+<append xpath="/blocks/block[@name='plantedYucca3Harvest']">
+    <property name="FallOver" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.IsRandom" value="true"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+</append>
+<append xpath="/blocks/block[@name='plantedYucca3HarvestPlayer']">
+    <property name="FallOver" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.IsRandom" value="true"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+</append>
+
+<!-- COTTON -->
+<append xpath="/blocks/block[@name='plantedCotton1']">
+    <property name="FallOver" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.IsRandom" value="true"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+</append>
+<append xpath="/blocks/block[@name='plantedCotton2']">
+    <property name="FallOver" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.IsRandom" value="true"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+</append>
+<append xpath="/blocks/block[@name='plantedCotton3Harvest']">
+    <property name="FallOver" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.IsRandom" value="true"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+</append>
+<append xpath="/blocks/block[@name='plantedCotton3HarvestPlayer']">
+    <property name="FallOver" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.IsRandom" value="true"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+</append>
+
+<!-- COFFEE -->
+<append xpath="/blocks/block[@name='plantedCoffee1']">
+    <property name="FallOver" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.IsRandom" value="true"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+</append>
+<append xpath="/blocks/block[@name='plantedCoffee2']">
+    <property name="FallOver" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.IsRandom" value="true"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+</append>
+<append xpath="/blocks/block[@name='plantedCoffee3Harvest']">
+    <property name="FallOver" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.IsRandom" value="true"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+</append>
+<append xpath="/blocks/block[@name='plantedCoffee3HarvestPlayer']">
+    <property name="FallOver" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.IsRandom" value="true"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+</append>
+
+<!-- GOLDENROD -->
+<append xpath="/blocks/block[@name='plantedGoldenrod1']">
+    <property name="FallOver" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.IsRandom" value="true"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+</append>
+<append xpath="/blocks/block[@name='plantedGoldenrod2']">
+    <property name="FallOver" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.IsRandom" value="true"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+</append>
+<append xpath="/blocks/block[@name='plantedGoldenrod3Harvest']">
+    <property name="FallOver" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.IsRandom" value="true"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+</append>
+<append xpath="/blocks/block[@name='plantedGoldenrod3HarvestPlayer']">
+    <property name="FallOver" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.IsRandom" value="true"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+</append>
+
+<!-- ALOE -->
+<append xpath="/blocks/block[@name='plantedAloe1']">
+    <property name="FallOver" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.IsRandom" value="true"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+</append>
+<append xpath="/blocks/block[@name='plantedAloe2']">
+    <property name="FallOver" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.IsRandom" value="true"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+</append>
+<append xpath="/blocks/block[@name='plantedAloe3Harvest']">
+    <property name="FallOver" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.IsRandom" value="true"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+</append>
+<append xpath="/blocks/block[@name='plantedAloe3HarvestPlayer']">
+    <property name="FallOver" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.IsRandom" value="true"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+</append>
+
+<!-- BLUEBERRY -->
+<append xpath="/blocks/block[@name='plantedBlueberry1']">
+    <property name="FallOver" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.IsRandom" value="true"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+</append>
+<append xpath="/blocks/block[@name='plantedBlueberry2']">
+    <property name="FallOver" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.IsRandom" value="true"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+</append>
+<append xpath="/blocks/block[@name='plantedBlueberry3Harvest']">
+    <property name="FallOver" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.IsRandom" value="true"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+</append>
+<append xpath="/blocks/block[@name='plantedBlueberry3HarvestPlayer']">
+    <property name="FallOver" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.IsRandom" value="true"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+</append>
+
+<!-- POTATO -->
+<append xpath="/blocks/block[@name='plantedPotato1']">
+    <property name="FallOver" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.IsRandom" value="true"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+</append>
+<append xpath="/blocks/block[@name='plantedPotato2']">
+    <property name="FallOver" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.IsRandom" value="true"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+</append>
+<append xpath="/blocks/block[@name='plantedPotato3Harvest']">
+    <property name="FallOver" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.IsRandom" value="true"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+</append>
+<append xpath="/blocks/block[@name='plantedPotato3HarvestPlayer']">
+    <property name="FallOver" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.IsRandom" value="true"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+</append>
+
+<!-- CHRYSANTHEMUM -->
+<append xpath="/blocks/block[@name='plantedChrysanthemum1']">
+    <property name="FallOver" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.IsRandom" value="true"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+</append>
+<append xpath="/blocks/block[@name='plantedChrysanthemum2']">
+    <property name="FallOver" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.IsRandom" value="true"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+</append>
+<append xpath="/blocks/block[@name='plantedChrysanthemum3Harvest']">
+    <property name="FallOver" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.IsRandom" value="true"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+</append>
+<append xpath="/blocks/block[@name='plantedChrysanthemum3HarvestPlayer']">
+    <property name="FallOver" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.IsRandom" value="true"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+</append>
+
+<!-- CORN -->
+<append xpath="/blocks/block[@name='plantedCorn1']">
+    <property name="FallOver" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.IsRandom" value="true"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+</append>
+<append xpath="/blocks/block[@name='plantedCorn2']">
+    <property name="FallOver" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.IsRandom" value="true"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+</append>
+<append xpath="/blocks/block[@name='plantedCorn3Harvest']">
+    <property name="FallOver" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.IsRandom" value="true"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+</append>
+<append xpath="/blocks/block[@name='plantedCorn3HarvestPlayer']">
+    <property name="FallOver" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.IsRandom" value="true"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+</append>
+
+<!-- SUPER CORN -->
+<append xpath="/blocks/block[@name='plantedGraceCorn1']">
+    <property name="FallOver" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.IsRandom" value="true"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+</append>
+<append xpath="/blocks/block[@name='plantedGraceCorn2']">
+    <property name="FallOver" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.IsRandom" value="true"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+</append>
+<append xpath="/blocks/block[@name='plantedGraceCorn3Harvest']">
+    <property name="FallOver" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.IsRandom" value="true"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+</append>
+<append xpath="/blocks/block[@name='plantedGraceCorn3HarvestPlayer']">
+    <property name="FallOver" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.IsRandom" value="true"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+</append>
+
+<!-- HOPS -->
+<append xpath="/blocks/block[@name='plantedHop1']">
+    <property name="FallOver" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.IsRandom" value="true"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+</append>
+<append xpath="/blocks/block[@name='plantedHop2']">
+    <property name="FallOver" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.IsRandom" value="true"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+</append>
+<append xpath="/blocks/block[@name='plantedHop3Harvest']">
+    <property name="FallOver" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.IsRandom" value="true"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+</append>
+<append xpath="/blocks/block[@name='plantedHop3HarvestPlayer']">
+    <property name="FallOver" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.IsRandom" value="true"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+</append>
+
+<!-- PUMPKIN -->
+<append xpath="/blocks/block[@name='plantedPumpkin1']">
+    <property name="FallOver" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.IsRandom" value="true"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+</append>
+<append xpath="/blocks/block[@name='plantedPumpkin2']">
+    <property name="FallOver" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.IsRandom" value="true"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+</append>
+<append xpath="/blocks/block[@name='plantedPumpkin3Harvest']">
+    <property name="FallOver" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.IsRandom" value="true"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+</append>
+<append xpath="/blocks/block[@name='plantedPumpkin3HarvestPlayer']">
+    <property name="FallOver" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.IsRandom" value="true"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+</append>
+
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- Crop Auto-Replant -->
+<!-- xxxxxxxMeanOnexxxxxxxxxxxxx -->
+
+<!-- MUSHROOM -->
+<append xpath="/blocks/block[@name='plantedMushroom3Harvest']">
+    <property name="DowngradeBlock" value="plantedMushroom1"/>
+</append>
+<append xpath="/blocks/block[@name='plantedMushroom3HarvestPlayer']">
+    <property name="DowngradeBlock" value="plantedMushroom1"/>
+</append>
+
+<!-- YUCCAT -->
+<append xpath="/blocks/block[@name='plantedYucca3Harvest']">
+    <property name="DowngradeBlock" value="plantedYucca1"/>
+</append>
+<append xpath="/blocks/block[@name='plantedYucca3HarvestPlayer']">
+    <property name="DowngradeBlock" value="plantedYucca1"/>
+</append>
+
+<!-- COTTONM -->
+<append xpath="/blocks/block[@name='plantedCotton3Harvest']">
+    <property name="DowngradeBlock" value="plantedCotton1"/>
+</append>
+<append xpath="/blocks/block[@name='plantedCotton3HarvestPlayer']">
+    <property name="DowngradeBlock" value="plantedCotton1"/>
+</append>
+
+<!-- COFFEEO -->
+<append xpath="/blocks/block[@name='plantedCoffee3Harvest']">
+    <property name="DowngradeBlock" value="plantedCoffee1"/>
+</append>
+<append xpath="/blocks/block[@name='plantedCoffee3HarvestPlayer']">
+    <property name="DowngradeBlock" value="plantedCoffee1"/>
+</append>
+
+<!-- GOLDENROD -->
+<append xpath="/blocks/block[@name='plantedGoldenrod3Harvest']">
+    <property name="DowngradeBlock" value="plantedGoldenrod1"/>
+</append>
+<append xpath="/blocks/block[@name='plantedGoldenrod3HarvestPlayer']">
+    <property name="DowngradeBlock" value="plantedGoldenrod1"/>
+</append>
+
+<!-- ALOE -->
+<append xpath="/blocks/block[@name='plantedAloe3Harvest']">
+    <property name="DowngradeBlock" value="plantedAloe1"/>
+</append>
+<append xpath="/blocks/block[@name='plantedAloe3HarvestPlayer']">
+    <property name="DowngradeBlock" value="plantedAloe1"/>
+</append>
+
+<!-- BLUEBERRY -->
+<append xpath="/blocks/block[@name='plantedBlueberry3Harvest']">
+    <property name="DowngradeBlock" value="plantedBlueberry1"/>
+</append>
+<append xpath="/blocks/block[@name='plantedBlueberry3HarvestPlayer']">
+    <property name="DowngradeBlock" value="plantedBlueberry1"/>
+</append>
+
+<!-- POTATO -->
+<append xpath="/blocks/block[@name='plantedPotato3Harvest']">
+    <property name="DowngradeBlock" value="plantedPotato1"/>
+</append>
+<append xpath="/blocks/block[@name='plantedPotato3HarvestPlayer']">
+    <property name="DowngradeBlock" value="plantedPotato1"/>
+</append>
+
+<!-- CHRYSANTHEMUM -->
+<append xpath="/blocks/block[@name='plantedChrysanthemum3Harvest']">
+    <property name="DowngradeBlock" value="plantedChrysanthemum1"/>
+</append>
+<append xpath="/blocks/block[@name='plantedChrysanthemum3HarvestPlayer']">
+    <property name="DowngradeBlock" value="plantedChrysanthemum1"/>
+</append>
+
+<!-- CORN -->
+<append xpath="/blocks/block[@name='plantedCorn3Harvest']">
+    <property name="DowngradeBlock" value="plantedCorn1"/>
+</append>
+<append xpath="/blocks/block[@name='plantedCorn3HarvestPlayer']">
+    <property name="DowngradeBlock" value="plantedCorn1"/>
+</append>
+
+<!-- SUPER CORN -->
+<append xpath="/blocks/block[@name='plantedGraceCorn3Harvest']">
+    <property name="DowngradeBlock" value="plantedGraceCorn1"/>
+</append>
+<append xpath="/blocks/block[@name='plantedGraceCorn3HarvestPlayer']">
+    <property name="DowngradeBlock" value="plantedGraceCorn1"/>
+</append>
+
+<!-- HOPS -->
+<append xpath="/blocks/block[@name='plantedHop3Harvest']">
+    <property name="DowngradeBlock" value="plantedHop1"/>
+</append>
+<append xpath="/blocks/block[@name='plantedHop3HarvestPlayer']">
+    <property name="DowngradeBlock" value="plantedHop1"/>
+</append>
+
+<!-- PUMPKIN -->
+<append xpath="/blocks/block[@name='plantedPumpkin3Harvest']">
+    <property name="DowngradeBlock" value="plantedPumpkin1"/>
+</append>
+<append xpath="/blocks/block[@name='plantedPumpkin3HarvestPlayer']">
+    <property name="DowngradeBlock" value="plantedPumpkin1"/>
+</append>
+</Config>
+
+
+
